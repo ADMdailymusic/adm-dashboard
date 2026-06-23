@@ -1,0 +1,50 @@
+{
+  "generator": {
+    "status": "idle",
+    "last_run": null,
+    "last_result": null,
+    "tracks_generated": 0,
+    "images_generated": 0
+  },
+  "curator": {
+    "status": "idle",
+    "last_run": null,
+    "last_review": null,
+    "items_approved": 0,
+    "items_skipped": 0
+  },
+  "editor": {
+    "status": "idle",
+    "last_run": null,
+    "videos_rendered": 0,
+    "queue_size": 0
+  },
+  "distributor": {
+    "status": "idle",
+    "last_run": null,
+    "videos_uploaded_youtube": 0,
+    "tracks_sent_distrokid": 0,
+    "videos_archived_drive": 0,
+    "next_scheduled": null
+  },
+  "social_media": {
+    "status": "idle",
+    "last_run": null,
+    "posts_instagram": 0,
+    "posts_tiktok": 0,
+    "posts_facebook": 0,
+    "clips_ready": 0
+  },
+  "analytics": {
+    "status": "idle",
+    "last_run": null,
+    "total_views": 0,
+    "total_watch_hours": 0,
+    "subscribers": 0,
+    "weekly_views": 0,
+    "avg_ctr": 0,
+    "revenue_usd": 0,
+    "top_video_title": null,
+    "top_video_views": 0
+  }
+}
