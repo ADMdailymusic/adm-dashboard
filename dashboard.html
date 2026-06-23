@@ -296,6 +296,7 @@
     font-weight: 600;
   }
   .run-btn:hover { background: #10b981; color: #000; }
+  .run-btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
   .section-header {
     display: flex;
@@ -313,6 +314,166 @@
   }
 
   .updated { font-size: 11px; color: #444; }
+
+  /* ── Action Bar ── */
+  .action-bar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .action-btn {
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+    letter-spacing: 0.3px;
+  }
+
+  .btn-generate {
+    background: linear-gradient(135deg, #c8a96e, #e8c878);
+    color: #000;
+  }
+  .btn-generate:hover { opacity: 0.9; transform: translateY(-1px); }
+
+  .btn-approve {
+    background: #10b981;
+    color: #000;
+  }
+  .btn-approve:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-approve:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+
+  .action-hint {
+    font-size: 11px;
+    color: #555;
+    font-style: italic;
+  }
+
+  /* ── Brief Modal ── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: #111118;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 32px;
+    width: 500px;
+    max-width: 95vw;
+  }
+
+  .modal h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .modal .modal-sub {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 24px;
+  }
+
+  .form-group {
+    margin-bottom: 18px;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+  }
+
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    background: #0a0a0f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #e0e0e0;
+    padding: 10px 12px;
+    font-size: 13px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus { border-color: #c8a96e; }
+
+  .form-group textarea { resize: vertical; min-height: 64px; }
+
+  .form-hint {
+    font-size: 10px;
+    color: #444;
+    margin-top: 4px;
+  }
+
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+    justify-content: flex-end;
+  }
+
+  .btn-cancel {
+    background: transparent;
+    border: 1px solid #333;
+    color: #888;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .btn-cancel:hover { border-color: #555; color: #ccc; }
+
+  .btn-launch {
+    background: linear-gradient(135deg, #c8a96e, #e8c878);
+    border: none;
+    color: #000;
+    padding: 8px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .btn-launch:hover { opacity: 0.9; }
+
+  /* ── Status toast ── */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: #111118;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 13px;
+    color: #e0e0e0;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 200;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
 </style>
 </head>
 <body>
@@ -346,6 +507,13 @@
 </header>
 
 <main>
+
+  <!-- Action Bar -->
+  <div class="action-bar">
+    <button class="action-btn btn-generate" onclick="openBriefModal()">+ New Batch</button>
+    <button class="action-btn btn-approve" id="btn-approve" onclick="approvePipeline()" disabled>✓ Approve &amp; Continue →</button>
+    <span class="action-hint" id="action-hint">Generate a batch first, then review and approve to run the full pipeline.</span>
+  </div>
 
   <!-- Pipeline -->
   <div class="section-header">
@@ -688,6 +856,7 @@
         }
 
         document.getElementById('last-updated').textContent = 'Last updated: ' + new Date().toLocaleTimeString();
+        updateApproveButton(state.generator.status);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -695,17 +864,174 @@
   }
 
   function runAgent(name) {
-    alert(`To run the ${name} agent manually, open Terminal and run:\n\npython3 agents/${name}/agent.py\n\nFull automation coming soon.`);
+    showToast(`⚙️ Use "New Batch" or "Approve & Continue" to trigger agents.`);
   }
 
   function refreshAnalytics() {
-    alert('Analytics agent will pull live YouTube stats when connected.\n\nRun: python3 agents/analytics/agent.py');
+    showToast('Analytics will update automatically when the agent runs.');
+  }
+
+  // ── Toast ────────────────────────────────────────────────────────────────────
+  function showToast(msg, duration=3500) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), duration);
+  }
+
+  // ── GitHub trigger ───────────────────────────────────────────────────────────
+  const GITHUB_REPO  = 'ADMdailymusic/adm-dashboard';
+  const TRIGGER_FILE = 'trigger.json';
+
+  function getToken() {
+    let token = sessionStorage.getItem('gh_token');
+    if (!token) {
+      token = prompt('GitHub token (one-time per session — ask Uri for it):');
+      if (token) sessionStorage.setItem('gh_token', token.trim());
+    }
+    return token ? token.trim() : null;
+  }
+
+  async function ghGetFile(path) {
+    const token = getToken();
+    if (!token) return null;
+    const r = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (!r.ok) return null;
+    return r.json();
+  }
+
+  async function ghPutFile(path, content, sha, message) {
+    const token = getToken();
+    if (!token) return false;
+    const encoded = btoa(unescape(encodeURIComponent(content)));
+    const body = { message, content: encoded };
+    if (sha) body.sha = sha;
+    const r = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+      method: 'PUT',
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+    return r.ok;
+  }
+
+  async function writeTrigger(action, params={}) {
+
+    showToast('⏳ Sending trigger...');
+    const existing = await ghGetFile(TRIGGER_FILE);
+    const sha = existing ? existing.sha : null;
+    const payload = JSON.stringify({
+      action,
+      requested_at: new Date().toISOString(),
+      params
+    }, null, 2);
+    const ok = await ghPutFile(TRIGGER_FILE, payload, sha, `trigger: ${action}`);
+    if (ok) {
+      showToast(`✅ Trigger sent: ${action} — watcher will pick it up within 60s`);
+    } else {
+      showToast('❌ Failed to write trigger. Check console.');
+    }
+    return ok;
+  }
+
+  // ── Brief Modal ───────────────────────────────────────────────────────────────
+  function openBriefModal() {
+    document.getElementById('brief-modal').classList.add('open');
+  }
+
+  function closeBriefModal() {
+    document.getElementById('brief-modal').classList.remove('open');
+  }
+
+  async function launchGenerator() {
+    const musicStyle   = document.getElementById('f-music-style').value.trim();
+    const artworkStyle = document.getElementById('f-artwork-style').value.trim();
+    const trackCount   = parseInt(document.getElementById('f-track-count').value) || 10;
+    const notes        = document.getElementById('f-notes').value.trim();
+
+    if (!musicStyle || !artworkStyle) {
+      showToast('⚠️ Fill in music style and artwork style first.');
+      return;
+    }
+
+    closeBriefModal();
+    await writeTrigger('generate', { music_style: musicStyle, artwork_style: artworkStyle, track_count: trackCount, notes });
+  }
+
+  // ── Approve & Continue ────────────────────────────────────────────────────────
+  async function approvePipeline() {
+    const confirmed = confirm('This will run Editor → Distributor → Social Media in sequence.\n\nAre you ready to go?');
+    if (!confirmed) return;
+    await writeTrigger('run_pipeline');
+  }
+
+  // ── Approve button state ─────────────────────────────────────────────────────
+  function updateApproveButton(generatorStatus) {
+    const btn  = document.getElementById('btn-approve');
+    const hint = document.getElementById('action-hint');
+    if (generatorStatus === 'done') {
+      btn.disabled = false;
+      hint.textContent = '✅ Batch ready — review the tracks, then approve to run the full pipeline.';
+    } else if (generatorStatus === 'running') {
+      btn.disabled = true;
+      hint.textContent = '⏳ Generator is running...';
+    } else {
+      btn.disabled = true;
+      hint.textContent = 'Generate a batch first, then review and approve to run the full pipeline.';
+    }
   }
 
   // Auto-refresh every 30 seconds
   loadState();
   setInterval(loadState, 30000);
 </script>
+
+<!-- Brief Modal -->
+<div class="modal-overlay" id="brief-modal">
+  <div class="modal">
+    <h2>New Batch Brief</h2>
+    <div class="modal-sub">Describe the style. The generator will use these as prompts for KIE.ai.</div>
+
+    <div class="form-group">
+      <label>Music Style</label>
+      <input id="f-music-style" type="text" placeholder="e.g. Slow Bossa Nova, jazzy and relaxed" />
+      <div class="form-hint">This becomes the genre/mood prompt for Suno V4.5</div>
+    </div>
+
+    <div class="form-group">
+      <label>Artwork Style</label>
+      <input id="f-artwork-style" type="text" placeholder="e.g. Cozy cafe interior, warm lighting, rainy window" />
+      <div class="form-hint">This becomes the image prompt for Nano Banana Pro</div>
+    </div>
+
+    <div class="form-group">
+      <label>Number of Tracks</label>
+      <select id="f-track-count">
+        <option value="5">5 tracks (test)</option>
+        <option value="10" selected>10 tracks</option>
+        <option value="20">20 tracks</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Extra Notes (optional)</label>
+      <textarea id="f-notes" placeholder="e.g. No drums, focus on piano and guitar. Sunset mood for the visuals."></textarea>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-cancel" onclick="closeBriefModal()">Cancel</button>
+      <button class="btn-launch" onclick="launchGenerator()">▶ Launch Generator</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
 
 </body>
 </html>
