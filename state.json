@@ -36,15 +36,16 @@
     "clips_ready": 0
   },
   "analytics": {
-    "status": "idle",
-    "last_run": null,
+    "status": "done",
+    "last_run": "2026-06-23T15:00:16",
     "total_views": 0,
     "total_watch_hours": 0,
     "subscribers": 0,
-    "weekly_views": 0,
+    "weekly_views": 7,
     "avg_ctr": 0,
     "revenue_usd": 0,
     "top_video_title": null,
-    "top_video_views": 0
+    "top_video_views": 0,
+    "last_result": "success"
   }
 }
