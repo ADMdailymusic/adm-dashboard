@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADM Daily Music — Agent Control Center</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0a0a0f;
+    color: #e0e0e0;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #111118;
+    border-bottom: 1px solid #222;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-icon {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, #c8a96e, #e8c878);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+
+  h1 { font-size: 18px; font-weight: 600; color: #fff; }
+  .subtitle { font-size: 12px; color: #666; margin-top: 2px; }
+
+  .header-stats {
+    display: flex; gap: 24px;
+  }
+
+  .header-stat {
+    text-align: right;
+  }
+
+  .header-stat .val { font-size: 20px; font-weight: 700; color: #c8a96e; }
+  .header-stat .lbl { font-size: 11px; color: #555; margin-top: 2px; }
+
+  main { padding: 32px; max-width: 1400px; margin: 0 auto; }
+
+  /* Pipeline flow */
+  .pipeline {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-bottom: 40px;
+    overflow-x: auto;
+  }
+
+  .agent-card {
+    flex: 1;
+    min-width: 200px;
+    background: #111118;
+    border: 1px solid #222;
+    border-radius: 0;
+    padding: 20px;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+
+  .agent-card:first-child { border-radius: 12px 0 0 12px; }
+  .agent-card:last-child  { border-radius: 0 12px 12px 0; }
+
+  .agent-card:not(:first-child) { border-left: none; }
+
+  .agent-card:hover { border-color: #444; z-index: 1; }
+
+  .agent-card.running  { border-color: #f59e0b; background: #111108; }
+  .agent-card.done     { border-color: #10b981; background: #081110; }
+  .agent-card.error    { border-color: #ef4444; background: #110808; }
+  .agent-card.waiting  { border-color: #3b82f6; background: #080811; }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 20px;
+    padding: 0 4px;
+    flex-shrink: 0;
+    position: relative;
+    top: -1px;
+  }
+
+  .agent-num {
+    font-size: 10px;
+    font-weight: 700;
+    color: #444;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  .agent-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+
+  .agent-role {
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+  }
+
+  .status-badge.idle     { background: #1a1a1a; color: #555; }
+  .status-badge.running  { background: #2d1f00; color: #f59e0b; }
+  .status-badge.done     { background: #001f14; color: #10b981; }
+  .status-badge.error    { background: #1f0000; color: #ef4444; }
+  .status-badge.waiting  { background: #00081f; color: #3b82f6; }
+
+  .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+
+  .running .dot { animation: pulse 1s infinite; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .agent-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .metric {
+    background: #0a0a0f;
+    border-radius: 6px;
+    padding: 8px;
+  }
+
+  .metric .val { font-size: 18px; font-weight: 700; color: #c8a96e; }
+  .metric .lbl { font-size: 10px; color: #555; margin-top: 2px; }
+
+  .last-run {
+    font-size: 10px;
+    color: #444;
+    margin-top: 12px;
+  }
+
+  /* Bottom grid */
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .panel {
+    background: #111118;
+    border: 1px solid #222;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .panel h2 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  .youtube-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .yt-stat { }
+  .yt-stat .val { font-size: 24px; font-weight: 700; color: #fff; }
+  .yt-stat .lbl { font-size: 11px; color: #555; margin-top: 2px; }
+  .yt-stat .delta { font-size: 11px; color: #10b981; margin-top: 2px; }
+
+  .activity-list { list-style: none; }
+  .activity-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 12px;
+    color: #666;
+  }
+  .activity-list li:last-child { border-bottom: none; }
+
+  .activity-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+
+  .dot-green  { background: #10b981; }
+  .dot-gold   { background: #c8a96e; }
+  .dot-blue   { background: #3b82f6; }
+  .dot-gray   { background: #444; }
+
+  .credit-bar-bg {
+    background: #1a1a1a;
+    border-radius: 4px;
+    height: 6px;
+    margin: 8px 0 4px;
+    overflow: hidden;
+  }
+
+  .credit-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #c8a96e, #e8c878);
+    transition: width 0.5s;
+  }
+
+  .credit-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 12px;
+  }
+  .credit-item:last-child { border-bottom: none; }
+  .credit-item .name { color: #888; }
+  .credit-item .cost { color: #c8a96e; font-weight: 600; }
+
+  .schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 12px;
+  }
+  .schedule-item:last-child { border-bottom: none; }
+  .schedule-item .agent-n { color: #fff; font-weight: 600; }
+  .schedule-item .time    { color: #c8a96e; }
+  .schedule-item .next    { color: #555; font-size: 11px; }
+
+  .refresh-btn {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #888;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .refresh-btn:hover { background: #222; color: #fff; }
+
+  .run-btn {
+    background: #1a2a1a;
+    border: 1px solid #10b981;
+    color: #10b981;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 12px;
+    width: 100%;
+    transition: all 0.2s;
+    font-weight: 600;
+  }
+  .run-btn:hover { background: #10b981; color: #000; }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .updated { font-size: 11px; color: #444; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">♪</div>
+    <div>
+      <h1>ADM Daily Music</h1>
+      <div class="subtitle">Agent Control Center</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="header-stat">
+      <div class="val" id="total-views">—</div>
+      <div class="lbl">Total Views</div>
+    </div>
+    <div class="header-stat">
+      <div class="val" id="subscribers">—</div>
+      <div class="lbl">Subscribers</div>
+    </div>
+    <div class="header-stat">
+      <div class="val" id="videos-live">27</div>
+      <div class="lbl">Videos Live</div>
+    </div>
+    <div class="header-stat">
+      <div class="val" id="kie-credits">—</div>
+      <div class="lbl">KIE Credits</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Pipeline -->
+  <div class="section-header">
+    <div class="section-title">Agent Pipeline</div>
+    <div class="updated" id="last-updated">Last updated: —</div>
+  </div>
+
+  <div class="pipeline">
+
+    <!-- 1. Generator -->
+    <div class="agent-card idle" id="card-generator">
+      <div class="agent-num">Agent 01</div>
+      <div class="agent-name">Generator</div>
+      <div class="agent-role">Creates music tracks + images via KIE.ai. Runs Sunday nights.</div>
+      <div class="status-badge idle" id="badge-generator"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="gen-tracks">0</div>
+          <div class="lbl">Tracks ready</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="gen-images">0</div>
+          <div class="lbl">Images ready</div>
+        </div>
+      </div>
+      <div class="last-run" id="gen-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('generator')">▶ Run Now</button>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <!-- 2. Curator -->
+    <div class="agent-card idle" id="card-curator">
+      <div class="agent-num">Agent 02</div>
+      <div class="agent-name">Curator</div>
+      <div class="agent-role">Prepares review package for Uri & Marc's weekly meeting.</div>
+      <div class="status-badge idle" id="badge-curator"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="cur-approved">0</div>
+          <div class="lbl">Approved</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="cur-pending">0</div>
+          <div class="lbl">Pending review</div>
+        </div>
+      </div>
+      <div class="last-run" id="cur-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('curator')">▶ Run Now</button>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <!-- 3. Editor -->
+    <div class="agent-card idle" id="card-editor">
+      <div class="agent-num">Agent 03</div>
+      <div class="agent-name">Editor</div>
+      <div class="agent-role">Renders approved content into branded YouTube MP4s.</div>
+      <div class="status-badge idle" id="badge-editor"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="edit-rendered">0</div>
+          <div class="lbl">Rendered</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="edit-queue">0</div>
+          <div class="lbl">In queue</div>
+        </div>
+      </div>
+      <div class="last-run" id="edit-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('editor')">▶ Run Now</button>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <!-- 4. Distributor -->
+    <div class="agent-card idle" id="card-distributor">
+      <div class="agent-num">Agent 04</div>
+      <div class="agent-name">Distributor</div>
+      <div class="agent-role">YouTube upload + Drive archive + DistroKid for Spotify.</div>
+      <div class="status-badge idle" id="badge-distributor"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="dist-uploaded">0</div>
+          <div class="lbl">YouTube ↑</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="dist-scheduled">0</div>
+          <div class="lbl">Scheduled</div>
+        </div>
+      </div>
+      <div class="last-run" id="dist-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('distributor')">▶ Run Now</button>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <!-- 5. Social Media -->
+    <div class="agent-card idle" id="card-social_media">
+      <div class="agent-num">Agent 05</div>
+      <div class="agent-name">Social Media</div>
+      <div class="agent-role">Cuts 30s clips → posts to Instagram, TikTok, Facebook.</div>
+      <div class="status-badge idle" id="badge-social_media"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="soc-clips">0</div>
+          <div class="lbl">Clips ready</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="soc-posts">0</div>
+          <div class="lbl">Posts sent</div>
+        </div>
+      </div>
+      <div class="last-run" id="soc-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('social_media')">▶ Run Now</button>
+    </div>
+
+    <div class="arrow">→</div>
+
+    <!-- 6. Analytics -->
+    <div class="agent-card idle" id="card-analytics">
+      <div class="agent-num">Agent 06</div>
+      <div class="agent-name">Analytics</div>
+      <div class="agent-role">Views, watch time, top videos, subs, revenue. Daily 8am.</div>
+      <div class="status-badge idle" id="badge-analytics"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="ana-views">—</div>
+          <div class="lbl">Views (7d)</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="ana-revenue">—</div>
+          <div class="lbl">Revenue</div>
+        </div>
+      </div>
+      <div class="last-run" id="ana-last">Last run: never</div>
+      <button class="run-btn" onclick="runAgent('analytics')">▶ Run Now</button>
+    </div>
+
+  </div>
+
+  <!-- Bottom Grid -->
+  <div class="bottom-grid">
+
+    <!-- YouTube Stats -->
+    <div class="panel">
+      <h2>YouTube Performance</h2>
+      <div class="youtube-stats">
+        <div class="yt-stat">
+          <div class="val" id="yt-views">—</div>
+          <div class="lbl">Total views</div>
+          <div class="delta" id="yt-views-delta">—</div>
+        </div>
+        <div class="yt-stat">
+          <div class="val" id="yt-watch">—</div>
+          <div class="lbl">Watch hours</div>
+          <div class="delta" id="yt-watch-delta">—</div>
+        </div>
+        <div class="yt-stat">
+          <div class="val" id="yt-subs">—</div>
+          <div class="lbl">Subscribers</div>
+          <div class="delta" id="yt-subs-delta">—</div>
+        </div>
+        <div class="yt-stat">
+          <div class="val" id="yt-ctr">—</div>
+          <div class="lbl">Avg CTR</div>
+          <div class="delta" id="yt-ctr-delta">—</div>
+        </div>
+      </div>
+      <button class="refresh-btn" style="margin-top:16px;width:100%" onclick="refreshAnalytics()">↻ Refresh Stats</button>
+    </div>
+
+    <!-- Schedule -->
+    <div class="panel">
+      <h2>Schedule</h2>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Generator</div>
+          <div class="next" id="sched-generator">Next: Sunday 22:00</div>
+        </div>
+        <div class="time">Weekly</div>
+      </div>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Curator</div>
+          <div class="next" id="sched-curator">Next: Monday 06:00</div>
+        </div>
+        <div class="time">Weekly</div>
+      </div>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Editor</div>
+          <div class="next" id="sched-editor">Triggered by approval</div>
+        </div>
+        <div class="time">On demand</div>
+      </div>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Distributor</div>
+          <div class="next" id="sched-distributor">Triggered by Editor</div>
+        </div>
+        <div class="time">On demand</div>
+      </div>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Social Media</div>
+          <div class="next" id="sched-social">Tue + Thu 10:00</div>
+        </div>
+        <div class="time">2×/week</div>
+      </div>
+      <div class="schedule-item">
+        <div>
+          <div class="agent-n">Analytics</div>
+          <div class="next" id="sched-analytics">Next: tomorrow 08:00</div>
+        </div>
+        <div class="time">Daily</div>
+      </div>
+    </div>
+
+    <!-- KIE Cost Tracker -->
+    <div class="panel">
+      <h2>KIE Credit Usage</h2>
+      <div class="credit-item">
+        <span class="name">Suno track (V4.5)</span>
+        <span class="cost">~$0.10–0.20</span>
+      </div>
+      <div class="credit-item">
+        <span class="name">Image (Nano Banana Pro)</span>
+        <span class="cost">$0.09</span>
+      </div>
+      <div class="credit-item">
+        <span class="name">Video animation (Grok I2V)</span>
+        <span class="cost">$0.15</span>
+      </div>
+      <div class="credit-item">
+        <span class="name">Full batch (20 tracks + 20 images)</span>
+        <span class="cost">~$4–6</span>
+      </div>
+      <div style="margin-top:16px;">
+        <div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px;">
+          <span style="color:#888">Credits remaining</span>
+          <span id="credits-display" style="color:#c8a96e;font-weight:700">— credits</span>
+        </div>
+        <div class="credit-bar-bg">
+          <div class="credit-bar-fill" id="credit-bar" style="width:50%"></div>
+        </div>
+        <div style="font-size:10px;color:#444;margin-top:4px">Estimated from last top-up</div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<script>
+  // ── Load state from agents/state.json ──────────────────────────────────────
+  // In production this will read from the actual state.json file.
+  // For now, shows the current skeleton state.
+
+  const STATE_FILE = 'state.json';
+
+  function formatTime(iso) {
+    if (!iso) return 'never';
+    const d = new Date(iso);
+    return d.toLocaleDateString('en-US', { month:'short', day:'numeric' })
+      + ' ' + d.toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit' });
+  }
+
+  function setAgentStatus(name, status) {
+    const card  = document.getElementById(`card-${name}`);
+    const badge = document.getElementById(`badge-${name}`);
+    if (!card) return;
+    card.className  = `agent-card ${status}`;
+    badge.className = `status-badge ${status}`;
+    badge.innerHTML = `<div class="dot"></div>${status.charAt(0).toUpperCase()+status.slice(1)}`;
+  }
+
+  function loadState() {
+    fetch(STATE_FILE + '?t=' + Date.now())
+      .then(r => r.json())
+      .then(state => {
+        // Generator
+        setAgentStatus('generator', state.generator.status || 'idle');
+        document.getElementById('gen-tracks').textContent = state.generator.tracks_generated || 0;
+        document.getElementById('gen-images').textContent = state.generator.images_generated || 0;
+        document.getElementById('gen-last').textContent   = 'Last run: ' + formatTime(state.generator.last_run);
+
+        // Curator
+        setAgentStatus('curator', state.curator.status || 'idle');
+        document.getElementById('cur-approved').textContent = state.curator.items_approved || 0;
+        document.getElementById('cur-pending').textContent  = state.curator.items_pending || 0;
+        document.getElementById('cur-last').textContent     = 'Last run: ' + formatTime(state.curator.last_run);
+
+        // Editor
+        setAgentStatus('editor', state.editor.status || 'idle');
+        document.getElementById('edit-rendered').textContent = state.editor.videos_rendered || 0;
+        document.getElementById('edit-queue').textContent    = state.editor.queue_size || 0;
+        document.getElementById('edit-last').textContent     = 'Last run: ' + formatTime(state.editor.last_run);
+
+        // Distributor
+        setAgentStatus('distributor', state.distributor.status || 'idle');
+        document.getElementById('dist-uploaded').textContent  = state.distributor.videos_uploaded_youtube || state.distributor.videos_uploaded || 0;
+        document.getElementById('dist-scheduled').textContent = state.distributor.videos_scheduled || 0;
+        document.getElementById('dist-last').textContent      = 'Last run: ' + formatTime(state.distributor.last_run);
+
+        // Social Media
+        if (state.social_media) {
+          setAgentStatus('social_media', state.social_media.status || 'idle');
+          document.getElementById('soc-clips').textContent = state.social_media.clips_ready || 0;
+          const socPosts = (state.social_media.posts_instagram || 0) +
+                           (state.social_media.posts_tiktok || 0) +
+                           (state.social_media.posts_facebook || 0);
+          document.getElementById('soc-posts').textContent = socPosts;
+          document.getElementById('soc-last').textContent  = 'Last run: ' + formatTime(state.social_media.last_run);
+        }
+
+        // Analytics
+        setAgentStatus('analytics', state.analytics.status || 'idle');
+        document.getElementById('ana-views').textContent   = state.analytics.weekly_views ? state.analytics.weekly_views.toLocaleString() : '—';
+        document.getElementById('ana-revenue').textContent = state.analytics.revenue_usd ? '$' + state.analytics.revenue_usd.toFixed(2) : '—';
+        document.getElementById('ana-last').textContent    = 'Last run: ' + formatTime(state.analytics.last_run);
+
+        // YouTube stats panel
+        if (state.analytics.total_views) {
+          document.getElementById('yt-views').textContent = state.analytics.total_views.toLocaleString();
+          document.getElementById('total-views').textContent = (state.analytics.total_views / 1000).toFixed(1) + 'K';
+        }
+        if (state.analytics.subscribers) {
+          document.getElementById('yt-subs').textContent  = state.analytics.subscribers.toLocaleString();
+          document.getElementById('subscribers').textContent = state.analytics.subscribers;
+        }
+        if (state.analytics.total_watch_hours) {
+          document.getElementById('yt-watch').textContent = state.analytics.total_watch_hours.toFixed(0) + 'h';
+        }
+        if (state.analytics.avg_ctr) {
+          document.getElementById('yt-ctr').textContent = state.analytics.avg_ctr + '%';
+        }
+        if (state.analytics.revenue_usd) {
+          document.getElementById('yt-revenue') && (document.getElementById('yt-revenue').textContent = '$' + state.analytics.revenue_usd.toFixed(2));
+        }
+
+        document.getElementById('last-updated').textContent = 'Last updated: ' + new Date().toLocaleTimeString();
+      })
+      .catch(() => {
+        document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
+      });
+  }
+
+  function runAgent(name) {
+    alert(`To run the ${name} agent manually, open Terminal and run:\n\npython3 agents/${name}/agent.py\n\nFull automation coming soon.`);
+  }
+
+  function refreshAnalytics() {
+    alert('Analytics agent will pull live YouTube stats when connected.\n\nRun: python3 agents/analytics/agent.py');
+  }
+
+  // Auto-refresh every 30 seconds
+  loadState();
+  setInterval(loadState, 30000);
+</script>
+
+</body>
+</html>
