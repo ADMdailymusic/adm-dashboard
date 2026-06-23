@@ -456,6 +456,80 @@
   }
   .btn-launch:hover { opacity: 0.9; }
 
+  /* ── Overseer panel ── */
+  .health-score {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .health-ring {
+    width: 56px; height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 800;
+    border: 3px solid;
+    flex-shrink: 0;
+  }
+  .health-ring.good    { color: #10b981; border-color: #10b981; }
+  .health-ring.warning { color: #f59e0b; border-color: #f59e0b; }
+  .health-ring.bad     { color: #ef4444; border-color: #ef4444; }
+
+  .health-label { font-size: 12px; color: #555; margin-top: 2px; }
+
+  .suggestion-list { list-style: none; }
+  .suggestion-list li {
+    font-size: 12px;
+    color: #888;
+    padding: 7px 0;
+    border-bottom: 1px solid #1a1a1a;
+    line-height: 1.45;
+  }
+  .suggestion-list li:last-child { border-bottom: none; }
+
+  /* ── Expenses panel ── */
+  .expense-total {
+    font-size: 28px;
+    font-weight: 800;
+    color: #c8a96e;
+    margin-bottom: 4px;
+  }
+  .expense-sub {
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 16px;
+  }
+  .expense-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid #1a1a1a;
+    font-size: 12px;
+  }
+  .expense-row:last-child { border-bottom: none; }
+  .expense-row .e-name { color: #777; }
+  .expense-row .e-amt  { color: #c8a96e; font-weight: 600; }
+  .btn-sheet {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    background: #1a1a2a;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-sheet:hover { background: #3b82f6; color: #000; }
+
   /* ── Status toast ── */
   .toast {
     position: fixed;
@@ -653,10 +727,32 @@
       <button class="run-btn" onclick="runAgent('analytics')">▶ Run Now</button>
     </div>
 
+    <div class="arrow">→</div>
+
+    <!-- 7. Overseer -->
+    <div class="agent-card idle" id="card-overseer">
+      <div class="agent-num">Agent 07</div>
+      <div class="agent-name">Overseer</div>
+      <div class="agent-role">Monitors every step. Flags issues and suggests improvements after each run.</div>
+      <div class="status-badge idle" id="badge-overseer"><div class="dot"></div>Idle</div>
+      <div class="agent-metrics">
+        <div class="metric">
+          <div class="val" id="ov-health">—</div>
+          <div class="lbl">Health /100</div>
+        </div>
+        <div class="metric">
+          <div class="val" id="ov-suggestions">0</div>
+          <div class="lbl">Suggestions</div>
+        </div>
+      </div>
+      <div class="last-run" id="ov-last">Last run: never</div>
+      <button class="run-btn" onclick="runOverseer()">▶ Run Now</button>
+    </div>
+
   </div>
 
   <!-- Bottom Grid -->
-  <div class="bottom-grid">
+  <div class="bottom-grid" style="grid-template-columns: 1fr 1fr 1fr; margin-bottom: 20px;">
 
     <!-- YouTube Stats -->
     <div class="panel">
@@ -766,6 +862,51 @@
 
   </div>
 
+  <!-- Second row: Overseer + Expenses -->
+  <div class="bottom-grid" style="grid-template-columns: 2fr 1fr; margin-top: 0;">
+
+    <!-- Overseer Insights -->
+    <div class="panel">
+      <h2>Overseer — Pipeline Insights</h2>
+      <div class="health-score">
+        <div class="health-ring good" id="ov-health-ring">—</div>
+        <div>
+          <div style="font-size:13px;color:#fff;font-weight:600" id="ov-health-label">No report yet</div>
+          <div class="health-label" id="ov-analyzed">Run the overseer to get a health check</div>
+        </div>
+      </div>
+      <ul class="suggestion-list" id="ov-suggestion-list">
+        <li style="color:#444">No suggestions yet — run a batch first, then run the Overseer.</li>
+      </ul>
+      <button class="run-btn" onclick="runOverseer()" style="margin-top:16px">▶ Run Overseer Now</button>
+    </div>
+
+    <!-- ADM Expenses -->
+    <div class="panel">
+      <h2>ADM Expenses</h2>
+      <div class="expense-total" id="exp-total">$50.00</div>
+      <div class="expense-sub">Total spent to date</div>
+      <div class="expense-row">
+        <span class="e-name">Anthropic API</span>
+        <span class="e-amt">$20.00</span>
+      </div>
+      <div class="expense-row">
+        <span class="e-name">Claude Pro</span>
+        <span class="e-amt">$20.00</span>
+      </div>
+      <div class="expense-row">
+        <span class="e-name">KIE.ai credits</span>
+        <span class="e-amt">$10.00</span>
+      </div>
+      <a class="btn-sheet"
+         href="https://docs.google.com/spreadsheets/d/1Cwp-X2mio6Y6p_3ecEBxCIKunTBG74RllLRCb6a4eEQ/edit"
+         target="_blank">
+        📊 Open Full Expenses Sheet →
+      </a>
+    </div>
+
+  </div>
+
 </main>
 
 <script>
@@ -853,6 +994,38 @@
         }
         if (state.analytics.revenue_usd) {
           document.getElementById('yt-revenue') && (document.getElementById('yt-revenue').textContent = '$' + state.analytics.revenue_usd.toFixed(2));
+        }
+
+        // Overseer card
+        if (state.overseer) {
+          const ov = state.overseer;
+          setAgentStatus('overseer', ov.status || 'idle');
+          const score = ov.health_score;
+          document.getElementById('ov-health').textContent = score !== undefined ? score : '—';
+          document.getElementById('ov-suggestions').textContent =
+            ((ov.suggestions||[]).length + (ov.warnings||[]).length);
+          document.getElementById('ov-last').textContent = 'Last run: ' + formatTime(ov.last_run);
+
+          // Overseer panel
+          const ring = document.getElementById('ov-health-ring');
+          ring.textContent = score !== undefined ? score : '—';
+          ring.className = 'health-ring ' +
+            (score >= 80 ? 'good' : score >= 50 ? 'warning' : 'bad');
+
+          const label = document.getElementById('ov-health-label');
+          label.textContent = score >= 80 ? 'Pipeline healthy' :
+                              score >= 50 ? 'Some issues to address' : 'Needs attention';
+
+          document.getElementById('ov-analyzed').textContent =
+            ov.analyzed_at ? 'Analyzed: ' + formatTime(ov.analyzed_at) : '';
+
+          const list = document.getElementById('ov-suggestion-list');
+          const all  = [...(ov.warnings||[]), ...(ov.suggestions||[])];
+          if (all.length) {
+            list.innerHTML = all.map(s => `<li>${s}</li>`).join('');
+          } else {
+            list.innerHTML = '<li style="color:#444">No issues found.</li>';
+          }
         }
 
         document.getElementById('last-updated').textContent = 'Last updated: ' + new Date().toLocaleTimeString();
@@ -961,6 +1134,11 @@
 
     closeBriefModal();
     await writeTrigger('generate', { music_style: musicStyle, artwork_style: artworkStyle, track_count: trackCount, notes });
+  }
+
+  // ── Run Overseer ────────────────────────────────────────────────────────────
+  async function runOverseer() {
+    await writeTrigger('run_overseer');
   }
 
   // ── Approve & Continue ────────────────────────────────────────────────────────
