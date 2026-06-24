@@ -456,6 +456,81 @@
   }
   .btn-launch:hover { opacity: 0.9; }
 
+  /* ── Latest / Next video panels ── */
+  .video-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .video-thumb {
+    width: 80px; height: 45px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    flex-shrink: 0;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .video-thumb-placeholder {
+    width: 80px; height: 45px;
+    background: #1a1a2a;
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .video-meta { flex: 1; }
+  .video-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  .video-detail {
+    font-size: 11px;
+    color: #555;
+    margin-bottom: 2px;
+  }
+  .video-views {
+    font-size: 13px;
+    font-weight: 700;
+    color: #c8a96e;
+  }
+  .video-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  .video-link:hover { text-decoration: underline; }
+
+  /* ── Graph panel ── */
+  .graph-container {
+    position: relative;
+    height: 160px;
+    margin-top: 8px;
+  }
+  .graph-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .graph-tab {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #333;
+    background: transparent;
+    color: #555;
+    transition: all 0.2s;
+  }
+  .graph-tab.active { background: #c8a96e; color: #000; border-color: #c8a96e; }
+
   /* ── Overseer panel ── */
   .health-score {
     display: flex;
@@ -751,7 +826,7 @@
 
   </div>
 
-  <!-- Bottom Grid -->
+  <!-- Bottom Grid — Row 1 -->
   <div class="bottom-grid" style="grid-template-columns: 1fr 1fr 1fr; margin-bottom: 20px;">
 
     <!-- YouTube Stats -->
@@ -862,29 +937,44 @@
 
   </div>
 
-  <!-- Second row: Overseer + Expenses -->
-  <div class="bottom-grid" style="grid-template-columns: 2fr 1fr; margin-top: 0;">
+  <!-- Second row: Latest Release + Next Scheduled + Expenses -->
+  <div class="bottom-grid" style="grid-template-columns: 1fr 1fr 1fr; margin-top: 0; margin-bottom: 20px;">
 
-    <!-- Overseer Insights -->
+    <!-- Latest Release -->
     <div class="panel">
-      <h2>Overseer — Pipeline Insights</h2>
-      <div class="health-score">
-        <div class="health-ring good" id="ov-health-ring">—</div>
-        <div>
-          <div style="font-size:13px;color:#fff;font-weight:600" id="ov-health-label">No report yet</div>
-          <div class="health-label" id="ov-analyzed">Run the overseer to get a health check</div>
+      <h2>Latest Release</h2>
+      <div class="video-card" id="latest-video-card">
+        <div class="video-thumb-placeholder">▶</div>
+        <div class="video-meta">
+          <div class="video-title" id="latest-title">—</div>
+          <div class="video-detail" id="latest-date">Published: —</div>
+          <div class="video-views" id="latest-views">— views</div>
+          <a class="video-link" id="latest-link" href="#" target="_blank">Open on YouTube →</a>
         </div>
       </div>
-      <ul class="suggestion-list" id="ov-suggestion-list">
-        <li style="color:#444">No suggestions yet — run a batch first, then run the Overseer.</li>
-      </ul>
-      <button class="run-btn" onclick="runOverseer()" style="margin-top:16px">▶ Run Overseer Now</button>
+    </div>
+
+    <!-- Next Scheduled -->
+    <div class="panel">
+      <h2>Up Next</h2>
+      <div class="video-card" id="next-video-card">
+        <div class="video-thumb-placeholder" style="background:#1a2a1a">🕐</div>
+        <div class="video-meta">
+          <div class="video-title" id="next-title">—</div>
+          <div class="video-detail" id="next-scheduled">Scheduled: —</div>
+          <div style="font-size:11px;color:#10b981;margin-top:6px" id="next-countdown">—</div>
+        </div>
+      </div>
+      <div style="margin-top:16px;padding-top:12px;border-top:1px solid #1a1a1a">
+        <div style="font-size:11px;color:#555;margin-bottom:4px">Videos scheduled</div>
+        <div style="font-size:22px;font-weight:700;color:#10b981" id="total-scheduled">—</div>
+      </div>
     </div>
 
     <!-- ADM Expenses -->
     <div class="panel">
       <h2>ADM Expenses</h2>
-      <div class="expense-total" id="exp-total">$50.00</div>
+      <div class="expense-total">$50.00</div>
       <div class="expense-sub">Total spent to date</div>
       <div class="expense-row">
         <span class="e-name">Anthropic API</span>
@@ -907,8 +997,44 @@
 
   </div>
 
+  <!-- Third row: YouTube Growth Graph + Overseer compact -->
+  <div class="bottom-grid" style="grid-template-columns: 2fr 1fr; margin-top: 0;">
+
+    <!-- YouTube Growth Graph -->
+    <div class="panel">
+      <h2>YouTube Growth</h2>
+      <div class="graph-tabs">
+        <button class="graph-tab active" onclick="switchGraph('views', this)">Views</button>
+        <button class="graph-tab" onclick="switchGraph('subscribers', this)">Subscribers</button>
+        <button class="graph-tab" onclick="switchGraph('videos', this)">Videos</button>
+      </div>
+      <div class="graph-container">
+        <canvas id="growth-chart"></canvas>
+      </div>
+      <div style="font-size:10px;color:#444;margin-top:8px" id="graph-updated">Tracking daily — updates every 6 hours</div>
+    </div>
+
+    <!-- Overseer compact -->
+    <div class="panel">
+      <h2>Pipeline Health</h2>
+      <div class="health-score" style="margin-bottom:12px">
+        <div class="health-ring good" id="ov-health-ring">—</div>
+        <div>
+          <div style="font-size:13px;color:#fff;font-weight:600" id="ov-health-label">No report yet</div>
+          <div class="health-label" id="ov-analyzed">Run overseer after a batch</div>
+        </div>
+      </div>
+      <ul class="suggestion-list" id="ov-suggestion-list" style="max-height:140px;overflow-y:auto">
+        <li style="color:#444">Run a batch to get suggestions.</li>
+      </ul>
+      <button class="run-btn" onclick="runOverseer()" style="margin-top:12px">▶ Run Overseer</button>
+    </div>
+
+  </div>
+
 </main>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script>
   // ── Load state from agents/state.json ──────────────────────────────────────
   // In production this will read from the actual state.json file.
@@ -1030,6 +1156,7 @@
 
         document.getElementById('last-updated').textContent = 'Last updated: ' + new Date().toLocaleTimeString();
         updateApproveButton(state.generator.status);
+        populateVideoCards(state);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -1164,9 +1291,141 @@
     }
   }
 
+  // ── YouTube Growth Chart ─────────────────────────────────────────────────────
+  let chartInstance = null;
+  let historyData   = { snapshots: [] };
+  let currentMetric = 'views';
+
+  function loadHistory() {
+    fetch('analytics/history.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        historyData = data;
+        renderChart(currentMetric);
+      })
+      .catch(() => renderChart(currentMetric));
+  }
+
+  function switchGraph(metric, btn) {
+    currentMetric = metric;
+    document.querySelectorAll('.graph-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderChart(metric);
+  }
+
+  function renderChart(metric) {
+    const snaps = historyData.snapshots || [];
+    const labels = snaps.map(s => {
+      const d = new Date(s.date);
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    });
+    const keyMap = { views: 'total_views', subscribers: 'subscribers', videos: 'total_videos' };
+    const values = snaps.map(s => s[keyMap[metric]] || 0);
+
+    const canvas = document.getElementById('growth-chart');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+
+    if (chartInstance) chartInstance.destroy();
+
+    chartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: labels.length ? labels : ['Today'],
+        datasets: [{
+          label: metric,
+          data: values.length ? values : [0],
+          borderColor: '#c8a96e',
+          backgroundColor: 'rgba(200,169,110,0.08)',
+          borderWidth: 2,
+          pointRadius: snaps.length > 14 ? 0 : 3,
+          pointBackgroundColor: '#c8a96e',
+          tension: 0.4,
+          fill: true,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#111118',
+            titleColor: '#888',
+            bodyColor: '#fff',
+            borderColor: '#333',
+            borderWidth: 1,
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: '#1a1a1a' },
+            ticks: { color: '#555', font: { size: 10 },
+              maxTicksLimit: 7 }
+          },
+          y: {
+            grid: { color: '#1a1a1a' },
+            ticks: { color: '#555', font: { size: 10 } },
+            beginAtZero: true,
+          }
+        }
+      }
+    });
+
+    if (snaps.length === 0) {
+      ctx.fillStyle = '#444';
+      ctx.font = '12px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Data will appear after the first analytics run', canvas.width / 2, 80);
+    }
+  }
+
+  // ── Populate Latest Release + Next Scheduled ─────────────────────────────────
+  function formatDate(iso) {
+    if (!iso) return '—';
+    return new Date(iso).toLocaleDateString('en-US',
+      { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  function countdown(iso) {
+    if (!iso) return '—';
+    const diff = new Date(iso) - new Date();
+    if (diff < 0) return 'Publishing soon';
+    const days = Math.floor(diff / 86400000);
+    const hrs  = Math.floor((diff % 86400000) / 3600000);
+    if (days > 0) return `In ${days}d ${hrs}h`;
+    return `In ${hrs}h`;
+  }
+
+  function populateVideoCards(state) {
+    const lv = state.analytics && state.analytics.latest_video;
+    if (lv) {
+      document.getElementById('latest-title').textContent  = lv.title || '—';
+      document.getElementById('latest-date').textContent   = 'Published: ' + formatDate(lv.published_at);
+      document.getElementById('latest-views').textContent  = (lv.views || 0).toLocaleString() + ' views';
+      const link = document.getElementById('latest-link');
+      if (lv.url) { link.href = lv.url; link.style.display = 'inline'; }
+    }
+
+    const ns = state.analytics && state.analytics.next_scheduled;
+    if (ns) {
+      document.getElementById('next-title').textContent      = ns.title || '—';
+      document.getElementById('next-scheduled').textContent  = 'Scheduled: ' + formatDate(ns.scheduled_at);
+      document.getElementById('next-countdown').textContent  = countdown(ns.scheduled_at);
+    } else {
+      document.getElementById('next-title').textContent      = 'No video scheduled yet';
+      document.getElementById('next-scheduled').textContent  = 'Upload & schedule via Distributor';
+      document.getElementById('next-countdown').textContent  = '';
+    }
+
+    const scheduled = state.distributor && state.distributor.videos_scheduled;
+    document.getElementById('total-scheduled').textContent = scheduled || '—';
+  }
+
   // Auto-refresh every 30 seconds
   loadState();
-  setInterval(loadState, 30000);
+  loadHistory();
+  setInterval(() => { loadState(); loadHistory(); }, 30000);
 </script>
 
 <!-- Brief Modal -->
