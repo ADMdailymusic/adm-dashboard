@@ -997,7 +997,70 @@
 
   </div>
 
-  <!-- Third row: YouTube Growth Graph + Overseer compact -->
+  <!-- Third row: Social Media -->
+  <div class="bottom-grid" style="grid-template-columns: 1fr 1fr 1fr; margin-top: 0; margin-bottom: 20px;">
+
+    <!-- Latest Reel -->
+    <div class="panel">
+      <h2>📱 Latest Reel Posted</h2>
+      <div class="video-card" id="latest-reel-card">
+        <div class="video-thumb-placeholder" style="background:#1a1030;font-size:24px">📲</div>
+        <div class="video-meta">
+          <div class="video-title" id="reel-latest-title">—</div>
+          <div class="video-detail" id="reel-latest-date">Posted: —</div>
+          <div style="display:flex;gap:8px;margin-top:6px">
+            <span style="font-size:11px;color:#a78bfa" id="reel-ig-badge">IG</span>
+            <span style="font-size:11px;color:#f87171" id="reel-yt-badge">YT</span>
+            <span style="font-size:11px;color:#38bdf8" id="reel-tt-badge">TT</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:12px;font-size:11px;color:#444" id="reel-posts-week">Posts this week: —</div>
+    </div>
+
+    <!-- Next Reel Queued -->
+    <div class="panel">
+      <h2>⏳ Next Reel Queued</h2>
+      <div class="video-card" id="next-reel-card">
+        <div class="video-thumb-placeholder" style="background:#1a1a2a;font-size:24px">🎬</div>
+        <div class="video-meta">
+          <div class="video-title" id="reel-next-title">—</div>
+          <div class="video-detail" id="reel-next-scheduled">Scheduled: —</div>
+          <div style="font-size:11px;color:#a78bfa;margin-top:6px" id="reel-next-countdown">—</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;font-size:11px;color:#444" id="reel-clips-ready">Clips ready: —</div>
+    </div>
+
+    <!-- Social Stats -->
+    <div class="panel">
+      <h2>📊 Social Stats</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px">
+        <div>
+          <div style="font-size:11px;color:#555;margin-bottom:4px">Instagram Posts</div>
+          <div style="font-size:22px;font-weight:700;color:#a78bfa" id="stat-ig">—</div>
+        </div>
+        <div>
+          <div style="font-size:11px;color:#555;margin-bottom:4px">TikTok Posts</div>
+          <div style="font-size:22px;font-weight:700;color:#38bdf8" id="stat-tt">—</div>
+        </div>
+        <div>
+          <div style="font-size:11px;color:#555;margin-bottom:4px">YT Shorts</div>
+          <div style="font-size:22px;font-weight:700;color:#f87171" id="stat-yt-shorts">—</div>
+        </div>
+        <div>
+          <div style="font-size:11px;color:#555;margin-bottom:4px">Clips Ready</div>
+          <div style="font-size:22px;font-weight:700;color:#10b981" id="stat-clips">—</div>
+        </div>
+      </div>
+      <div style="margin-top:16px;padding:10px;background:#0d0d14;border-radius:6px;font-size:11px;color:#555;text-align:center">
+        Social Media agent builds here.<br>Will populate after first run.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Fourth row: YouTube Growth Graph + Overseer compact -->
   <div class="bottom-grid" style="grid-template-columns: 2fr 1fr; margin-top: 0;">
 
     <!-- YouTube Growth Graph -->
@@ -1157,6 +1220,7 @@
         document.getElementById('last-updated').textContent = 'Last updated: ' + new Date().toLocaleTimeString();
         updateApproveButton(state.generator.status);
         populateVideoCards(state);
+        populateSocialPanels(state);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -1420,6 +1484,38 @@
 
     const scheduled = state.distributor && state.distributor.videos_scheduled;
     document.getElementById('total-scheduled').textContent = scheduled || '—';
+  }
+
+  // ── Populate Social Media panels ──────────────────────────────────────────────
+  function populateSocialPanels(state) {
+    const sm = state.social_media || {};
+
+    // Latest reel
+    if (sm.latest_reel) {
+      document.getElementById('reel-latest-title').textContent = sm.latest_reel.title || '—';
+      document.getElementById('reel-latest-date').textContent  = 'Posted: ' + formatDate(sm.latest_reel.posted_at);
+    }
+
+    // Next reel queued
+    if (sm.next_reel) {
+      document.getElementById('reel-next-title').textContent      = sm.next_reel.title || '—';
+      document.getElementById('reel-next-scheduled').textContent  = 'Scheduled: ' + formatDate(sm.next_reel.scheduled_at);
+      document.getElementById('reel-next-countdown').textContent  = countdown(sm.next_reel.scheduled_at);
+    }
+
+    // Stats
+    const postsIg = sm.posts_instagram || 0;
+    const postsTt = sm.posts_tiktok    || 0;
+    const postsYt = sm.posts_youtube_shorts || 0;
+    const clips   = sm.clips_ready     || 0;
+    if (postsIg || postsTt || postsYt || clips) {
+      document.getElementById('stat-ig').textContent        = postsIg;
+      document.getElementById('stat-tt').textContent        = postsTt;
+      document.getElementById('stat-yt-shorts').textContent = postsYt;
+      document.getElementById('stat-clips').textContent     = clips;
+      document.getElementById('reel-posts-week').textContent = `Posts this week: ${postsIg + postsTt + postsYt}`;
+      document.getElementById('reel-clips-ready').textContent = `Clips ready: ${clips}`;
+    }
   }
 
   // Auto-refresh every 30 seconds
