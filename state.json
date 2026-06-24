@@ -37,15 +37,24 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-06-23T15:00:16",
-    "total_views": 0,
+    "last_run": "2026-06-24T11:07:20",
+    "total_views": 13,
     "total_watch_hours": 0,
     "subscribers": 0,
-    "weekly_views": 7,
+    "weekly_views": 16,
     "avg_ctr": 0,
     "revenue_usd": 0,
     "top_video_title": null,
     "top_video_views": 0,
-    "last_result": "success"
+    "last_result": "success",
+    "total_videos": 2,
+    "latest_video": {
+      "id": "cwWpQqI1QQ4",
+      "title": "Cafe Music ADM Channel - Cozy Morning Bossa Nova",
+      "published_at": "2026-06-24T13:00:12Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=cwWpQqI1QQ4",
+      "thumbnail": "https://i.ytimg.com/vi/cwWpQqI1QQ4/mqdefault.jpg"
+    }
   }
 }
