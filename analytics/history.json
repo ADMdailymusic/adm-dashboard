@@ -1,0 +1,46 @@
+{
+  "snapshots": [
+    {
+      "date": "2026-06-24",
+      "subscribers": 0,
+      "total_views": 13,
+      "total_videos": 2
+    },
+    {
+      "date": "2026-06-25",
+      "subscribers": 1,
+      "total_views": 19,
+      "total_videos": 2
+    },
+    {
+      "date": "2026-06-26",
+      "subscribers": 1,
+      "total_views": 25,
+      "total_videos": 3
+    },
+    {
+      "date": "2026-06-27",
+      "subscribers": 1,
+      "total_views": 25,
+      "total_videos": 3
+    },
+    {
+      "date": "2026-06-28",
+      "subscribers": 1,
+      "total_views": 32,
+      "total_videos": 3
+    },
+    {
+      "date": "2026-06-29",
+      "subscribers": 1,
+      "total_views": 35,
+      "total_videos": 4
+    },
+    {
+      "date": "2026-07-06",
+      "subscribers": 4,
+      "total_views": 69,
+      "total_videos": 6
+    }
+  ]
+}
