@@ -974,7 +974,7 @@
     <!-- ADM Expenses -->
     <div class="panel">
       <h2>ADM Expenses</h2>
-      <div class="expense-total">$50.00</div>
+      <div class="expense-total" id="exp-total">$50.00</div>
       <div class="expense-sub">Total spent to date</div>
       <div class="expense-row">
         <span class="e-name">Anthropic API</span>
@@ -1221,6 +1221,7 @@
         updateApproveButton(state.generator.status);
         populateVideoCards(state);
         populateSocialPanels(state);
+        populateExpenses(state);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -1516,6 +1517,27 @@
       document.getElementById('reel-posts-week').textContent = `Posts this week: ${postsIg + postsTt + postsYt}`;
       document.getElementById('reel-clips-ready').textContent = `Clips ready: ${clips}`;
     }
+  }
+
+  function populateExpenses(state) {
+    if (state.analytics && state.analytics.total_videos) {
+      document.getElementById('videos-live').textContent = state.analytics.total_videos;
+    }
+    if (!state.expenses) return;
+    var t = document.getElementById('exp-total');
+    if (!t) return;
+    t.textContent = '$' + state.expenses.total.toFixed(2);
+    var panel = t.parentElement;
+    panel.querySelectorAll('.expense-row').forEach(function(e){ e.remove(); });
+    var anchor = panel.querySelector('.btn-sheet');
+    (state.expenses.rows || []).forEach(function(r){
+      var d = document.createElement('div');
+      d.className = 'expense-row';
+      var n = document.createElement('span'); n.className = 'e-name'; n.textContent = r.name;
+      var a = document.createElement('span'); a.className = 'e-amt'; a.textContent = '$' + r.amount.toFixed(2);
+      d.appendChild(n); d.appendChild(a);
+      panel.insertBefore(d, anchor);
+    });
   }
 
   // Auto-refresh every 30 seconds
