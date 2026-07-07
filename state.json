@@ -38,7 +38,7 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-06T21:11:35",
+    "last_run": "2026-07-07T08:32:38",
     "total_views": 70,
     "total_watch_hours": 0,
     "subscribers": 4,
@@ -65,7 +65,7 @@
     }
   },
   "expenses": {
-    "total": 60.0,
+    "total": 80.0,
     "rows": [
       {
         "name": "Claude Pro subscription",
@@ -73,6 +73,10 @@
       },
       {
         "name": "Anthropic API credits",
+        "amount": 20.0
+      },
+      {
+        "name": "KIE.ai credits (music + image generation)",
         "amount": 20.0
       }
     ]
