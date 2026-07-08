@@ -152,5 +152,29 @@
       "title": "Cafe Music ADM Channel - Cheerful Bossa Nova Brunch",
       "id": "2yRsxGaudhc"
     }
-  ]
+  ],
+  "channel_intelligence": {
+    "updated": "2026-07-07",
+    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37→32 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week — that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
+    "what_works": [
+      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts — a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
+      "SEARCH-INTENT TITLES: 'Study Music … for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' — mood-only titles don't get found.",
+      "COMPOUNDING: the Jun 22 long is still accelerating in week 2 (+20). Long playlist videos age like assets, not posts.",
+      "Subscribers arrived (+3) the same week the study long compounded — search viewers convert."
+    ],
+    "next_moves": [
+      "Protect the Monday long. If anything gets extra effort (thumbnail, title, mix), it's that.",
+      "Title every long with a search phrase: study, focus, work, relax, sleep, morning coffee.",
+      "Fun Bossa starts Jul 13 — first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
+      "Consider swapping one weekly short for a second long once rendering capacity allows.",
+      "Add the ADM Google account to Chrome to unlock CTR, impressions, watch time and traffic sources in this report."
+    ],
+    "suno_prompts": [
+      "Slow bossa nova instrumental, warm nylon-string guitar, soft brushed drums, mellow Rhodes piano, no vocals, relaxed steady tempo, cozy cafe ambience for studying and deep work",
+      "Gentle Brazilian jazz trio — acoustic guitar, upright bass, light shaker — calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
+      "Upbeat bossa nova, bright acoustic guitar, playful flute melody, cheerful morning-coffee energy, medium tempo, instrumental, clean warm mix"
+    ],
+    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' — this is background music; (2) keep energy CONSISTENT, no big dynamic swings — study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) — it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
+    "deep_analytics": null
+  }
 }
