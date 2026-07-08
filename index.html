@@ -1060,6 +1060,29 @@
 
   </div>
 
+  <!-- Channel Intelligence -->
+  <div class="panel" style="margin-bottom:20px;">
+    <h2>🧠 Channel Intelligence</h2>
+    <div id="ci-updated" style="font-size:11px;color:#444;margin-bottom:14px">No report yet — regenerates every Monday with weekly diagnostics.</div>
+    <div style="display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px;">
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#c8a96e;letter-spacing:1px;margin-bottom:8px">STATE OF THE CHANNEL</div>
+        <div id="ci-state" style="font-size:12px;color:#aaa;line-height:1.65">—</div>
+        <div style="font-size:11px;font-weight:700;color:#f59e0b;letter-spacing:1px;margin:14px 0 8px">DO NEXT</div>
+        <ul class="suggestion-list" id="ci-moves"><li style="color:#444">—</li></ul>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#10b981;letter-spacing:1px;margin-bottom:8px">WHAT’S WORKING</div>
+        <ul class="suggestion-list" id="ci-working"><li style="color:#444">—</li></ul>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#3b82f6;letter-spacing:1px;margin-bottom:8px">SUNO PROMPT PLAYBOOK</div>
+        <div id="ci-suno"></div>
+        <div id="ci-suno-rules" style="font-size:11px;color:#666;line-height:1.6;margin-top:10px"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Fourth row: YouTube Growth Graph + Overseer compact -->
   <div class="bottom-grid" style="grid-template-columns: 2fr 1fr; margin-top: 0;">
 
@@ -1222,6 +1245,7 @@
         populateVideoCards(state);
         populateSocialPanels(state);
         populateExpenses(state);
+        populateIntelligence(state);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -1538,6 +1562,28 @@
       d.appendChild(n); d.appendChild(a);
       panel.insertBefore(d, anchor);
     });
+  }
+
+  function populateIntelligence(state) {
+    var ci = state.channel_intelligence;
+    if (!ci) return;
+    document.getElementById('ci-updated').textContent = 'Updated: ' + (ci.updated || '—') + ' · regenerates every Monday';
+    document.getElementById('ci-state').textContent = ci.state_of_channel || '—';
+    function fillList(id, items) {
+      var el = document.getElementById(id); if (!el || !items || !items.length) return;
+      el.innerHTML = '';
+      items.forEach(function(s){ var li = document.createElement('li'); li.textContent = s; el.appendChild(li); });
+    }
+    fillList('ci-working', ci.what_works);
+    fillList('ci-moves', ci.next_moves);
+    var su = document.getElementById('ci-suno');
+    if (su && ci.suno_prompts) { su.innerHTML = '';
+      ci.suno_prompts.forEach(function(p){ var d = document.createElement('div');
+        d.style.cssText = 'background:#0a0a0f;border:1px solid #26262e;border-radius:6px;padding:9px 10px;margin-bottom:8px;font-family:monospace;font-size:11px;color:#c8a96e;line-height:1.5';
+        d.textContent = p; su.appendChild(d); });
+    }
+    var sr = document.getElementById('ci-suno-rules');
+    if (sr && ci.suno_rules) sr.textContent = ci.suno_rules;
   }
 
   // Auto-refresh every 30 seconds
