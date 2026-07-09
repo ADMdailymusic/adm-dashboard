@@ -47,6 +47,18 @@
       "subscribers": 4,
       "total_views": 70,
       "total_videos": 6
+    },
+    {
+      "date": "2026-07-08",
+      "subscribers": 4,
+      "total_views": 76,
+      "total_videos": 6
+    },
+    {
+      "date": "2026-07-09",
+      "subscribers": 5,
+      "total_views": 224,
+      "total_videos": 6
     }
   ]
 }
