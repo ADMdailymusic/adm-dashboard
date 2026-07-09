@@ -26,7 +26,7 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 20
+    "videos_scheduled": 19
   },
   "social_media": {
     "status": "idle",
@@ -38,57 +38,50 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-07T21:37:19",
-    "total_views": 70,
+    "last_run": "2026-07-09T08:34:12",
+    "total_views": 224,
     "total_watch_hours": 0,
-    "subscribers": 4,
+    "subscribers": 5,
     "weekly_views": 32,
     "avg_ctr": 0,
     "revenue_usd": 0,
-    "top_video_title": "1 Hour Bossa Nova Study Music – Relaxing Jazz Café for Focus",
-    "top_video_views": 56,
+    "top_video_title": "1 Hour Bossa Nova Study Music \u2013 Relaxing Jazz Caf\u00e9 for Focus",
+    "top_video_views": 57,
     "last_result": "success",
     "total_videos": 6,
     "latest_video": {
-      "id": "meadHzh0L-g",
-      "title": "Focus Music Bossa Nova Lounge – Background Instrumentals for Deep Work & Studying",
-      "published_at": "2026-07-06T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=meadHzh0L-g",
-      "thumbnail": "https://i.ytimg.com/vi/meadHzh0L-g/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "nj3W19BdOuU",
       "title": "Cafe Music ADM Channel - Happy Bossa Nova Morning",
-      "scheduled_at": "2026-07-08T13:00:00Z",
-      "url": "https://youtube.com/watch?v=nj3W19BdOuU"
+      "published_at": "2026-07-08T13:00:00Z",
+      "views": 3,
+      "url": "https://youtube.com/watch?v=nj3W19BdOuU",
+      "thumbnail": "https://i.ytimg.com/vi/nj3W19BdOuU/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "k7p234aH4wk",
+      "title": "Cafe Music ADM Channel - Smooth Bossa Nova Coffee",
+      "scheduled_at": "2026-07-10T13:00:00Z",
+      "url": "https://youtube.com/watch?v=k7p234aH4wk"
     }
   },
   "expenses": {
-    "total": 80,
+    "total": 80.0,
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 20
+        "amount": 20.0
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-07-08",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Cafe Music ADM Channel - Happy Bossa Nova Morning",
-      "id": "nj3W19BdOuU"
-    },
     {
       "date": "2026-07-10",
       "type": "short",
@@ -151,30 +144,37 @@
       "style": "Fun Bossa",
       "title": "Cafe Music ADM Channel - Cheerful Bossa Nova Brunch",
       "id": "2yRsxGaudhc"
+    },
+    {
+      "date": "2026-07-31",
+      "type": "short",
+      "style": "Fun Bossa",
+      "title": "Cafe Music ADM Channel - Bossa Nova Brazil Mood",
+      "id": "J8c4-kdUkP0"
     }
   ],
   "channel_intelligence": {
     "updated": "2026-07-07",
-    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37→32 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week — that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
+    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37\u219232 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week \u2014 that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
     "what_works": [
-      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts — a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
-      "SEARCH-INTENT TITLES: 'Study Music … for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' — mood-only titles don't get found.",
+      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts \u2014 a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
+      "SEARCH-INTENT TITLES: 'Study Music \u2026 for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' \u2014 mood-only titles don't get found.",
       "COMPOUNDING: the Jun 22 long is still accelerating in week 2 (+20). Long playlist videos age like assets, not posts.",
-      "Subscribers arrived (+3) the same week the study long compounded — search viewers convert."
+      "Subscribers arrived (+3) the same week the study long compounded \u2014 search viewers convert."
     ],
     "next_moves": [
       "Protect the Monday long. If anything gets extra effort (thumbnail, title, mix), it's that.",
       "Title every long with a search phrase: study, focus, work, relax, sleep, morning coffee.",
-      "Fun Bossa starts Jul 13 — first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
+      "Fun Bossa starts Jul 13 \u2014 first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
       "Consider swapping one weekly short for a second long once rendering capacity allows.",
       "Add the ADM Google account to Chrome to unlock CTR, impressions, watch time and traffic sources in this report."
     ],
     "suno_prompts": [
       "Slow bossa nova instrumental, warm nylon-string guitar, soft brushed drums, mellow Rhodes piano, no vocals, relaxed steady tempo, cozy cafe ambience for studying and deep work",
-      "Gentle Brazilian jazz trio — acoustic guitar, upright bass, light shaker — calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
+      "Gentle Brazilian jazz trio \u2014 acoustic guitar, upright bass, light shaker \u2014 calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
       "Upbeat bossa nova, bright acoustic guitar, playful flute melody, cheerful morning-coffee energy, medium tempo, instrumental, clean warm mix"
     ],
-    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' — this is background music; (2) keep energy CONSISTENT, no big dynamic swings — study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) — it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
+    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' \u2014 this is background music; (2) keep energy CONSISTENT, no big dynamic swings \u2014 study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) \u2014 it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
     "deep_analytics": null
   }
 }
