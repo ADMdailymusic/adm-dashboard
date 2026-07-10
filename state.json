@@ -26,7 +26,7 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 19
+    "videos_scheduled": 18
   },
   "social_media": {
     "status": "idle",
@@ -38,7 +38,7 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-10T08:35:23",
+    "last_run": "2026-07-10T18:07:43",
     "total_views": 225,
     "total_watch_hours": 0,
     "subscribers": 5,
@@ -50,22 +50,22 @@
     "last_result": "success",
     "total_videos": 6,
     "latest_video": {
-      "id": "nj3W19BdOuU",
-      "title": "Cafe Music ADM Channel - Happy Bossa Nova Morning",
-      "published_at": "2026-07-08T13:00:00Z",
-      "views": 3,
-      "url": "https://youtube.com/watch?v=nj3W19BdOuU",
-      "thumbnail": "https://i.ytimg.com/vi/nj3W19BdOuU/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "k7p234aH4wk",
       "title": "Cafe Music ADM Channel - Smooth Bossa Nova Coffee",
-      "scheduled_at": "2026-07-10T13:00:00Z",
-      "url": "https://youtube.com/watch?v=k7p234aH4wk"
+      "published_at": "2026-07-10T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=k7p234aH4wk",
+      "thumbnail": "https://i.ytimg.com/vi/k7p234aH4wk/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "b6jVoiD_qaQ",
+      "title": "Fun Bossa Nova Cafe - Upbeat Brazilian Jazz Mix for Morning Coffee and Energy",
+      "scheduled_at": "2026-07-13T13:00:00Z",
+      "url": "https://youtube.com/watch?v=b6jVoiD_qaQ"
     }
   },
   "expenses": {
-    "total": 80.0,
+    "total": 96.8,
     "rows": [
       {
         "name": "Claude Pro subscription",
@@ -78,17 +78,14 @@
       {
         "name": "KIE.ai credits (music + image generation)",
         "amount": 20.0
+      },
+      {
+        "name": "Google One 100GB storage (ADM Drive video archive)",
+        "amount": 16.8
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-07-10",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Cafe Music ADM Channel - Smooth Bossa Nova Coffee",
-      "id": "k7p234aH4wk"
-    },
     {
       "date": "2026-07-13",
       "type": "long",
@@ -151,6 +148,13 @@
       "style": "Fun Bossa",
       "title": "Cafe Music ADM Channel - Bossa Nova Brazil Mood",
       "id": "J8c4-kdUkP0"
+    },
+    {
+      "date": "2026-08-03",
+      "type": "long",
+      "style": "Soft Jazz Real Guitar",
+      "title": "Soft Jazz Guitar Cafe - Cozy Lounge Music for Evening Coffee and Relaxation",
+      "id": "o83nDOUGI3A"
     }
   ],
   "channel_intelligence": {
