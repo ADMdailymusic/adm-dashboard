@@ -1060,6 +1060,27 @@
 
   </div>
 
+  <!-- Social Media Intelligence -->
+  <div class="panel" style="margin-bottom:20px;">
+    <h2>🌐 Social Media Intelligence</h2>
+    <div id="si-updated" style="font-size:11px;color:#444;margin-bottom:14px">No report yet.</div>
+    <div style="display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px;">
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#a78bfa;letter-spacing:1px;margin-bottom:8px">STATE OF SOCIALS</div>
+        <div id="si-state" style="font-size:12px;color:#aaa;line-height:1.65">—</div>
+        <div id="si-followers" style="display:flex;gap:18px;margin-top:14px"></div>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#38bdf8;letter-spacing:1px;margin-bottom:8px">WHAT’S OUT</div>
+        <ul class="suggestion-list" id="si-out"><li style="color:#444">—</li></ul>
+      </div>
+      <div>
+        <div style="font-size:11px;font-weight:700;color:#f59e0b;letter-spacing:1px;margin-bottom:8px">DO NEXT</div>
+        <ul class="suggestion-list" id="si-sugg"><li style="color:#444">—</li></ul>
+      </div>
+    </div>
+  </div>
+
   <!-- Channel Intelligence -->
   <div class="panel" style="margin-bottom:20px;">
     <h2>🧠 Channel Intelligence</h2>
@@ -1246,6 +1267,7 @@
         populateSocialPanels(state);
         populateExpenses(state);
         populateIntelligence(state);
+        populateSocialIntel(state);
       })
       .catch(() => {
         document.getElementById('last-updated').textContent = 'State file not found — agents not yet run';
@@ -1584,6 +1606,27 @@
     }
     var sr = document.getElementById('ci-suno-rules');
     if (sr && ci.suno_rules) sr.textContent = ci.suno_rules;
+  }
+
+  function populateSocialIntel(state) {
+    var si = state.social_intelligence;
+    if (!si) return;
+    document.getElementById('si-updated').textContent = 'Updated: ' + (si.updated || '—');
+    document.getElementById('si-state').textContent = si.state_of_socials || '—';
+    function fill(id, items){var el=document.getElementById(id);if(!el||!items||!items.length)return;el.innerHTML='';items.forEach(function(s){var li=document.createElement('li');li.textContent=s;el.appendChild(li);});}
+    fill('si-out', si.whats_out);
+    fill('si-sugg', si.suggestions);
+    var fw = state.social_media && state.social_media.followers;
+    var box = document.getElementById('si-followers');
+    if (fw && box) { box.innerHTML='';
+      var colors = {youtube:'#f87171', instagram:'#a78bfa', tiktok:'#38bdf8'};
+      Object.keys(fw).forEach(function(k){
+        var d=document.createElement('div');
+        var v=document.createElement('div');v.style.cssText='font-size:20px;font-weight:700;color:'+(colors[k]||'#fff');v.textContent=fw[k];
+        var l=document.createElement('div');l.style.cssText='font-size:10px;color:#555;text-transform:capitalize';l.textContent=k+' followers';
+        d.appendChild(v);d.appendChild(l);box.appendChild(d);
+      });
+    }
   }
 
   // Auto-refresh every 30 seconds
