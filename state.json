@@ -29,12 +29,26 @@
     "videos_scheduled": 18
   },
   "social_media": {
-    "status": "idle",
-    "last_run": null,
-    "posts_instagram": 0,
-    "posts_tiktok": 0,
+    "status": "done",
+    "last_run": "2026-07-11T14:50:00Z",
+    "posts_instagram": 2,
+    "posts_tiktok": 2,
     "posts_facebook": 0,
-    "clips_ready": 0
+    "clips_ready": 0,
+    "posts_youtube_shorts": 2,
+    "latest_reel": {
+      "title": "Soft jazz to ease into the day (posted to YT + TikTok + IG)",
+      "posted_at": "2026-07-08T22:00:00Z"
+    },
+    "next_reel": {
+      "title": "Queue empty — refills when 1-min Shorts cuts render",
+      "scheduled_at": null
+    },
+    "followers": {
+      "instagram": 3,
+      "tiktok": 3,
+      "youtube": 4
+    }
   },
   "analytics": {
     "status": "done",
@@ -45,7 +59,7 @@
     "weekly_views": 32,
     "avg_ctr": 0,
     "revenue_usd": 0,
-    "top_video_title": "1 Hour Bossa Nova Study Music \u2013 Relaxing Jazz Caf\u00e9 for Focus",
+    "top_video_title": "1 Hour Bossa Nova Study Music – Relaxing Jazz Café for Focus",
     "top_video_views": 58,
     "last_result": "success",
     "total_videos": 6,
@@ -69,15 +83,15 @@
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -159,26 +173,41 @@
   ],
   "channel_intelligence": {
     "updated": "2026-07-07",
-    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37\u219232 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week \u2014 that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
+    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37→32 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week — that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
     "what_works": [
-      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts \u2014 a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
-      "SEARCH-INTENT TITLES: 'Study Music \u2026 for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' \u2014 mood-only titles don't get found.",
+      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts — a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
+      "SEARCH-INTENT TITLES: 'Study Music … for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' — mood-only titles don't get found.",
       "COMPOUNDING: the Jun 22 long is still accelerating in week 2 (+20). Long playlist videos age like assets, not posts.",
-      "Subscribers arrived (+3) the same week the study long compounded \u2014 search viewers convert."
+      "Subscribers arrived (+3) the same week the study long compounded — search viewers convert."
     ],
     "next_moves": [
       "Protect the Monday long. If anything gets extra effort (thumbnail, title, mix), it's that.",
       "Title every long with a search phrase: study, focus, work, relax, sleep, morning coffee.",
-      "Fun Bossa starts Jul 13 \u2014 first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
+      "Fun Bossa starts Jul 13 — first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
       "Consider swapping one weekly short for a second long once rendering capacity allows.",
       "Add the ADM Google account to Chrome to unlock CTR, impressions, watch time and traffic sources in this report."
     ],
     "suno_prompts": [
       "Slow bossa nova instrumental, warm nylon-string guitar, soft brushed drums, mellow Rhodes piano, no vocals, relaxed steady tempo, cozy cafe ambience for studying and deep work",
-      "Gentle Brazilian jazz trio \u2014 acoustic guitar, upright bass, light shaker \u2014 calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
+      "Gentle Brazilian jazz trio — acoustic guitar, upright bass, light shaker — calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
       "Upbeat bossa nova, bright acoustic guitar, playful flute melody, cheerful morning-coffee energy, medium tempo, instrumental, clean warm mix"
     ],
-    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' \u2014 this is background music; (2) keep energy CONSISTENT, no big dynamic swings \u2014 study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) \u2014 it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
+    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' — this is background music; (2) keep energy CONSISTENT, no big dynamic swings — study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) — it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
     "deep_analytics": null
+  },
+  "social_intelligence": {
+    "updated": "2026-07-11",
+    "state_of_socials": "Day 4 of automated posting. 6 reels published via Zernio (Jul 7-8, one per platform per day at 6pm ET). Followers: YouTube 4, Instagram 3, TikTok 3 — seed audience, too early for patterns. The pipeline works end to end; the problem is fuel: the clip queue is EMPTY, so posting paused after Jul 8. The nightly render Shorts phase (60+ one-minute cuts) refills it.",
+    "whats_out": [
+      "6 reels live: 2 on Instagram, 2 on TikTok, 2 on YouTube Shorts (Jul 7 + Jul 8, 6pm ET slots)",
+      "All reels point to the YouTube channel (link-in-bio funnel)",
+      "Posting cadence configured Mon-Thu 6pm ET via Zernio; TikTok is the paid Zernio slot ($6/mo)"
+    ],
+    "suggestions": [
+      "Refill the clip queue — the Shorts render phase is the single highest-impact social action. Until then, socials are dark.",
+      "When Shorts cuts land, extend posting to 7 days/week — 60+ clips supports months of daily posting on all 3 platforms.",
+      "Carry the mood+action title rule into captions: study, focus, morning coffee — same search intent works in social discovery.",
+      "Watch TikTok vs IG vs Shorts view counts once ~10 posts each are live; double down where retention is best (weekly report will score this)."
+    ]
   }
 }
