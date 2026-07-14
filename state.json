@@ -26,11 +26,11 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 17
+    "videos_scheduled": 37
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-13T13:27:53Z",
+    "last_run": "2026-07-14T12:36:00Z",
     "posts_instagram": 4,
     "posts_tiktok": 4,
     "posts_facebook": 0,
@@ -49,17 +49,17 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-13T09:27:59",
-    "total_views": 581,
+    "last_run": "2026-07-14T08:36:17",
+    "total_views": 615,
     "total_watch_hours": 0,
     "subscribers": 7,
-    "weekly_views": 32,
+    "weekly_views": 0,
     "avg_ctr": 0,
     "revenue_usd": 0,
-    "top_video_title": "1 Hour Bossa Nova Study Music \u2013 Relaxing Jazz Caf\u00e9 for Focus",
-    "top_video_views": 58,
+    "top_video_title": "2 Hour Bossa Nova Study Music - Relaxing Jazz Cafe for Focus",
+    "top_video_views": 60,
     "last_result": "success",
-    "total_videos": 6,
+    "total_videos": 9,
     "latest_video": {
       "id": "b6jVoiD_qaQ",
       "title": "Fun Bossa Nova Cafe - Upbeat Brazilian Jazz Mix for Morning Coffee and Energy",
@@ -169,42 +169,44 @@
     }
   ],
   "channel_intelligence": {
-    "updated": "2026-07-07",
-    "state_of_channel": "Day 14. 6 videos live, 70 lifetime views, 4 subscribers (+3 this week). Weekly views dipped 37\u219232 (-14%) but that's noise at this scale. The real story: growth is coming almost entirely from long-form. The first long (Study Music) gained +20 views in its SECOND week \u2014 that's YouTube search picking it up, the evergreen compounding this channel is built for. Deep metrics (CTR, watch time, traffic sources) unlock once the ADM account is added to Chrome.",
+    "updated": "2026-07-13",
+    "state_of_channel": "Day 21. 9 videos live, 118 lifetime views (+49 WoW), 7 subscribers (+3). Weekly views rose 32->49 (+53%) - the first real acceleration since launch. The engine is confirmed: the July 6 long 'Focus Music... Deep Work & Studying' pulled 30 views in its FIRST week - the best week-1 long yet, beating the Study long's 20. Longs now average 32 lifetime views vs 3.5 for shorts (9x). Today the first Fun Bossa long goes live - the first clean cross-style A/B. Deep metrics (CTR, watch time, traffic) still locked until the ADM Google account is added to Chrome.",
     "what_works": [
-      "LONG-FORM >> SHORTS: longs average ~30 lifetime views/video vs 2.5 for shorts \u2014 a 10x+ gap. Longs are the growth engine; shorts are currently decoration.",
-      "SEARCH-INTENT TITLES: 'Study Music \u2026 for Focus' long has 56 views vs 3 for the 'Rainy' long. People search 'bossa nova study music' \u2014 mood-only titles don't get found.",
-      "COMPOUNDING: the Jun 22 long is still accelerating in week 2 (+20). Long playlist videos age like assets, not posts.",
-      "Subscribers arrived (+3) the same week the study long compounded \u2014 search viewers convert."
+      "SEARCH-INTENT TITLES win, now proven across 3 longs: Focus/Deep-Work long = 30 wk1, Study long = 60 lifetime, but the mood-only 'Rainy' long = just 7. A 5-8x gap purely from title keywords.",
+      "LONG-FORM >> SHORTS: 3 longs = 97 lifetime views (32/video), 6 shorts = 21 (3.5/video). 9x gap, reconfirmed every week.",
+      "COMPOUNDING: the Jun 22 Study long is still climbing in week 4 (60 lifetime, +4 this week). Longs age like assets.",
+      "SUBS TRACK LONGS: +3 subs the same week the Focus long got picked up by search - long-form search viewers convert."
     ],
     "next_moves": [
-      "Protect the Monday long. If anything gets extra effort (thumbnail, title, mix), it's that.",
-      "Title every long with a search phrase: study, focus, work, relax, sleep, morning coffee.",
-      "Fun Bossa starts Jul 13 \u2014 first clean style A/B test. Compare its week-1 long views vs Soft Bossa longs (20 and 3).",
-      "Consider swapping one weekly short for a second long once rendering capacity allows.",
-      "Add the ADM Google account to Chrome to unlock CTR, impressions, watch time and traffic sources in this report."
+      "Audit every scheduled long's title for a search keyword (study/focus/work/relax/sleep/morning). Flag 'Cheerful Bossa Nova Brunch Vibes' (Jul 27) - mood-only, add 'for Work & Focus' before it publishes.",
+      "Watch the Fun Bossa long (b6jVoiD_qaQ, live today) week-1 views vs Focus (30) and Study (20). First style A/B - this decides how hard to push Fun Bossa.",
+      "Swap one weekly short for a 2nd long. Shorts underperform 9x and the render queue is stocked - capacity exists.",
+      "Protect the Monday long: best thumbnail, best title, best mix go there.",
+      "Add the ADM Google account to Chrome to unlock CTR, impressions, watch time and traffic sources."
     ],
     "suno_prompts": [
-      "Slow bossa nova instrumental, warm nylon-string guitar, soft brushed drums, mellow Rhodes piano, no vocals, relaxed steady tempo, cozy cafe ambience for studying and deep work",
-      "Gentle Brazilian jazz trio \u2014 acoustic guitar, upright bass, light shaker \u2014 calm and unintrusive, consistent energy, no vocals, background music for focus and reading",
-      "Upbeat bossa nova, bright acoustic guitar, playful flute melody, cheerful morning-coffee energy, medium tempo, instrumental, clean warm mix"
+      "Warm bossa nova instrumental for deep focus, nylon-string guitar, soft brushed drums, mellow Rhodes, upright bass, no vocals, steady unintrusive tempo, cozy study-cafe ambience for deep work",
+      "Calm Brazilian jazz trio for studying, acoustic guitar, upright bass, light shaker, gentle piano, no vocals, consistent low energy, background focus music for reading and long work sessions",
+      "Relaxing bossa nova lounge for a slow morning, bright nylon guitar, soft flute, brushed snare, no vocals, medium-mellow tempo, instrumental, warm cafe mix for morning coffee and easy focus"
     ],
-    "suno_rules": "Data-backed prompt rules so far: (1) always 'instrumental / no vocals' \u2014 this is background music; (2) keep energy CONSISTENT, no big dynamic swings \u2014 study listeners leave when a track spikes; (3) put the LISTENING CONTEXT in the prompt (studying, deep work, morning coffee) \u2014 it shapes arrangement toward what the search audience expects; (4) name 2-3 concrete instruments, not just a genre.",
+    "suno_rules": "Data-backed prompt rules: (1) always 'instrumental / no vocals' - background music; (2) keep energy CONSISTENT, no dynamic spikes - focus listeners leave when a track jumps; (3) bake the LISTENING CONTEXT into the prompt (deep work, studying, morning coffee) - it shapes arrangement toward what the search audience wants, and titles built on those same words (study/focus/deep work) are the single biggest view driver; (4) name 2-3 concrete instruments, not just a genre; (5) longs are the asset - engineer prompts for 1hr+ evergreen mixes, not short loops.",
     "deep_analytics": null
   },
   "social_intelligence": {
-    "updated": "2026-07-11",
-    "state_of_socials": "6 reels published via Zernio (Jul 7-8, one per platform per day at 6pm ET). Followers: YouTube 4, Instagram 3, TikTok 3 \u2014 seed audience, too early for patterns. Posting paused Jul 9-11 (scheduler issue on the Mac, fix in progress) despite 12 clips ready in the queue. New cadence from Jul 12: 2 clips/day (12pm + 6pm ET), 7 days/week; week the nightly reel factory adds up to 20 clips/night (~110 capacity).",
+    "updated": "2026-07-13",
+    "state_of_socials": "Followers still seed-stage: Instagram 3, TikTok 3, YouTube 7 (live channel count; Zernio reports 4, it lags). 13 posts went out in the trailing 7 days (YouTube 5, TikTok 4, Instagram 5) - up from 6 last week. Posting stalled Jul 9-11 but resumed Jul 12 on the new 2x/day cadence (12pm + 6pm ET). The clip queue is healthy: ~53 reels stocked and the nightly factory is running (fresh clips timestamped Jul 12-13). The single most important thing: supply and cadence are now both healthy - the bottleneck has shifted to whether any platform's views start separating, which needs more posts live before it shows.",
     "whats_out": [
-      "6 reels live: 2 on Instagram, 2 on TikTok, 2 on YouTube Shorts (Jul 7 + Jul 8, 6pm ET slots)",
-      "All reels point to the YouTube channel (link-in-bio funnel)",
-      "Posting cadence configured Mon-Thu 6pm ET via Zernio; TikTok account is the paid Zernio slot ($6/mo)"
+      "13 reels live in last 7d across IG (5), TikTok (4), YouTube Shorts (5) - all point to the YouTube channel (link-in-bio funnel)",
+      "New cadence confirmed working: 2 posts/day at 12pm + 6pm ET, 7 days/week via Zernio",
+      "Clip queue stocked (~53), nightly reel factory producing - no supply risk near-term",
+      "Zernio accounts all active (IG/TikTok/YouTube); TikTok is the paid slot"
     ],
     "suggestions": [
-      "Verify the Mac posting scheduler is loaded (launchctl) \u2014 clips were ready Jul 9-11 but nothing fired. Highest-impact fix.",
-      "When Shorts cuts land, extend posting to 7 days/week \u2014 60+ clips supports months of daily posting on all 3 platforms.",
-      "Carry the mood+action title rule into captions: 'study', 'focus', 'morning coffee' \u2014 same search intent works in social discovery.",
-      "Watch TikTok vs IG vs Shorts view counts once ~10 posts each are live; double down where retention is best (weekly report will score this)."
+      "Keep the 2x/day cadence running now that Jul 9-11 gap is fixed - consistency is the whole game at this follower size.",
+      "Carry the proven title rule into captions: lead with 'study', 'focus', 'deep work', 'morning coffee' - the same search intent that drives longs works in social discovery.",
+      "Once ~10+ posts are live per platform, score TikTok vs IG vs Shorts view retention and double down on the winner (next weekly report).",
+      "Every reel caption should name the full 1-hour long it's cut from and push the sub link - the reels exist to feed the channel, not to win on their own.",
+      "Fun Bossa clips are now entering the queue - tag clip filenames by style so the weekly report can A/B social performance the way we A/B the longs."
     ]
   }
 }
