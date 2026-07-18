@@ -26,33 +26,33 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 74
+    "videos_scheduled": 73
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-17T12:35:28Z",
-    "posts_instagram": 10,
-    "posts_tiktok": 10,
+    "last_run": "2026-07-18T12:37:07Z",
+    "posts_instagram": 12,
+    "posts_tiktok": 12,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 10,
+    "posts_youtube_shorts": 12,
     "latest_reel": {
-      "title": "Slow down for a minute \u2615 (youtube)",
-      "posted_at": "2026-07-16T22:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "posted_at": "2026-07-17T22:00:00.000Z"
     },
     "next_reel": null,
     "followers": {
       "instagram": 6,
-      "tiktok": 7,
-      "youtube": 8
+      "tiktok": 10,
+      "youtube": 9
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-17T08:35:36",
-    "total_views": 745,
+    "last_run": "2026-07-18T08:37:15",
+    "total_views": 793,
     "total_watch_hours": 0,
-    "subscribers": 8,
+    "subscribers": 9,
     "weekly_views": 0,
     "avg_ctr": 0,
     "revenue_usd": 0,
@@ -61,18 +61,18 @@
     "last_result": "success",
     "total_videos": 9,
     "latest_video": {
-      "id": "-JuFOfr5sjo",
-      "title": "Cafe Music ADM Channel - Happy Bossa Nova Morning",
-      "published_at": "2026-07-15T13:00:00Z",
-      "views": 4,
-      "url": "https://youtube.com/watch?v=-JuFOfr5sjo",
-      "thumbnail": "https://i.ytimg.com/vi/-JuFOfr5sjo/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "6W0ijL8Qj1w",
       "title": "Cafe Music ADM Channel - Upbeat Brazil Bossa Cafe",
-      "scheduled_at": "2026-07-17T13:00:00Z",
-      "url": "https://youtube.com/watch?v=6W0ijL8Qj1w"
+      "published_at": "2026-07-17T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=6W0ijL8Qj1w",
+      "thumbnail": "https://i.ytimg.com/vi/6W0ijL8Qj1w/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "aWf47wqW55Q",
+      "title": "Happy Bossa Nova Lounge - Cheerful Brazilian Jazz Cafe for Work and Focus",
+      "scheduled_at": "2026-07-20T13:00:00Z",
+      "url": "https://youtube.com/watch?v=aWf47wqW55Q"
     }
   },
   "expenses": {
@@ -97,13 +97,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-07-17",
-      "type": "short",
-      "style": "Fun Bossa",
-      "title": "Cafe Music ADM Channel - Upbeat Brazil Bossa Cafe",
-      "id": "6W0ijL8Qj1w"
-    },
     {
       "date": "2026-07-20",
       "type": "long",
@@ -166,6 +159,13 @@
       "style": "Soft Jazz Real Guitar",
       "title": "Cafe Music ADM Channel - Soft Jazz Guitar Lounge",
       "id": "TDoIKHHn-80"
+    },
+    {
+      "date": "2026-08-10",
+      "type": "long",
+      "style": "Soft Jazz Real Guitar",
+      "title": "Smooth Jazz Guitar Instrumental - Background Music for Work Study and Focus",
+      "id": "EMxDVSgeq6s"
     }
   ],
   "channel_intelligence": {
