@@ -30,34 +30,34 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-18T12:37:07Z",
-    "posts_instagram": 12,
-    "posts_tiktok": 12,
+    "last_run": "2026-07-19T12:34:10Z",
+    "posts_instagram": 14,
+    "posts_tiktok": 14,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 12,
+    "posts_youtube_shorts": 14,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-07-17T22:00:00.000Z"
+      "title": "A minute of calm for your day (youtube)",
+      "posted_at": "2026-07-18T22:00:00.000Z"
     },
     "next_reel": null,
     "followers": {
       "instagram": 6,
-      "tiktok": 10,
+      "tiktok": 12,
       "youtube": 9
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-18T08:37:15",
-    "total_views": 793,
+    "last_run": "2026-07-19T08:34:15",
+    "total_views": 847,
     "total_watch_hours": 0,
     "subscribers": 9,
     "weekly_views": 0,
     "avg_ctr": 0,
     "revenue_usd": 0,
     "top_video_title": "2 Hour Bossa Nova Study Music - Relaxing Jazz Cafe for Focus",
-    "top_video_views": 61,
+    "top_video_views": 62,
     "last_result": "success",
     "total_videos": 9,
     "latest_video": {
