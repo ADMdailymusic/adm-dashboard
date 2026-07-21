@@ -30,14 +30,14 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-21T09:05:00Z",
+    "last_run": "2026-07-21T15:21:39Z",
     "posts_instagram": 18,
     "posts_tiktok": 18,
     "posts_facebook": 0,
     "clips_ready": 0,
     "posts_youtube_shorts": 18,
     "latest_reel": {
-      "title": "Your cozy cafe moment \ud83c\udfa7 (instagram)",
+      "title": "Your cozy cafe moment 🎧 (instagram)",
       "posted_at": "2026-07-20T22:04:40.441Z"
     },
     "next_reel": null,
@@ -49,8 +49,8 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-21T08:34:57",
-    "total_views": 947,
+    "last_run": "2026-07-21T11:21:39",
+    "total_views": 949,
     "total_watch_hours": 0,
     "subscribers": 9,
     "weekly_views": 0,
@@ -80,15 +80,15 @@
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25.0
+        "amount": 25
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
