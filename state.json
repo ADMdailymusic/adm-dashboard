@@ -26,31 +26,34 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 71
+    "videos_scheduled": 69
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-23T12:34:39Z",
-    "posts_instagram": 16,
-    "posts_tiktok": 17,
+    "last_run": "2026-07-27T19:22:57Z",
+    "posts_instagram": 15,
+    "posts_tiktok": 16,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 17,
+    "posts_youtube_shorts": 16,
     "latest_reel": {
-      "title": "Study, work, or just breathe \ud83c\udf42 (tiktok)",
-      "posted_at": "2026-07-23T00:48:20.610Z"
+      "title": "Press play, let the cafe come to you (tiktok)",
+      "posted_at": "2026-07-27T19:12:38.053Z"
     },
-    "next_reel": null,
+    "next_reel": {
+      "title": "Your cozy cafe moment \ud83c\udfa7 (youtube)",
+      "scheduled_at": "2026-07-27T22:00:00.000Z"
+    },
     "followers": {
-      "instagram": 7,
-      "tiktok": 16,
-      "youtube": 9
+      "instagram": 9,
+      "tiktok": 20,
+      "youtube": 10
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-23T08:34:43",
-    "total_views": 969,
+    "last_run": "2026-07-27T15:22:57",
+    "total_views": 2798,
     "total_watch_hours": 0,
     "subscribers": 10,
     "weekly_views": 0,
@@ -61,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "GI11uVL4d_E",
-      "title": "Cafe Music ADM Channel - Fun Bossa Nova Coffee Break",
-      "published_at": "2026-07-22T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=GI11uVL4d_E",
-      "thumbnail": "https://i.ytimg.com/vi/GI11uVL4d_E/mqdefault.jpg"
+      "id": "T261Tb6IAMs",
+      "title": "Cheerful Bossa Nova Brunch Vibes - Sunny Brazilian Jazz for Weekend Cafe",
+      "published_at": "2026-07-27T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=T261Tb6IAMs",
+      "thumbnail": "https://i.ytimg.com/vi/T261Tb6IAMs/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "ZSLFVOsT6Ns",
-      "title": "Cafe Music ADM Channel - Sunny Bossa Nova Cafe",
-      "scheduled_at": "2026-07-24T13:00:00Z",
-      "url": "https://youtube.com/watch?v=ZSLFVOsT6Ns"
+      "id": "2yRsxGaudhc",
+      "title": "Cafe Music ADM Channel - Cheerful Bossa Nova Brunch",
+      "scheduled_at": "2026-07-29T13:00:00Z",
+      "url": "https://youtube.com/watch?v=2yRsxGaudhc"
     }
   },
   "expenses": {
@@ -97,20 +100,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-07-24",
-      "type": "short",
-      "style": "Fun Bossa",
-      "title": "Cafe Music ADM Channel - Sunny Bossa Nova Cafe",
-      "id": "ZSLFVOsT6Ns"
-    },
-    {
-      "date": "2026-07-27",
-      "type": "long",
-      "style": "Fun Bossa",
-      "title": "Cheerful Bossa Nova Brunch Vibes - Sunny Brazilian Jazz for Weekend Cafe",
-      "id": "T261Tb6IAMs"
-    },
     {
       "date": "2026-07-29",
       "type": "short",
@@ -166,6 +155,20 @@
       "style": "Soft Jazz Real Guitar",
       "title": "Cafe Music ADM Channel - Cozy Jazz Guitar Cafe",
       "id": "QVgmDxCdB7M"
+    },
+    {
+      "date": "2026-08-17",
+      "type": "long",
+      "style": "Soft Jazz Real Guitar",
+      "title": "Relaxing Jazz Guitar Lounge - Cozy Cafe Ambience for Reading and Quiet Moments",
+      "id": "J12VrJHTS44"
+    },
+    {
+      "date": "2026-08-19",
+      "type": "short",
+      "style": "Soft Jazz Real Guitar",
+      "title": "Cafe Music ADM Channel - Smooth Jazz Guitar Mood",
+      "id": "KzEToupfKjY"
     }
   ],
   "channel_intelligence": {
