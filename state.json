@@ -30,30 +30,27 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-27T19:22:57Z",
-    "posts_instagram": 15,
-    "posts_tiktok": 16,
+    "last_run": "2026-07-28T12:37:19Z",
+    "posts_instagram": 16,
+    "posts_tiktok": 17,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 16,
+    "posts_youtube_shorts": 17,
     "latest_reel": {
-      "title": "Press play, let the cafe come to you (tiktok)",
-      "posted_at": "2026-07-27T19:12:38.053Z"
-    },
-    "next_reel": {
       "title": "Your cozy cafe moment \ud83c\udfa7 (youtube)",
-      "scheduled_at": "2026-07-27T22:00:00.000Z"
+      "posted_at": "2026-07-27T22:00:00.000Z"
     },
+    "next_reel": null,
     "followers": {
-      "instagram": 9,
-      "tiktok": 20,
+      "instagram": 19,
+      "tiktok": 21,
       "youtube": 10
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-27T15:22:57",
-    "total_views": 2798,
+    "last_run": "2026-07-28T08:37:25",
+    "total_views": 2861,
     "total_watch_hours": 0,
     "subscribers": 10,
     "weekly_views": 0,
@@ -172,54 +169,37 @@
     }
   ],
   "channel_intelligence": {
-    "updated": "2026-07-20",
-    "state_of_channel": "Day 28. 9 subscribers (+2 WoW), ~895 lifetime views across the channel (+314 vs 7 days ago, +54%). The single most important thing this week: the automated social factory is now the channel's biggest raw-view engine - the two most-watched videos on the whole channel are reels, 'A minute of calm for your day' (274) and 'Press play, let the cafe come to you' (137), both dwarfing the best long (63). Meanwhile the long library keeps compounding: the July 6 Focus long climbed 30->43 (+13, best mover) in week 2. First cross-style A/B is in - the Fun Bossa long got only 12 in week 1 vs 20-30 for Soft Bossa search-longs, but its title was energy/mood not study/focus, so style-vs-title is still confounded. Deep metrics (CTR, watch time, traffic, search queries) remain locked until the ADM Google account is signed into Chrome Studio.",
+    "updated": "2026-07-27",
+    "state_of_channel": "Day 35. 10 subscribers (+1 WoW), ~2,798 lifetime views across the channel (895 -> 2,798, +213% vs the Jul 20 report). The single most important thing this week: the social reel factory had a genuine breakout. 'Bossa nova + coffee = perfect morning' hit 1,032 views - 3.7x the previous channel best (275) and ~20x the best pipeline long - and it drove nearly the entire channel jump. It is a rerun of an earlier morning-coffee caption, and 'A minute of calm for your day' independently repeated its win (275 then 214), so the pattern is now proven repeatable, not a fluke. Meanwhile longs keep doing the quiet work: Studio 28-day watch time climbed to 106.8 hours (+50% WoW), almost all of it from longs. Soft Bossa longs still lead the pipeline (avg 40.3 vs Fun Bossa 26.0), but the Fun long carrying Work&Focus keywords doubled the keyword-less Fun long (52 vs 25) - keywords lift every style. Deep metrics (CTR, impressions, traffic, search terms) remain locked: the Studio Reach/Content sub-tabs will not hydrate via deep-link for the third week running.",
     "what_works": [
-      "SHORTS ARE THE VOLUME ENGINE: channel #1 and #2 are reels at 274 and 137 views - 4.3x the best long (63). Casual emotional captions, zero search keywords. The social factory is out-viewing the entire long-form pipeline.",
-      "TWO DIFFERENT GAMES, PROVEN: longs win on SEARCH keywords (Study/Focus longs = 62/63, top of the library); shorts win on CASUAL emotional hooks ('A minute of calm...'). Search-keyword titles on shorts flop - pipeline song-shorts average just 6 views.",
-      "LONGS DRIVE SUBS + COMPOUND: +2 subs to 9 despite hundreds of Short views - Shorts move views, longs move subscribers. Focus long +13 this week (30->43) in week 2; longs age like assets.",
-      "FORMAT HIERARCHY: LONGS avg 32.8 (reliable floor) ~= SOCIAL SHORTS avg 34.6 (spiky, top 274) >> PIPELINE SONG-SHORTS avg 6.0. The Wed/Fri song-shorts are the weakest content type by 5x."
+      "REELS ARE THE GROWTH ENGINE, PROVEN AT SCALE: one reel hit 1,032 views this week ('Bossa nova + coffee = perfect morning'), 3.7x the prior best and ~20x the best long. Reels drove the entire 895 -> 2,798 channel jump.",
+      "THE WINNING CAPTION IS REPEATABLE: casual, feeling-first, morning/coffee/calm hooks. 'A minute of calm for your day' won twice (275, then 214 on rerun); the morning-coffee caption went from 58 to a 1,032 breakout. This is a template, not luck.",
+      "LONGS = WATCH TIME + SUBS: 106.8 watch hours (+50% WoW) comes almost entirely from longs (8-23 min avg view duration); reels hold ~11s. Subs ticked to 10. Neither format should be cut - reels for reach, longs for watch time and subscribers.",
+      "SEARCH KEYWORDS LIFT EVERY LONG: the Fun Bossa long with 'Work & Focus' in the title doubled the keyword-less Fun long (52 vs 25). Soft Bossa still leads longs overall (avg 40.3 vs Fun 26.0), but keyword titles help regardless of style."
     ],
     "next_moves": [
-      "Double down on the social Shorts factory - it is the real growth lever and it is already automated. Reverse-engineer the 274-view reel: casual benefit caption ('A minute of calm for your day'), no keyword stuffing. Standardize that caption voice across the reel batch.",
-      "Keep the Wed/Fri shorts running - per Uri, they exist for algorithm signal, upload consistency, and a full-looking channel, NOT for view volume. Just fix their titles: use casual/feeling captions like the reels, not search keywords (which underperform on short format).",
-      "Watch today's Fun Bossa long (aWf47wqW55Q, 'Happy Bossa... for Work and Focus') week-1 views vs the keyword-less Fun long's 12 - this is the clean style-vs-title rerun that decides how hard to push Fun Bossa.",
-      "Protect the Monday long: search-keyword title (Study/Focus/Work/Sleep), best thumbnail, best mix - it is the sub driver.",
-      "Sign the ADM Google account into Chrome Studio to unlock CTR, impressions, watch time and traffic sources - still the biggest blind spot after 4 weeks."
+      "Make the breakout caption a STANDARD template: mass-produce reels with morning + coffee and calm/breathe feeling captions ('Bossa nova + coffee = perfect morning', 'A minute of calm for your day'). This one format now owns the channel's top 4 videos - weight the reel batch toward it.",
+      "Protect the Monday long and keep it Soft Bossa with search-keyword titles (Study/Focus/Work/Sleep) - it is the watch-time and subscriber engine, and Soft still out-pulls Fun on longs.",
+      "Keep Work/Focus/Study keywords on EVERY long regardless of style - proven to ~2x view volume even on Fun Bossa.",
+      "Keep the Wed/Fri pipeline shorts running for algorithm signal and channel presence (not view volume, per Uri) but borrow the winning reel captions instead of search keywords.",
+      "Unlock the CTR/impressions/traffic blind spot: the Reach tab will not hydrate via deep-link - next session navigate Studio in-app by clicking (or screenshot-read the Reach/Content tabs) to finally capture CTR, impressions, traffic sources and top search terms."
     ],
     "suno_prompts": [
-      "Warm bossa nova instrumental for deep focus, nylon-string guitar, soft brushed drums, mellow Rhodes, upright bass, no vocals, steady unintrusive tempo, cozy study-cafe ambience for long deep-work sessions",
-      "Calm Brazilian jazz piano trio for studying, gentle acoustic piano, upright bass, light brushed snare, no vocals, consistent low energy, evergreen background focus music for reading and work",
-      "Relaxing bossa nova sleep lounge, soft nylon guitar, warm Rhodes, muted upright bass, no vocals, slow unintrusive tempo, instrumental late-night cafe mix for calm and deep rest"
+      "Warm morning bossa nova instrumental for coffee and a slow start, soft nylon-string guitar, gentle brushed drums, mellow Rhodes, upright bass, no vocals, relaxed unintrusive tempo, cozy sunlit-cafe mood for easing into the day",
+      "Calm Brazilian jazz piano trio for a minute of calm, gentle acoustic piano, upright bass, light brushed snare, no vocals, steady low energy, soothing evergreen background music for reading, breathing and focus",
+      "Relaxing bossa nova cafe for deep work and study, nylon guitar, warm Rhodes, muted upright bass, soft percussion, no vocals, consistent unintrusive tempo, long focus-session instrumental with a smooth coffee-shop ambience"
     ],
-    "suno_rules": "Data-backed prompt rules: (1) always 'instrumental / no vocals' - this is background music; (2) keep energy CONSISTENT, no dynamic spikes - focus/sleep listeners leave when a track jumps; (3) bake the LISTENING CONTEXT into the prompt (deep work, studying, sleep, morning coffee) - it shapes arrangement toward the search audience, and the top-viewed longs all carry those same words (Study/Focus/Sleep) in the title; (4) name 2-3 concrete instruments, not just a genre; (5) longs are the compounding asset - engineer for 1hr+ evergreen mixes with search-keyword titles; (6) NEW - the biggest raw-view driver is the social reel, and reels win on CASUAL emotional captions, not search keywords, so keep the two title systems separate: search titles on longs, feeling-first captions on shorts.",
+    "suno_rules": "Data-backed prompt rules: (1) always 'instrumental / no vocals' - this is background music; (2) keep energy CONSISTENT, no dynamic spikes - focus/sleep/calm listeners leave when a track jumps; (3) bake the LISTENING CONTEXT into the prompt (morning coffee, a minute of calm, deep work, studying, sleep) - it shapes the arrangement toward the audience, and both the winning reel captions AND the top longs carry those same context words; (4) name 2-3 concrete instruments, not just a genre; (5) longs are the compounding watch-time/sub asset - engineer 1hr+ evergreen mixes with Study/Focus/Work search-keyword titles (proven to ~2x views on any style); (6) reels are the raw-view engine and win on CASUAL feeling captions (morning/coffee/calm), NOT search keywords - keep the two title systems separate: search titles on longs, feeling captions on shorts; (7) NEW - the morning-coffee and 'minute of calm' hooks are now proven repeatable (1,032 breakout; caption won twice) - lead the reel batch with them.",
     "deep_analytics": {
-      "source": "YouTube Studio (ADM account signed into Chrome as of 2026-07-20)",
-      "period": "last 28 days (Jun 22 - Jul 19), ~= lifetime since launch",
-      "views_28d": 881,
-      "watch_hours_28d": 71.2,
+      "source": "YouTube Studio Overview (ADM account signed into Chrome as of 2026-07-27)",
+      "period": "last 28 days (Jun 29 - Jul 26, 2026)",
+      "views_28d": 2692,
+      "watch_hours_28d": 106.8,
       "subscribers_28d": "+9",
-      "realtime": "92 views / 48h, 9 subs",
-      "avg_view_duration": "Longs hold 8-23 min avg (Rainy Day long 23:31 = 30.3%, best; Focus long 16:12 = 20.9%; Study long 7:54 = 10.3%). Shorts hold ~11s.",
-      "key_read": "71.2 watch hours comes almost entirely from LONGS. Shorts = reach/views/algorithm signal (near-zero watch time); longs = watch time + subs. This is why both formats matter and neither should be cut.",
-      "still_pending": "CTR + impressions (Advanced mode) and traffic sources + top search terms (Reach tab did not hydrate this session - retry next week)"
+      "wow": "views and watch hours both >999% vs the previous (near-launch) 28-day window; watch hours 71.2 -> 106.8 (+50%) vs last week's report",
+      "avg_view_duration": "unavailable this week (Content tab did not hydrate); prior week longs held 8-23 min AVD (Rainy Day long 23:31 = 30.3%, best), reels ~11s",
+      "key_read": "Watch time (106.8 hrs) is almost all LONGS; reels (near-zero watch time) are reach/views/algorithm signal. This is why both formats matter and neither should be cut.",
+      "still_pending": "CTR, impressions, traffic sources, top search terms - Reach/Content sub-tabs will not hydrate via deep-link (3 weeks running). Capture via in-app click or screenshot next session."
     }
-  },
-  "social_intelligence": {
-    "updated": "2026-07-20",
-    "state_of_socials": "Followers: Instagram 7 (+4), TikTok 13 (+10), YouTube 9 (+2). TikTok is now the fastest-growing platform by followers - it more than quadrupled this week. Cadence is fully healthy: 36 posts went out in the trailing 7 days (12 each on YouTube, TikTok, Instagram), nearly triple last week's 13, and the 2x/day 7-day schedule is holding. The SSD clip queue is well stocked at 88 (up from ~53) with Fun Jazz Mix clips now in rotation - no supply risk. The single most important thing: the social reels are no longer just a funnel, they are the channel's biggest raw-view driver - one reel ('A minute of calm for your day') hit 274 views as a YouTube Short, 4.3x the best long. The caption voice that did it (casual, feeling-first, no keywords) is the pattern to systematize.",
-    "whats_out": [
-      "36 reels live in the last 7d across IG (12), TikTok (12), YouTube Shorts (12) - full 2x/day cadence, all pointing to the YouTube channel",
-      "The YouTube Shorts side of the funnel is outperforming everything: top reels at 274 and 137 views beat every long on the channel",
-      "TikTok followers surged 3->13 (+10) - fastest grower; IG 3->7 (+4); YouTube 7->9 (+2)",
-      "Clip queue stocked at 88 on the SSD, Fun Jazz Mix clips entering rotation - supply is ahead of the posting cadence"
-    ],
-    "suggestions": [
-      "Systematize the winning reel caption voice: casual, feeling-first, benefit-led ('A minute of calm for your day', 'Press play, let the cafe come to you') - NOT search keywords. This is the opposite of the long-form title rule and it is what drove the 274-view Short.",
-      "Double down on TikTok - it is growing followers fastest (3->13). Once ~10 posts have run on each platform with view data, formally score TikTok vs IG vs Shorts retention and shift weight to the winner.",
-      "Keep the Wed/Fri YouTube shorts running (they serve algorithm signal + channel presence, not view volume) but borrow the reel caption voice for them - casual/feeling, not search keywords.",
-      "Keep every reel caption pushing the channel/sub link - reels are now both a view driver in their own right AND the top-of-funnel for longs.",
-      "Tag clip filenames by style (Fun Bossa / Fun Jazz / Soft Bossa) so next week can A/B which style's reels travel furthest on social."
-    ]
   }
 }
