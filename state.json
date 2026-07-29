@@ -26,21 +26,24 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 69
+    "videos_scheduled": 68
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-07-29T12:36:30Z",
+    "last_run": "2026-07-29T15:09:31Z",
     "posts_instagram": 31,
     "posts_tiktok": 31,
     "posts_facebook": 0,
-    "clips_ready": 71,
+    "clips_ready": 69,
     "posts_youtube_shorts": 31,
     "latest_reel": {
       "title": "A minute of calm for your day (youtube)",
       "posted_at": "2026-07-28T22:00:00.000Z"
     },
-    "next_reel": null,
+    "next_reel": {
+      "title": "A minute of calm for your day (instagram+tiktok+youtube)",
+      "scheduled_at": "2026-07-29T16:00:00.000Z"
+    },
     "followers": {
       "instagram": 20,
       "tiktok": 21,
@@ -49,7 +52,7 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-07-29T08:36:33",
+    "last_run": "2026-07-29T11:09:31",
     "total_views": 2936,
     "total_watch_hours": 0,
     "subscribers": 10,
@@ -61,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "T261Tb6IAMs",
-      "title": "Cheerful Bossa Nova Brunch Vibes - Sunny Brazilian Jazz for Weekend Cafe",
-      "published_at": "2026-07-27T13:00:00Z",
-      "views": 2,
-      "url": "https://youtube.com/watch?v=T261Tb6IAMs",
-      "thumbnail": "https://i.ytimg.com/vi/T261Tb6IAMs/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "2yRsxGaudhc",
       "title": "Cafe Music ADM Channel - Cheerful Bossa Nova Brunch",
-      "scheduled_at": "2026-07-29T13:00:00Z",
-      "url": "https://youtube.com/watch?v=2yRsxGaudhc"
+      "published_at": "2026-07-29T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=2yRsxGaudhc",
+      "thumbnail": "https://i.ytimg.com/vi/2yRsxGaudhc/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "J8c4-kdUkP0",
+      "title": "Cafe Music ADM Channel - Bossa Nova Brazil Mood",
+      "scheduled_at": "2026-07-31T13:00:00Z",
+      "url": "https://youtube.com/watch?v=J8c4-kdUkP0"
     }
   },
   "expenses": {
@@ -80,15 +83,15 @@
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25.0
+        "amount": 25
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -97,13 +100,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-07-29",
-      "type": "short",
-      "style": "Fun Bossa",
-      "title": "Cafe Music ADM Channel - Cheerful Bossa Nova Brunch",
-      "id": "2yRsxGaudhc"
-    },
     {
       "date": "2026-07-31",
       "type": "short",
@@ -166,6 +162,13 @@
       "style": "Soft Jazz Real Guitar",
       "title": "Cafe Music ADM Channel - Smooth Jazz Guitar Mood",
       "id": "KzEToupfKjY"
+    },
+    {
+      "date": "2026-08-21",
+      "type": "short",
+      "style": "Soft Jazz Real Guitar",
+      "title": "Cafe Music ADM Channel - Soft Jazz Guitar Coffee",
+      "id": "hHX2CkFx8Ag"
     }
   ],
   "channel_intelligence": {
