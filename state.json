@@ -26,31 +26,31 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 67
+    "videos_scheduled": 66
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-03T12:33:00Z",
-    "posts_instagram": 41,
-    "posts_tiktok": 41,
+    "last_run": "2026-08-04T12:31:30.617761Z",
+    "posts_instagram": 43,
+    "posts_tiktok": 43,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 41,
+    "posts_youtube_shorts": 43,
     "latest_reel": {
-      "title": "Slow down for a minute \u2615 (youtube)",
-      "posted_at": "2026-08-02T13:15:13.326Z"
+      "title": "Pour the coffee, press play ☕ (tiktok)",
+      "posted_at": "2026-08-03T22:03:03.802Z"
     },
     "next_reel": null,
     "followers": {
       "instagram": 27,
-      "tiktok": 32,
+      "tiktok": 35,
       "youtube": 11
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-03T08:33:03",
-    "total_views": 3834,
+    "last_run": "2026-08-04T08:32:52",
+    "total_views": 3871,
     "total_watch_hours": 0,
     "subscribers": 11,
     "weekly_views": 0,
@@ -59,20 +59,20 @@
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1031,
     "last_result": "success",
-    "total_videos": 129,
+    "total_videos": 131,
     "latest_video": {
-      "id": "J8c4-kdUkP0",
-      "title": "Cafe Music ADM Channel - Bossa Nova Brazil Mood",
-      "published_at": "2026-07-31T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=J8c4-kdUkP0",
-      "thumbnail": "https://i.ytimg.com/vi/J8c4-kdUkP0/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "o83nDOUGI3A",
       "title": "Soft Jazz Guitar Cafe - Cozy Lounge Music for Evening Coffee and Relaxation",
-      "scheduled_at": "2026-08-03T13:00:00Z",
-      "url": "https://youtube.com/watch?v=o83nDOUGI3A"
+      "published_at": "2026-08-03T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=o83nDOUGI3A",
+      "thumbnail": "https://i.ytimg.com/vi/o83nDOUGI3A/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "_0gVkT1WZ1c",
+      "title": "Cafe Music ADM Channel - Smooth Jazz Guitar Cafe",
+      "scheduled_at": "2026-08-05T13:00:00Z",
+      "url": "https://youtube.com/watch?v=_0gVkT1WZ1c"
     },
     "watch_hours_28d": 125.7,
     "public_videos": 61,
@@ -83,15 +83,15 @@
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25.0
+        "amount": 25
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -100,13 +100,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-08-03",
-      "type": "long",
-      "style": "Soft Jazz Real Guitar",
-      "title": "Soft Jazz Guitar Cafe - Cozy Lounge Music for Evening Coffee and Relaxation",
-      "id": "o83nDOUGI3A"
-    },
     {
       "date": "2026-08-05",
       "type": "short",
@@ -167,8 +160,15 @@
       "date": "2026-08-24",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
+      "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
       "id": "JFYmD3GT-5s"
+    },
+    {
+      "date": "2026-08-26",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Back to School Study Music – Cozy Bossa Nova for Homework",
+      "id": "jZKLbcssJQM"
     }
   ],
   "channel_intelligence": {
@@ -209,7 +209,7 @@
           "source": "Shorts feed",
           "views": 3069,
           "views_pct": "81.5%",
-          "watch_hours": 2.0,
+          "watch_hours": 2,
           "watch_pct": "1.6%",
           "avd": "0:12"
         },
