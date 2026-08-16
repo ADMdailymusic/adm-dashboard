@@ -220,7 +220,7 @@
       "date": "2026-08-10",
       "subscribers": 12,
       "total_views": 4572,
-      "total_videos": 0
+      "total_videos": 143
     },
     {
       "date": "2026-08-12",
@@ -230,6 +230,12 @@
     },
     {
       "date": "2026-08-14",
+      "subscribers": 13,
+      "total_views": 4729,
+      "total_videos": 145
+    },
+    {
+      "date": "2026-08-15",
       "subscribers": 13,
       "total_views": 4729,
       "total_videos": 145
