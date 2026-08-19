@@ -30,41 +30,44 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-14T12:35:00Z",
-    "posts_instagram": 57,
-    "posts_tiktok": 57,
+    "last_run": "2026-08-19T12:35:00+00:00",
+    "posts_instagram": 71,
+    "posts_tiktok": 70,
     "posts_facebook": 0,
-    "clips_ready": 0,
-    "posts_youtube_shorts": 57,
+    "clips_ready": 41,
+    "posts_youtube_shorts": 71,
     "latest_reel": {
-      "title": "Slow morning, warm coffee, soft bossa nova (instagram, tiktok, youtube)",
-      "posted_at": "2026-08-10T16:00:00.000Z"
+      "title": "Bossa nova + coffee = perfect morning (youtube)",
+      "posted_at": "2026-08-18T16:00:00.000Z"
     },
-    "next_reel": null,
+    "next_reel": {
+      "title": "Bossa nova + coffee = perfect morning (youtube)",
+      "scheduled_at": "2026-08-19T13:00:00.000Z"
+    },
     "followers": {
-      "instagram": 33,
-      "tiktok": 40,
-      "youtube": 13
+      "instagram": 36,
+      "tiktok": 46,
+      "youtube": 15
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-15T08:35:54",
-    "total_views": 4729,
+    "last_run": "2026-08-19T08:35:45",
+    "total_views": 4967,
     "total_watch_hours": 131.2,
-    "subscribers": 13,
-    "weekly_views": 4002,
+    "subscribers": 15,
+    "weekly_views": 395,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1034,
     "last_result": "success",
-    "total_videos": 145,
+    "total_videos": 159,
     "latest_video": {
       "id": "QVgmDxCdB7M",
       "title": "Cafe Music ADM Channel - Cozy Jazz Guitar Cafe",
       "published_at": "2026-08-14T13:00:00Z",
-      "views": 0,
+      "views": 3,
       "url": "https://youtube.com/watch?v=QVgmDxCdB7M",
       "thumbnail": "https://i.ytimg.com/vi/QVgmDxCdB7M/mqdefault.jpg"
     },
@@ -78,22 +81,22 @@
     "public_videos": 82,
     "top_video_id": "DFQZEtVBNHs",
     "public_video_count": 82,
-    "patch_note": "total_videos/top_video/weekly_views patched manually (update_dashboard.py weekly-report key mismatch); weekly_views = views_28d_studio from 2026-08-10 report"
+    "patch_note": "total_videos/top_video/weekly_views patched manually - update_dashboard.py reads renamed weekly-report keys (known bug)"
   },
   "expenses": {
     "total": 121.8,
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25.0
+        "amount": 25
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -127,49 +130,49 @@
       "date": "2026-08-24",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
+      "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
       "id": "JFYmD3GT-5s"
     },
     {
       "date": "2026-08-26",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Back to School Study Music \u2013 Cozy Bossa Nova for Homework",
+      "title": "Back to School Study Music – Cozy Bossa Nova for Homework",
       "id": "jZKLbcssJQM"
     },
     {
       "date": "2026-08-27",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Study Music for Deep Focus \u2013 Bossa Nova Jazz for Homework & Concentration",
+      "title": "Study Music for Deep Focus – Bossa Nova Jazz for Homework & Concentration",
       "id": "ExoL5MYXqR0"
     },
     {
       "date": "2026-08-28",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Quiet Study Session \u2013 Soft Bossa Nova for Reading & Homework",
+      "title": "Quiet Study Session – Soft Bossa Nova for Reading & Homework",
       "id": "7r7g794jNVw"
     },
     {
       "date": "2026-08-31",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
+      "title": "Late Night Study Music – Cozy Bossa Nova Cafe for Homework & Unwinding",
       "id": "rbSxYGlI4ak"
     },
     {
       "date": "2026-09-02",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
+      "title": "Morning Study Music – Upbeat Bossa Nova to Start Your School Day",
       "id": "Le2w6TIP-wk"
     },
     {
       "date": "2026-09-03",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
+      "title": "4K Rainy Coffee Shop Study Music – Smooth Bossa Nova Jazz for Homework",
       "id": "-em-PT4KElI"
     }
   ],
