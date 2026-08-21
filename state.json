@@ -26,62 +26,63 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 61
+    "videos_scheduled": 59
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-19T12:35:00+00:00",
-    "posts_instagram": 71,
-    "posts_tiktok": 70,
+    "last_run": "2026-08-21T13:05:00Z",
+    "posts_instagram": 84,
+    "posts_tiktok": 83,
     "posts_facebook": 0,
-    "clips_ready": 41,
-    "posts_youtube_shorts": 71,
+    "clips_ready": 37,
+    "posts_youtube_shorts": 84,
     "latest_reel": {
-      "title": "Bossa nova + coffee = perfect morning (youtube)",
-      "posted_at": "2026-08-18T16:00:00.000Z"
+      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
+      "posted_at": "2026-08-20T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Bossa nova + coffee = perfect morning (youtube)",
-      "scheduled_at": "2026-08-19T13:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "scheduled_at": "2026-08-21T13:00:00.000Z"
     },
     "followers": {
-      "instagram": 36,
-      "tiktok": 46,
-      "youtube": 15
+      "instagram": 39,
+      "tiktok": 49,
+      "youtube": 16
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-19T08:35:45",
-    "total_views": 4967,
+    "last_run": "2026-08-21T08:34:56",
+    "total_views": 5072,
     "total_watch_hours": 131.2,
-    "subscribers": 15,
-    "weekly_views": 395,
+    "subscribers": 16,
+    "weekly_views": 343,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": "Bossa nova + coffee = perfect morning",
-    "top_video_views": 1034,
+    "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 159,
+    "total_videos": 172,
     "latest_video": {
-      "id": "QVgmDxCdB7M",
-      "title": "Cafe Music ADM Channel - Cozy Jazz Guitar Cafe",
-      "published_at": "2026-08-14T13:00:00Z",
-      "views": 3,
-      "url": "https://youtube.com/watch?v=QVgmDxCdB7M",
-      "thumbnail": "https://i.ytimg.com/vi/QVgmDxCdB7M/mqdefault.jpg"
+      "id": "KzEToupfKjY",
+      "title": "Cafe Music ADM Channel - Smooth Jazz Guitar Mood",
+      "published_at": "2026-08-19T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=KzEToupfKjY",
+      "thumbnail": "https://i.ytimg.com/vi/KzEToupfKjY/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "J12VrJHTS44",
-      "title": "Relaxing Jazz Guitar Lounge - Cozy Cafe Ambience for Reading and Quiet Moments",
-      "scheduled_at": "2026-08-17T13:00:00Z",
-      "url": "https://youtube.com/watch?v=J12VrJHTS44"
+      "id": "hHX2CkFx8Ag",
+      "title": "Cafe Music ADM Channel - Soft Jazz Guitar Coffee",
+      "scheduled_at": "2026-08-21T13:00:00Z",
+      "url": "https://youtube.com/watch?v=hHX2CkFx8Ag"
     },
     "watch_hours_28d": 131.2,
     "public_videos": 82,
     "top_video_id": "DFQZEtVBNHs",
     "public_video_count": 82,
-    "patch_note": "total_videos/top_video/weekly_views patched manually - update_dashboard.py reads renamed weekly-report keys (known bug)"
+    "patch_note": "total_videos/top_video/weekly_views patched manually - update_dashboard.py reads renamed weekly-report keys (known bug). View ids unioned with prior live_views.json because the uploads playlist drops ~11 Shorts.",
+    "data_note": "2026-08-21 daily refresh. Views from YouTube Data API v3 via Chrome (172 ids, sum 5072 vs channel stat 5032). Social from Zernio API."
   },
   "expenses": {
     "total": 121.8,
