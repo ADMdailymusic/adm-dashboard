@@ -241,6 +241,12 @@
       "total_videos": 145
     },
     {
+      "date": "2026-08-17",
+      "subscribers": 14,
+      "total_views": 4756,
+      "total_videos": 145
+    },
+    {
       "date": "2026-08-19",
       "subscribers": 15,
       "total_views": 4967,
@@ -251,6 +257,12 @@
       "subscribers": 16,
       "total_views": 5072,
       "total_videos": 172
+    },
+    {
+      "date": "2026-08-22",
+      "subscribers": 16,
+      "total_views": 5115,
+      "total_videos": 174
     }
   ]
 }
