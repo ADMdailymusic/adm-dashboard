@@ -54,7 +54,7 @@
     "status": "done",
     "last_run": "2026-08-22T08:35:05",
     "total_views": 5115,
-    "total_watch_hours": 131.2,
+    "total_watch_hours": 154.3,
     "subscribers": 16,
     "weekly_views": 386,
     "avg_ctr": 2.3,
@@ -77,12 +77,15 @@
       "scheduled_at": "2026-08-24T13:00:00Z",
       "url": "https://youtube.com/watch?v=JFYmD3GT-5s"
     },
-    "watch_hours_28d": 131.2,
+    "watch_hours_28d": 43.6,
     "public_videos": 115,
     "top_video_id": "DFQZEtVBNHs",
     "public_video_count": 115,
     "patch_note": "total_videos/top_video/weekly_views patched manually - update_dashboard.py reads renamed weekly-report keys (known bug). public counts refreshed from live_views (Data API, was stale at 82).",
-    "data_note": "2026-08-22 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (174 videos, 115 public). weekly_views = 5115 - 4729 (2026-08-15 snapshot). avg_ctr/watch_hours carried over - Studio Analytics API still blocked."
+    "data_note": "2026-08-22 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (174 videos, 115 public). weekly_views = 5115 - 4729 (2026-08-15 snapshot). WATCH HOURS NOW LIVE: Analytics API unblocked 2026-08-23 (API enabled + token_analytics.json created). Lifetime 154.3h, 28d 43.6h - previous 131.2 was a stale carry-over. avg_ctr 2.3 is STILL STALE: impressions/CTR do not exist in the public Analytics API (Studio-only).",
+    "avg_view_duration_sec": 415,
+    "subscribers_gained_lifetime": 17,
+    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-23"
   },
   "expenses": {
     "total": 121.8,
