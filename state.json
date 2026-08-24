@@ -30,77 +30,77 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-23T12:35:00Z",
-    "posts_instagram": 88,
-    "posts_tiktok": 87,
+    "last_run": "2026-08-24T12:35:45Z",
+    "posts_instagram": 89,
+    "posts_tiktok": 89,
     "posts_facebook": 0,
-    "clips_ready": 33,
-    "posts_youtube_shorts": 88,
+    "clips_ready": 31,
+    "posts_youtube_shorts": 90,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-08-22T16:00:00.000Z"
+      "title": "A minute of calm for your day (youtube)",
+      "posted_at": "2026-08-23T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
-      "scheduled_at": "2026-08-23T13:00:00.000Z"
+      "title": "Bossa nova + coffee = perfect morning (youtube)",
+      "scheduled_at": "2026-08-24T13:00:00.000Z"
     },
     "followers": {
       "instagram": 39,
-      "tiktok": 50,
-      "youtube": 16
+      "tiktok": 51,
+      "youtube": 17
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-23T08:35:03",
-    "total_views": 5164,
-    "total_watch_hours": 154.3,
-    "subscribers": 16,
-    "weekly_views": 435,
+    "last_run": "2026-08-24T08:35:53",
+    "total_views": 5228,
+    "total_watch_hours": 154.5,
+    "subscribers": 17,
+    "weekly_views": 351,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 176,
+    "total_videos": 178,
     "latest_video": {
-      "id": "hHX2CkFx8Ag",
-      "title": "Cafe Music ADM Channel - Soft Jazz Guitar Coffee",
-      "published_at": "2026-08-21T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=hHX2CkFx8Ag",
-      "thumbnail": "https://i.ytimg.com/vi/hHX2CkFx8Ag/mqdefault.jpg"
+      "id": "8rZNs8FeqEE",
+      "title": "A minute of calm for your day",
+      "published_at": "2026-08-23T16:00:30Z",
+      "views": 6,
+      "url": "https://youtube.com/watch?v=8rZNs8FeqEE",
+      "thumbnail": "https://i.ytimg.com/vi/8rZNs8FeqEE/mqdefault.jpg"
     },
     "next_scheduled": {
       "id": "JFYmD3GT-5s",
-      "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
+      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
       "scheduled_at": "2026-08-24T13:00:00Z",
       "url": "https://youtube.com/watch?v=JFYmD3GT-5s"
     },
-    "watch_hours_28d": 43.6,
-    "public_videos": 115,
+    "watch_hours_28d": 43.2,
+    "public_videos": 119,
     "top_video_id": "DFQZEtVBNHs",
-    "public_video_count": 115,
-    "patch_note": "total_videos/top_video/weekly_views patched manually - update_dashboard.py reads renamed weekly-report keys (known bug). public counts refreshed from live_views (Data API, was stale at 82).",
-    "data_note": "2026-08-22 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (174 videos, 115 public). weekly_views = 5115 - 4729 (2026-08-15 snapshot). WATCH HOURS NOW LIVE: Analytics API unblocked 2026-08-23 (API enabled + token_analytics.json created). Lifetime 154.3h, 28d 43.6h - previous 131.2 was a stale carry-over. avg_ctr 2.3 is STILL STALE: impressions/CTR do not exist in the public Analytics API (Studio-only).",
-    "avg_view_duration_sec": 415,
+    "public_video_count": 119,
+    "patch_note": "total_videos/top_video/latest_video/public counts patched manually - update_dashboard.py reads renamed weekly-report keys and this week's report has no published_videos array (known bug).",
+    "data_note": "2026-08-24 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (178 ids tracked, 119 public). weekly_views 351 = views_7d from weekly_reports/2026-08-24.json. Watch hours live from Analytics API: lifetime 154.5h (9,268 min), 28d 43.2h (2,594 min, Jul 27-Aug 23), AVD 292s. avg_ctr 2.3 is STILL STALE: impressions/CTR are Studio-only and cannot be automated.",
+    "avg_view_duration_sec": 292,
     "subscribers_gained_lifetime": 17,
-    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-23"
+    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-24"
   },
   "expenses": {
     "total": 121.8,
     "rows": [
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25
+        "amount": 25.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -110,220 +110,200 @@
   },
   "upcoming_releases": [
     {
-      "date": "2026-08-17",
-      "type": "long",
-      "style": "Soft Jazz Real Guitar",
-      "title": "Relaxing Jazz Guitar Lounge - Cozy Cafe Ambience for Reading and Quiet Moments",
-      "id": "J12VrJHTS44"
-    },
-    {
-      "date": "2026-08-19",
-      "type": "short",
-      "style": "Soft Jazz Real Guitar",
-      "title": "Cafe Music ADM Channel - Smooth Jazz Guitar Mood",
-      "id": "KzEToupfKjY"
-    },
-    {
-      "date": "2026-08-21",
-      "type": "short",
-      "style": "Soft Jazz Real Guitar",
-      "title": "Cafe Music ADM Channel - Soft Jazz Guitar Coffee",
-      "id": "hHX2CkFx8Ag"
-    },
-    {
       "date": "2026-08-24",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
+      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
       "id": "JFYmD3GT-5s"
     },
     {
       "date": "2026-08-26",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Back to School Study Music – Cozy Bossa Nova for Homework",
+      "title": "Back to School Study Music \u2013 Cozy Bossa Nova for Homework",
       "id": "jZKLbcssJQM"
     },
     {
       "date": "2026-08-27",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Study Music for Deep Focus – Bossa Nova Jazz for Homework & Concentration",
+      "title": "Study Music for Deep Focus \u2013 Bossa Nova Jazz for Homework & Concentration",
       "id": "ExoL5MYXqR0"
     },
     {
       "date": "2026-08-28",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Quiet Study Session – Soft Bossa Nova for Reading & Homework",
+      "title": "Quiet Study Session \u2013 Soft Bossa Nova for Reading & Homework",
       "id": "7r7g794jNVw"
     },
     {
       "date": "2026-08-31",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Late Night Study Music – Cozy Bossa Nova Cafe for Homework & Unwinding",
+      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
       "id": "rbSxYGlI4ak"
     },
     {
       "date": "2026-09-02",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Morning Study Music – Upbeat Bossa Nova to Start Your School Day",
+      "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
       "id": "Le2w6TIP-wk"
     },
     {
       "date": "2026-09-03",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "4K Rainy Coffee Shop Study Music – Smooth Bossa Nova Jazz for Homework",
+      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
       "id": "-em-PT4KElI"
+    },
+    {
+      "date": "2026-09-04",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
+      "id": "-Nz-2RWJJ_8"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "long",
+      "style": "Soft Bossa",
+      "title": "Morning Study Music \u2013 Happy Bossa Nova Coffee Shop Jazz for School & Work",
+      "id": "gVTXzKKqDCQ"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Coffee Shop Study Music \u2013 Bossa Nova for Focus & Homework",
+      "id": "2j-PllwHlj4"
     }
   ],
   "channel_intelligence": {
-    "updated": "2026-08-10",
-    "state_of_channel": "Day 49. 12 subscribers (+1), 78 public videos (+17), 4,567 lifetime views (3,829 -> 4,567, +19%). Studio 28-day: 4,002 views (+6.2%), 131.2 watch hours (+4.4%), 18,532 impressions (+23.8%) at 2.3% CTR (down from 2.8%). The single most important thing this week: the CTR drop is not a thumbnail problem, it is a search problem. YouTube served 7,960 search impressions this period, up 74% from 4,586, and converted 0.8% of them into 198 views. Search is now 43% of every impression the channel receives and returns 4.9% of views and 5.2% of watch time. Meanwhile SUGGESTED VIDEOS again carried 77.3% of all watch time (101.4 of 131.2 hours) from 10.6% of views at 14:21 AVD and 3.4% CTR. Worse for the search thesis: 'bossa nova', last week's best query, has fallen out of the top query list entirely, replaced by 'cozy asmr' (5 views), and for the second straight week not one Study/Focus/Work/Sleep term appears. A new style launched Aug 3 - Soft Jazz Guitar, 1:50:25 - and posted the best first week of any long the channel has released (20 views, 5.1 watch hours) on a below-average 2.3% CTR. Pinterest analytics rendered for the first time in five weeks and reported zero: no impressions, no clicks, no saves, 'Not enough data to display'.",
+    "updated": "2026-08-24",
+    "state_of_channel": "63 days in: 119 videos, 5,177 lifetime views, 17 subscribers (+3), 153.6 lifetime watch hours. The Aug 17 launchd fix held - 76 social posts went out this week against 0 last week, and views ran 351 vs 202 (+73.8%) on only 5 days of reported data versus a full 7. TikTok gained +11 to 51 after a week frozen at 40, the largest weekly follower gain the account has posted. This is also the first fully-instrumented week since Aug 3: token_analytics.json now authenticates cleanly, so watch time, average view duration, traffic sources and search queries are all live. CTR and impressions are permanently API-inaccessible - YouTube confirmed 'Unknown identifier (impressions)' - and are Studio-only, so stop budgeting time to chase them via API. The single most important thing on the board is not the recovery, it is the YPP math: 153.6 of 4,000 watch hours with 160 days left needs ~168 watch hours a week and the channel is producing 3.5. Longs already carry 89.8% of all watch time on 15% of the uploads, so long-form volume and length is the only lever with the right order of magnitude.",
     "what_works": [
-      "SUGGESTED VIDEOS IS STILL THE ENTIRE BUSINESS: 425 views (10.6%) produced 101.4 watch hours (77.3% of the channel) at 14:21 AVD and 3.4% CTR. Search produced 7,960 impressions, 0.8% CTR, 198 views, 6.8 hours. Second consecutive week the split has held at roughly this ratio, so this is now an established fact about the channel, not a one-week reading.",
-      "FUN BOSSA LONGS BEAT SOFT BOSSA ON WATCH TIME, CONFIRMED AT n=3: Fun longs average 13.67 watch hours per video at 4.61% impression-weighted CTR; Soft longs average 7.36 hours at 3.49%. That is 1.86x - down from last week's 2.3x now that the third Fun long is in the sample, but the direction survived adding a weak data point, which is the test that matters. 'Happy Bossa Nova Lounge' is the channel's #1 watch-time video for the second week (30.1 hrs, 23% of everything, from 82 views). Runtime is still a confound: all Fun longs run 1:39:06 vs Soft's 1:17:43.",
-      "'A MINUTE OF CALM FOR YOUR DAY' IS THE BEST-PROVEN ASSET ON THE REEL SIDE: n=5, avg 187.8 views, max 277 of 939 total - no outlier propping it up - and it holds three of the four highest reel retention scores on the channel (30.9%, 34.1%, 18.2%). It overtook 'Bossa nova + coffee = perfect morning', which shows a higher raw average (197.9) only because 1,034 of its 1,385 views are one Jul 24 post; strip that and it averages 58.5 across the other six and ranks fourth.",
-      "THE NOON SLOT EDGE WIDENED AND IS NOW THE CLEANEST FINDING IN THE REPORT: 16:00Z averages 112.3 views across 26 reels versus 40.7 across 24 at 22:00Z. Excluding the 1,034 outlier it is still 75.5 vs 40.7 - a 1.85x gap, up from 1.5x last week, on the largest sample in this analysis. By day, honest ranking (outlier removed) is Sat 108.0 > Thu 99.4 > Sun 62.4 > Mon 52.5 > Tue 37.0 > Wed 23.3 > Fri 20.6.",
-      "PLAYLISTS REMAIN THE BEST-CONVERTING SURFACE: 7.1% CTR and 12:54 AVD, roughly double suggested-video CTR - but on only 225 impressions and 24 views. Same thin sample as last week, and the reason it is thin is that the playlists still have not been built. This is a hypothesis that has now sat untested for two weeks."
+      "Typewriter-serif thumbnails beat handwritten 2.4x on watch time: T5 longs average 890.8 lifetime watch-minutes vs T3's 366.6, and 58.5 vs 26.7 views on medians of 72 vs 29 (n=6 vs 7). The templates were alternated deterministically across the same styles and slots, which makes this close to a clean A/B and the first real thumbnail signal the channel has produced.",
+      "The caption 'A minute of calm for your day' averages 141.4 views on a MEDIAN of 115 across 7 reels. Every other caption on the channel has a median between 9 and 29 - their averages are outlier-driven. Median 115 vs next-best 29 is a 4x broad-based edge. Pattern: time promise plus feeling, no product noun, no emoji.",
+      "Fun Bossa is the watch-time winner and by more than views showed: 823.3 watch-minutes per long vs Soft Bossa 494.6 (1.66x) and Soft Jazz Real Guitar 123.3 (6.7x), with average view percentage 17.1% vs 14.4% vs 5.9%. Views alone said 43.0 vs 37.3, which is inside noise - watch time is where the gap is real.",
+      "Weekend reels carry a 5.3x median advantage: Sat median 90 and Sun median 53 versus 10 or below on every weekday, across n=15 weekend vs n=64 weekday. Thursday's apparent strength last week was small-sample noise - at n=8 its median was 79.5, at n=15 it is 6.",
+      "Suggested-video and subscriber traffic are worth ~18x a Shorts view: RELATED_VIDEO (23 views) and SUBSCRIBER (22 views) produced 86 and 90 watch minutes this week - 83% of all watch time off 13% of views - while the Shorts feed delivered 238 views for 20 minutes.",
+      "Cadence, not content, was the constraint. Restoring 2 posts/day produced TikTok +11, Instagram +6, YouTube +3 in seven days after a week of +0/+1/+2 during the blackout."
     ],
     "next_moves": [
-      "REPACKAGE THE SOFT JAZZ GUITAR LONG AND KEEP THE STYLE. The music is the best-validated new thing on the channel: 20 views and 5.1 watch hours in seven days, versus 5 views for the previous new long's first week. But its 2.3% CTR is below every Fun Bossa long. Rebuild the thumbnail in the Fun Bossa visual family (the one pulling 4.6-5.1%) and re-measure next week. Highest-leverage single action available.",
-      "STOP TITLING LONGS FOR SEARCH - THIS IS NOW A TWO-WEEK VERDICT. Search impressions grew 74% and CTR fell to 0.8%; zero study/focus/work/sleep queries appeared for the second consecutive week; and the one term that was working, 'bossa nova', dropped off the list. Titles and thumbnails should be built to look like the natural next video in a suggested-video session - same mood family, same visual world as 'Happy Bossa Nova Lounge' - not stuffed with 'Study Music for Focus & Concentration'. Apply to the next two longs and compare CTR.",
-      "BUILD THE PLAYLISTS. Flagged last week, not done. 7.1% CTR and 12:54 AVD on 225 impressions is the highest-converting surface the channel has and it is starved purely because the playlists do not exist. Group the 14 longs into three themed playlists (Morning Cafe, Deep Focus, Sleep/Evening) and add every long to one. One hour of work, and it directly feeds the suggested-video engine that produces 77% of watch time.",
-      "CUT THE TWO THINGS ALREADY FLAGGED AND NOT ACTIONED. (1) Retire 'Soft jazz to ease into the day' from the caption bank - it posted twice more this week and is now n=7 at avg 19.9, a 9x gap to the top caption. (2) Rebuild the 'Cozy Coffee Shop Bossa Nova' thumbnail - it still holds the most impressions on the channel (2,030) at the worst major CTR (2.9%); moving it to 3.9% is worth roughly 20 extra views a month from work already done.",
-      "AUDIT PINTEREST ONCE, THEN DECIDE. The dashboard now confirms zero impressions, zero clicks, zero saves over 30 days, and YouTube's External source shows 5 views in 28 days. Spend 20 minutes checking whether any pins actually exist on the account - the known auto-pin blocker (save-from-URL rejects 16:9, needs 2:3-1:1) may mean nothing has ever been posted. If the board is empty, fix the aspect ratio or drop the channel. Do not keep budgeting time for a surface that has never registered a single impression.",
-      "LOG THE THUMBNAIL FONT - THIRD TIME ASKING. make_thumbnail.py randomizes the font family and discards the choice. Writing it into adm-upload-state.json at render time is a five-line change that unlocks an entire analysis dimension currently returning 'unavailable' every week."
+      "MAKE T5 TYPEWRITER-SERIF THE DEFAULT THUMBNAIL AND RETIRE T3. 2.4x watch-minutes and 2.2x views per long. Highest-confidence, lowest-cost change available. Also tag every Canva thumbnail with its template in thumbnail_plan.json going forward - only 13 of 18 longs currently carry template metadata, which is why this took nine weeks to surface.",
+      "SWITCH ALL REEL CAPTIONS TO THE 'A minute of calm for your day' PATTERN. Median 115 vs 29. Write 5-6 variants on the same skeleton (time promise + feeling, no coffee noun, no emoji) and rotate only those. Retire 'The cafe sound you did not know you needed' (median 10) and 'Press play, let the cafe come to you' (median 9).",
+      "REVERSE LAST WEEK'S PUBLISH-DAY CALL. Do NOT move Wednesday reels to Thursday - Thursday is now the worst day on the board (median 6, n=15). Weight reel slots toward Saturday and Sunday instead: weekend median 53-90 vs weekday 10.",
+      "QUEUE FUN BOSSA LONGS. All 58 upcoming scheduled videos through Jan 2027 are Soft Bossa; the 1.66x watch-time winner has nothing in the pipeline. Build the Oct 15 autumn pool Fun Bossa-weighted rather than Soft.",
+      "CONFRONT THE YPP MATH WITH MARC. 3,846 watch hours needed in 22 weeks = 168 hrs/week against a current 3.5. Reaching it by Jan 31 2027 is not a tuning problem. Two honest options: (a) go hard on long-form volume and length - more longs, 2-3 hours each, since a single 1:39 long banked 1,807 minutes - or (b) plan for the post-Feb-2027 8,000-hour bar and stop optimising against the deadline. Pick one deliberately.",
+      "KILL THE PIPELINE SHORTS. 20 published, 7.8 lifetime watch-minutes each, 1.7% of channel watch time and 3.2% of views. They are the only format with no job - reels own reach, longs own watch time. Reclaim the render and upload slots. This was recommended Aug 17 and is now stronger, not weaker.",
+      "CHECK THE THURSDAY LONG SLOT. Only one long published this week against a Mon-long + Thu-long cadence; the Aug 20 long never went out."
     ],
     "suno_prompts": [
-      "Upbeat cheerful bossa nova lounge for a bright weekend cafe, nylon-string guitar and warm Rhodes piano, brushed drums, melodic upright bass, no vocals, sunny mid-tempo groove that never spikes, one continuous 100-minute set for working and good mood",
-      "Warm soft jazz guitar lounge for a cozy evening cafe, hollow-body electric guitar, upright bass, brushed snare, soft vibraphone, no vocals, unhurried and dim-lit, long continuous set with even dynamics for reading and winding down",
-      "Happy Brazilian jazz cafe instrumental with a light samba lift, acoustic guitar, vibraphone, muted trumpet, soft shaker percussion, no vocals, consistent uplifting energy from start to finish, extended lounge mix that sits comfortably next to other cafe music"
+      "Bright cheerful bossa nova cafe set for a busy weekend brunch, nylon-string guitar leading over warm Rhodes and vibraphone, light samba percussion with brushed snare, melodic walking upright bass, no vocals, instrumental only, sunny mid-tempo groove held perfectly level with no dynamic spikes or quiet passages, one continuous 150-minute set for working and focus",
+      "Upbeat Brazilian jazz lounge for a bright weekday morning, acoustic guitar and Rhodes trading a warm melody, crisp brushed drums, buoyant upright bass, no vocals, instrumental only, optimistic and forward-moving but never busy, completely even dynamics so it never pulls attention away, one continuous 150-minute set for study and deep focus",
+      "Warm optimistic bossa nova with a gentle jazz guitar lead for an afternoon coffee shop, soft Rhodes comping and brushed percussion underneath, relaxed but never sleepy, no vocals, instrumental only, one steady energy level from start to finish with no crescendos, one continuous 150-minute set for reading and relaxing"
     ],
-    "suno_rules": "Data-backed prompt rules: (1) always 'instrumental / no vocals' - this is background music; (2) keep energy CONSISTENT with no dynamic spikes - suggested-video sessions run 14:21 average and listeners leave when a track jumps; (3) WRITE LONG SETS - the channel's #1 watch-time video runs 1:39:06 and banks 30.1 hours from 82 views, and the new Soft Jazz Guitar long at 1:50:25 posted the best first week the channel has had; target 100-110 minutes of continuous material, not 77; (4) FUN/UPBEAT BOSSA OVER SOFT/SLEEPY for longs - confirmed at n=3, Fun delivers 1.86x the watch hours per video (13.67 vs 7.36) and higher impression-weighted CTR (4.61% vs 3.49%); the multiple shrank from 2.3x when a third video was added, so treat 1.5-2x as the honest range; (5) SOFT JAZZ GUITAR IS A LIVE SECOND BET - one long, 5.1 watch hours and 20 views in week one, the strongest launch the channel has had; keep producing it and judge again in two weeks; (6) name 2-3 concrete instruments, not just a genre; (7) DO NOT ENGINEER LONGS AROUND SEARCH KEYWORDS - two consecutive weeks of evidence: search served 7,960 impressions at 0.8% CTR, zero study/focus/work/sleep queries appeared, and 'bossa nova' fell off the query list entirely while 77.3% of watch time came from suggested videos. Write and package music that belongs in the same session as what is already being recommended: same mood family, same tempo range, same cafe world; (8) reels and longs stay on separate title systems - longs get mood/session language, reels get casual feeling captions; (9) the winning reel caption is 'A minute of calm for your day' (n=5, avg 187.8, no outlier, and three of the channel's four best retention scores). Captions that address the VIEWER'S day or name a concrete sensory pair beat captions that describe the music - 'Soft jazz to ease into the day' is n=7 at avg 19.9 and should be retired.",
+    "suno_rules": "Data-backed prompt rules, updated 2026-08-24: (1) ALWAYS 'instrumental / no vocals'. Every winning video on the channel is instrumental. (2) KEEP ENERGY CONSISTENT, no dynamic spikes - suggested-video and subscriber traffic produced 83% of this week's watch time off 13% of views, and those are sessions people leave the moment a track jumps. (3) WRITE LONGER SETS - raised from 100-110 to 150 minutes. Longs are 11.1% of views but 89.8% of watch time at 460 minutes each; the #1 watch-time video runs 1:39 and has banked 1,807 minutes. Watch hours are the YPP gate and runtime is the cheapest multiplier available. (4) FUN/UPBEAT OVER SOFT/SLEEPY - now proven on watch time, not just views: 823.3 vs 494.6 minutes per long (1.66x) and 17.1% vs 14.4% average view percentage. On views alone the gap was 43.0 vs 37.3, inside noise - always score styles on watch minutes. (5) AVOID SOFT JAZZ REAL GUITAR - 123.3 minutes and 5.9% average view percentage across 3 longs published across three separate weeks including clean ones. The Aug 17 caveat is withdrawn; the style is genuinely weak, 6.7x below Fun Bossa. (6) NAME THE ACTION - work, study, focus, reading, morning. Search queries the channel actually captures are activity- and mood-framed ('cozy espresso', 'cafe radio', 'bossa nova morning'). (7) NEW - PROMISE TIME AND FEELING, NOT PRODUCT. The channel's only broad-based caption winner is 'A minute of calm for your day' (median 115 vs 29 for everything else). Apply the same framing to long titles: name the duration and the emotional state, not the beverage.",
     "deep_analytics": {
-      "source": "YouTube Studio Advanced mode explore table (ADM account in Chrome), 2026-08-10",
-      "period": "last 28 days (Jul 13 - Aug 9, 2026)",
-      "views_28d": 4002,
-      "watch_hours_28d": 131.2,
-      "subscribers_28d": 5,
-      "impressions": 18532,
-      "ctr": "2.3%",
-      "avg_view_duration": "7:44 channel average as displayed by Studio - NOTE this does not reconcile (131.2 hrs / 4,002 views = 1:58). Studio's AVD column is unreliable on the aggregate and Shorts-feed rows, a Shorts watch-time accounting artifact. The Suggested (14:21), Browse (15:18), Playlists (12:54) and Direct (6:58) rows DO reconcile and are trustworthy, as are the per-video reel retention percentages.",
-      "top_traffic_sources": [
-        {
-          "source": "Shorts feed",
-          "views": 3192,
-          "views_pct": "79.7%",
-          "watch_hours": 2.3,
-          "watch_pct": "1.7%",
-          "avd": "0:13"
-        },
-        {
-          "source": "Suggested videos",
-          "views": 425,
-          "views_pct": "10.6%",
-          "watch_hours": 101.4,
-          "watch_pct": "77.3%",
-          "avd": "14:21",
-          "impressions": 9048,
-          "ctr": "3.4%"
-        },
-        {
-          "source": "YouTube search",
-          "views": 198,
-          "views_pct": "4.9%",
-          "watch_hours": 6.8,
-          "watch_pct": "5.2%",
-          "avd": "4:29",
-          "impressions": 7960,
-          "ctr": "0.8%",
-          "caveat": "0.8% of 7,960 = 64 clicks but 198 views attributed - the same views-to-clicks discrepancy as last week. The direction is safe; the exact CTR is soft."
-        },
-        {
-          "source": "Channel pages",
-          "views": 69,
-          "watch_hours": 1.5,
-          "avd": "2:17",
-          "impressions": 770,
-          "ctr": "3.0%"
-        },
-        {
-          "source": "Browse features",
-          "views": 44,
-          "watch_hours": 8.2,
-          "watch_pct": "6.2%",
-          "avd": "15:18",
-          "impressions": 529,
-          "ctr": "4.0%"
-        },
-        {
-          "source": "Playlists",
-          "views": 24,
-          "watch_hours": 5.2,
-          "avd": "12:54",
-          "impressions": 225,
-          "ctr": "7.1%"
-        },
-        {
-          "source": "Direct or unknown",
-          "views": 24,
-          "watch_hours": 2.8,
-          "avd": "6:58"
-        },
-        {
-          "source": "Other YouTube features",
-          "views": 14,
-          "watch_hours": 3.1,
-          "avd": "36:35"
-        },
-        {
-          "source": "External",
-          "views": 5,
-          "note": "all off-platform referrals combined - Pinterest, IG bio, TikTok bio - over 28 days"
-        }
-      ],
+      "watch_hours_7d": 3.53,
+      "watch_hours_lifetime": 153.6,
+      "avg_view_duration_sec": 118,
+      "avg_view_percentage": 15.13,
+      "views_7d": 351,
+      "subscribers_gained_7d": 2,
+      "impressions": null,
+      "ctr": null,
+      "impressions_ctr_note": "Permanently unavailable via YouTube Analytics API v2 - confirmed error 'Unknown identifier (impressions) given in field parameters.metrics'. Studio Advanced mode only, which requires Chrome signed into admdailymusic@gmail.com.",
       "top_search_queries": [
-        "cozy asmr (5 views, 16:11 AVD)",
-        "cafe sound (2+1)",
-        "cafe music (2, 0:04)",
-        "sindhi song (2)",
-        "m&m candy bar (2)",
-        "bebek kwek kwek (2)",
-        "morning jam (1, 0:33)",
-        "sunday morning bossa nova (1)",
-        "soft morning songs (1)",
-        "no ads jazz music (1)",
-        "adm music (1)",
-        "yang lucu-lucu (1)",
-        "ayam teletubbies (1)",
-        "balon tiup (1)",
-        "xg (1)"
+        [
+          "bossa nova",
+          4
+        ],
+        [
+          "bossa nova cafe",
+          2
+        ],
+        [
+          "cozy espresso",
+          2
+        ],
+        [
+          "ads music",
+          1
+        ],
+        [
+          "bossa nova morning",
+          1
+        ],
+        [
+          "cafe radio",
+          1
+        ],
+        [
+          "cafe sounds",
+          1
+        ],
+        [
+          "la musica de cafe",
+          1
+        ]
       ],
-      "key_read": "Two weeks of consistent evidence. Suggested videos is where the channel lives: 10.6% of views produce 77.3% of watch time at 14:21 AVD. Search is actively getting worse - impressions up 74% to 7,960, CTR down to 0.8%, 'bossa nova' gone from the query list, and zero study/focus/work/sleep terms for the second week running. The channel-wide CTR fall from 2.8% to 2.3% is a search-impression denominator effect, not a thumbnail regression; per-long CTRs are flat or up. Reels supply 79.7% of views and 1.7% of watch time - a reach and subscriber-funnel instrument only. Longs, especially Fun Bossa near 100 minutes and now Soft Jazz Guitar at 110 minutes, are the entire watch-time business.",
-      "method_note": "Captured by coordinate-clicking 'Advanced mode' in Studio (top-right, ~966,76 at 1400px width), then Breakdown dropdown -> Traffic source, then clicking the YouTube search row to drill into query terms. Column headers re-sort the table. Chrome's javascript_tool blocks any returned string containing & = or ? and truncates near 1,200 characters - strip those characters and chunk output.",
-      "still_pending": "Analytics API automation - both blockers confirmed live again this run: the YouTube Analytics API is still disabled in Google Cloud project 16378841695 (403 SERVICE_DISABLED), and token.json still lacks the yt-analytics.readonly scope. Thumbnail font per video is still unlogged by make_thumbnail.py - third week."
+      "top_traffic_sources": [
+        [
+          "SHORTS",
+          238,
+          20
+        ],
+        [
+          "YT_SEARCH",
+          37,
+          2
+        ],
+        [
+          "YT_CHANNEL",
+          28,
+          3
+        ],
+        [
+          "RELATED_VIDEO",
+          23,
+          86
+        ],
+        [
+          "SUBSCRIBER",
+          22,
+          90
+        ],
+        [
+          "YT_OTHER_PAGE",
+          2,
+          2
+        ],
+        [
+          "PLAYLIST",
+          1,
+          5
+        ]
+      ]
     }
   },
   "social_intelligence": {
-    "updated": "2026-08-10",
-    "state_of_socials": "Followers: TikTok 40 (+8, from 32), Instagram 32 (+5, from 27), YouTube 12 (+1). TikTok retook the growth lead after Instagram's outlier +200% week did not repeat - both are still compounding, but the weekly growth rate roughly halved. Cadence is unchanged and clean: 42 posts in the trailing 7 days (14 each on Instagram, TikTok and YouTube Shorts), all reporting status=published, zero failures, 166 posts tracked in Zernio total. The SSD clip queue sits at 102 for the third straight week - nightly batch output and posting cadence are exactly in balance, so no supply risk and no headroom. The single most important thing: the noon slot advantage has WIDENED and is now the best-evidenced finding on the social side - 16:00Z averages 112.3 views across 26 reels versus 40.7 across 24 at 22:00Z, and even after removing the 1,034-view Jul 24 outlier it is 75.5 vs 40.7, a 1.85x gap up from 1.5x last week. The hard truth attached: YouTube's External traffic source recorded 5 views in 28 days, and Pinterest analytics - which rendered for the first time in five weeks - reports zero impressions, zero outbound clicks and zero saves over 30 days. The social accounts are building their own audiences and feeding the Shorts feed; the off-platform path to the YouTube channel is delivering essentially nothing.",
+    "updated": "2026-08-24",
+    "state_of_socials": "Fully recovered and the recovery is measurable. TikTok 51 (+11), Instagram 39 (+6), YouTube 17 (+3) - TikTok's largest weekly gain since launch, immediately after a week frozen at +0 during the blackout. 76 posts went out Aug 17-23 against 0 the week before; 75 published, 1 failed (Aug 23 13:00, no attempt detail logged), 24 more scheduled through Aug 27. Cadence ran hot Aug 18-20 (18/15/24 posts) catching up, then settled to exactly 6 per day - 2 posts across 3 platforms - which is the intended rhythm. All three Zernio accounts are isActive with analyticsLastSyncError null, last synced 2026-08-24. The clip queue is deeply stocked: 102 unique mp4s in Social Clips/Queue, 51 days of supply at 2/day, so rendering is not a constraint before the Oct 15 autumn pool. The single most important thing: TikTok has separated from Instagram for the first time (51 vs 39) and the caption data finally has a clear winner - 'A minute of calm for your day' holds a median of 115 views across 7 reels while every other caption sits between 9 and 29.",
     "whats_out": [
-      "42 reels live in the last 7d across Instagram (14), TikTok (14), YouTube Shorts (14) - full 2x/day cadence at 12:00 and 18:00 ET, zero failed posts, flat versus last week",
-      "This week's top reels: 'A minute of calm for your day' 260 (Thu noon), 'Slow morning, warm coffee, soft bossa nova' 174 (Mon noon), 'Soft jazz to ease into the day' 37 (Fri noon), 'Your cozy cafe moment' 23 and 'Press play, let the cafe come to you' 23 (both Sun)",
-      "TikTok 32 -> 40 (+25%) retakes the lead from Instagram 27 -> 32 (+18.5%); YouTube 11 -> 12. Growth is real on both but the rate halved week over week",
-      "'A minute of calm for your day' is now the best-proven caption on the channel: n=5, avg 187.8 views, no outlier, and three of the four highest reel retention scores (30.9%, 34.1%, 18.2%)",
-      "PINTEREST ANSWERED AFTER FIVE WEEKS: the analytics dashboard rendered and reports 'Not enough data to display' - zero impressions, zero engagements, zero outbound clicks, zero saves for 7/11-8/10. Corroborated by YouTube External = 5 views / 28 days. Four weeks of 'unavailable' were hiding a zero."
+      "2 posts/day, 7 days/week, cross-posted simultaneously to Instagram, TikTok and YouTube Shorts - 25-26 posts per platform this week, 76 total. Delivery is 75/76.",
+      "Reels drive 85.6% of the channel's lifetime YouTube views (4,374 of 5,109) but only 8.5% of its watch time. They are a reach and subscriber engine, not a watch-hours engine - judge them on views and follower growth only.",
+      "Weekend slots are where the reach actually lands: Saturday median 90 views and Sunday median 53, against 10 or below on every weekday (n=15 weekend vs n=64 weekday). Thursday, recommended as the target day in the last two reports, is now the worst day on the board at median 6 on n=15.",
+      "Pinterest is a confirmed real zero for the third straight week - not a login failure this time, the session worked and Pinterest reported 'Not enough data to display' across impressions, clicks, saves and pins for the full 30-day window. Nothing is being pinned because the auto-pin flow rejects 16:9 assets."
     ],
     "suggestions": [
-      "MOVE BOTH DAILY POSTS INTO THE NOON WINDOW, OR AT MINIMUM GIVE NOON THE STRONGER CAPTION. The 12:00 ET slot averages 112.3 views across 26 reels versus 40.7 across 24 at 18:00 - 2.76x raw, 1.85x with the outlier stripped, on the largest and cleanest sample in this analysis. The gap grew from 1.5x last week rather than regressing to the mean. This is the single highest-confidence change available on the social side.",
-      "RETIRE 'Soft jazz to ease into the day' - THIS WAS FLAGGED LAST WEEK AND IT POSTED TWICE MORE. It is now n=7 at avg 19.9 views, a 9x gap to 'A minute of calm for your day' (avg 187.8). Every slot it occupies is a slot the winning captions could have. Weight the batch toward 'A minute of calm for your day' and 'Slow morning, warm coffee, soft bossa nova' (n=3, avg 85.3), and treat the new 'Pour the coffee, press play' (n=1, 8 views) as unproven.",
-      "AUDIT THE PINTEREST ACCOUNT ONCE, THEN DECIDE - 20 MINUTES, NOT AN HOUR. Log in and check whether any pins actually exist. The known blocker is that save-from-URL rejects 16:9 and needs 2:3-1:1, so it is plausible nothing has ever successfully posted. If the boards are empty, either re-crop the visuals to 2:3 and use the organic upload flow, or drop Pinterest entirely. What is not defensible is continuing to budget time for a surface with zero impressions in 30 days.",
-      "SHIFT THE WEEKEND WEIGHTING. Honest day ranking with the outlier removed: Sat 108.0 > Thu 99.4 > Sun 62.4 > Mon 52.5 > Tue 37.0 > Wed 23.3 > Fri 20.6. Friday's headline 147.3 average is entirely the single Jul 24 breakout - without it Friday is the worst day of the week. Put the strongest captions on Thu/Sat/Sun and the weakest on Fri/Wed.",
-      "DO NOT RAISE CADENCE WITHOUT RAISING BATCH OUTPUT. The queue has been flat at 102 for three weeks, which means make_reels_batch.py is replacing exactly what gets posted. Any cadence increase drains the buffer, and the hard rule that every reel uses a unique image means the constraint is images, not tracks. Raise batch output first, then cadence."
+      "REWRITE THE CAPTION ROTATION AROUND ONE PROVEN PATTERN. 'A minute of calm for your day' - median 115 across 7 reels versus 9-29 for everything else. Write 5-6 variants on the same skeleton: a time promise plus a feeling, no coffee or cafe noun, no emoji. Drop 'The cafe sound you did not know you needed' (median 10) and 'Press play, let the cafe come to you' (median 9). Highest-value social change available and it costs nothing.",
+      "SHIFT SLOT WEIGHT TO THE WEEKEND, NOT THURSDAY. Explicitly reverses the Aug 10 and Aug 17 recommendations, which were built on n=8 Thursday data that has since collapsed. Put 3 slots on Saturday and Sunday and 1 on the weakest weekdays if total volume must stay flat.",
+      "DOUBLE DOWN ON TIKTOK. It has separated from Instagram for the first time (51 vs 39) and gained 11 in a week to Instagram's 6. Same clips, same cost - post TikTok-native first and let Instagram take the cross-post.",
+      "ADD THE 36-HOUR DEAD-MAN ALERT. Still not built after two outages (Jul 23, Aug 11) that each ran for days undetected. If Zernio reports no published post in 36 hours, alert. The launchd fix removes one failure mode, not the class of failure.",
+      "FIX OR RETIRE PINTEREST. Three confirmed zeros. Either build the organic upload flow with 2:3 crops of the existing visuals, or formally drop it and stop budgeting weekly diagnostic time to check a channel that has never delivered a click."
     ]
   }
 }
