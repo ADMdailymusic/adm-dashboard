@@ -26,34 +26,34 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 58
+    "videos_scheduled": 57
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-24T12:35:45Z",
-    "posts_instagram": 89,
-    "posts_tiktok": 89,
+    "last_run": "2026-08-25T12:36:34Z",
+    "posts_instagram": 91,
+    "posts_tiktok": 91,
     "posts_facebook": 0,
-    "clips_ready": 31,
-    "posts_youtube_shorts": 90,
+    "clips_ready": 29,
+    "posts_youtube_shorts": 92,
     "latest_reel": {
-      "title": "A minute of calm for your day (youtube)",
-      "posted_at": "2026-08-23T16:00:00.000Z"
+      "title": "Slow down for a minute ☕ (youtube)",
+      "posted_at": "2026-08-24T16:00:00.000Z"
     },
     "next_reel": {
       "title": "Bossa nova + coffee = perfect morning (youtube)",
-      "scheduled_at": "2026-08-24T13:00:00.000Z"
+      "scheduled_at": "2026-08-25T13:00:00.000Z"
     },
     "followers": {
       "instagram": 39,
-      "tiktok": 51,
+      "tiktok": 52,
       "youtube": 17
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-24T08:35:53",
-    "total_views": 5228,
+    "last_run": "2026-08-25T08:36:39",
+    "total_views": 5277,
     "total_watch_hours": 154.5,
     "subscribers": 17,
     "weekly_views": 351,
@@ -62,20 +62,20 @@
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 178,
+    "total_videos": 180,
     "latest_video": {
-      "id": "8rZNs8FeqEE",
-      "title": "A minute of calm for your day",
-      "published_at": "2026-08-23T16:00:30Z",
-      "views": 6,
-      "url": "https://youtube.com/watch?v=8rZNs8FeqEE",
-      "thumbnail": "https://i.ytimg.com/vi/8rZNs8FeqEE/mqdefault.jpg"
+      "id": "JFYmD3GT-5s",
+      "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
+      "published_at": "2026-08-24T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=JFYmD3GT-5s",
+      "thumbnail": "https://i.ytimg.com/vi/JFYmD3GT-5s/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "JFYmD3GT-5s",
-      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
-      "scheduled_at": "2026-08-24T13:00:00Z",
-      "url": "https://youtube.com/watch?v=JFYmD3GT-5s"
+      "id": "jZKLbcssJQM",
+      "title": "Back to School Study Music – Cozy Bossa Nova for Homework",
+      "scheduled_at": "2026-08-26T13:00:00Z",
+      "url": "https://youtube.com/watch?v=jZKLbcssJQM"
     },
     "watch_hours_28d": 43.2,
     "public_videos": 119,
@@ -110,74 +110,74 @@
   },
   "upcoming_releases": [
     {
-      "date": "2026-08-24",
-      "type": "long",
-      "style": "Soft Bossa",
-      "title": "2 Hour Study Music \u2013 Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
-      "id": "JFYmD3GT-5s"
-    },
-    {
       "date": "2026-08-26",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Back to School Study Music \u2013 Cozy Bossa Nova for Homework",
+      "title": "Back to School Study Music – Cozy Bossa Nova for Homework",
       "id": "jZKLbcssJQM"
     },
     {
       "date": "2026-08-27",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Study Music for Deep Focus \u2013 Bossa Nova Jazz for Homework & Concentration",
+      "title": "Study Music for Deep Focus – Bossa Nova Jazz for Homework & Concentration",
       "id": "ExoL5MYXqR0"
     },
     {
       "date": "2026-08-28",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Quiet Study Session \u2013 Soft Bossa Nova for Reading & Homework",
+      "title": "Quiet Study Session – Soft Bossa Nova for Reading & Homework",
       "id": "7r7g794jNVw"
     },
     {
       "date": "2026-08-31",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
+      "title": "Late Night Study Music – Cozy Bossa Nova Cafe for Homework & Unwinding",
       "id": "rbSxYGlI4ak"
     },
     {
       "date": "2026-09-02",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
+      "title": "Morning Study Music – Upbeat Bossa Nova to Start Your School Day",
       "id": "Le2w6TIP-wk"
     },
     {
       "date": "2026-09-03",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
+      "title": "4K Rainy Coffee Shop Study Music – Smooth Bossa Nova Jazz for Homework",
       "id": "-em-PT4KElI"
     },
     {
       "date": "2026-09-04",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
+      "title": "Evening Study Music – Calm Bossa Nova Jazz for Late Homework",
       "id": "-Nz-2RWJJ_8"
     },
     {
       "date": "2026-09-07",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Morning Study Music \u2013 Happy Bossa Nova Coffee Shop Jazz for School & Work",
+      "title": "Morning Study Music – Happy Bossa Nova Coffee Shop Jazz for School & Work",
       "id": "gVTXzKKqDCQ"
     },
     {
       "date": "2026-09-09",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Coffee Shop Study Music \u2013 Bossa Nova for Focus & Homework",
+      "title": "Coffee Shop Study Music – Bossa Nova for Focus & Homework",
       "id": "2j-PllwHlj4"
+    },
+    {
+      "date": "2026-09-10",
+      "type": "long",
+      "style": "Soft Bossa",
+      "title": "Background Music for Sleep – Soft Bossa Nova & Jazz Piano Instrumentals",
+      "id": "tPEwtcvVBVs"
     }
   ],
   "channel_intelligence": {
@@ -198,7 +198,7 @@
       "QUEUE FUN BOSSA LONGS. All 58 upcoming scheduled videos through Jan 2027 are Soft Bossa; the 1.66x watch-time winner has nothing in the pipeline. Build the Oct 15 autumn pool Fun Bossa-weighted rather than Soft.",
       "CONFRONT THE YPP MATH WITH MARC. 3,846 watch hours needed in 22 weeks = 168 hrs/week against a current 3.5. Reaching it by Jan 31 2027 is not a tuning problem. Two honest options: (a) go hard on long-form volume and length - more longs, 2-3 hours each, since a single 1:39 long banked 1,807 minutes - or (b) plan for the post-Feb-2027 8,000-hour bar and stop optimising against the deadline. Pick one deliberately.",
       "KILL THE PIPELINE SHORTS. 20 published, 7.8 lifetime watch-minutes each, 1.7% of channel watch time and 3.2% of views. They are the only format with no job - reels own reach, longs own watch time. Reclaim the render and upload slots. This was recommended Aug 17 and is now stronger, not weaker.",
-      "CHECK THE THURSDAY LONG SLOT. Only one long published this week against a Mon-long + Thu-long cadence; the Aug 20 long never went out."
+      "BUILD LONGS - THE PIPELINE DIES NOV 5. Correcting an error in this week's first pass: the 'missing Thursday long' was not a failure, the channel ran Mon-only until Aug 24 and the Mon+Thu cadence starts Aug 27. The real problem is supply. Only 18 longs remain scheduled and the last one publishes 2026-11-05 - 73 days out - with four already-empty Mon/Thu slots on Oct 8, 15, 19 and 22 (the unbuilt autumn pool). Shorts are covered to Jan 15 2027, longs are not. Longs are 89.8% of channel watch time and watch hours are the YPP gate, so this is the largest structural risk on the board. Build the autumn pool now, Fun Bossa-weighted, at 150-minute runtimes."
     ],
     "suno_prompts": [
       "Bright cheerful bossa nova cafe set for a busy weekend brunch, nylon-string guitar leading over warm Rhodes and vibraphone, light samba percussion with brushed snare, melodic walking upright bass, no vocals, instrumental only, sunny mid-tempo groove held perfectly level with no dynamic spikes or quiet passages, one continuous 150-minute set for working and focus",
