@@ -30,31 +30,31 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-25T12:36:34Z",
-    "posts_instagram": 91,
-    "posts_tiktok": 91,
+    "last_run": "2026-08-26T12:45:00Z",
+    "posts_instagram": 93,
+    "posts_tiktok": 93,
     "posts_facebook": 0,
-    "clips_ready": 29,
-    "posts_youtube_shorts": 92,
+    "clips_ready": 27,
+    "posts_youtube_shorts": 94,
     "latest_reel": {
-      "title": "Slow down for a minute ☕ (youtube)",
-      "posted_at": "2026-08-24T16:00:00.000Z"
+      "title": "Two minutes of calm before the day starts (youtube)",
+      "posted_at": "2026-08-25T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Bossa nova + coffee = perfect morning (youtube)",
-      "scheduled_at": "2026-08-25T13:00:00.000Z"
+      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
+      "scheduled_at": "2026-08-26T13:00:00.000Z"
     },
     "followers": {
       "instagram": 39,
-      "tiktok": 52,
+      "tiktok": 53,
       "youtube": 17
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-25T08:36:39",
-    "total_views": 5277,
-    "total_watch_hours": 154.5,
+    "last_run": "2026-08-26T08:33:57",
+    "total_views": 5308,
+    "total_watch_hours": 158.9,
     "subscribers": 17,
     "weekly_views": 351,
     "avg_ctr": 2.3,
@@ -62,7 +62,7 @@
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 180,
+    "total_videos": 182,
     "latest_video": {
       "id": "JFYmD3GT-5s",
       "title": "2 Hour Study Music – Relaxing Bossa Nova Jazz for Homework, Reading & Focus",
@@ -77,15 +77,15 @@
       "scheduled_at": "2026-08-26T13:00:00Z",
       "url": "https://youtube.com/watch?v=jZKLbcssJQM"
     },
-    "watch_hours_28d": 43.2,
-    "public_videos": 119,
+    "watch_hours_28d": 34.5,
+    "public_videos": 124,
     "top_video_id": "DFQZEtVBNHs",
-    "public_video_count": 119,
+    "public_video_count": 124,
     "patch_note": "total_videos/top_video/latest_video/public counts patched manually - update_dashboard.py reads renamed weekly-report keys and this week's report has no published_videos array (known bug).",
-    "data_note": "2026-08-24 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (178 ids tracked, 119 public). weekly_views 351 = views_7d from weekly_reports/2026-08-24.json. Watch hours live from Analytics API: lifetime 154.5h (9,268 min), 28d 43.2h (2,594 min, Jul 27-Aug 23), AVD 292s. avg_ctr 2.3 is STILL STALE: impressions/CTR are Studio-only and cannot be automated.",
-    "avg_view_duration_sec": 292,
-    "subscribers_gained_lifetime": 17,
-    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-24"
+    "data_note": "2026-08-26 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome (182 ids tracked, 124 public). weekly_views from weekly_reports/2026-08-24.json. Watch hours live from Analytics API: lifetime 158.9h (9,533 min), 28d 34.5h (2,072 min, Jul 29-Aug 25), AVD 242s. avg_ctr 2.3 is STILL STALE: impressions/CTR are Studio-only and cannot be automated.",
+    "avg_view_duration_sec": 242,
+    "subscribers_gained_lifetime": 18,
+    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
   },
   "expenses": {
     "total": 121.8,
