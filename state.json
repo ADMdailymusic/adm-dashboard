@@ -30,30 +30,30 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-08-29T12:34:24Z",
-    "posts_instagram": 99,
-    "posts_tiktok": 99,
+    "last_run": "2026-08-30T12:33:16.924691+00:00",
+    "posts_instagram": 101,
+    "posts_tiktok": 101,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 100,
+    "posts_youtube_shorts": 102,
     "latest_reel": {
-      "title": "Bossa nova + coffee = perfect morning (youtube)",
-      "posted_at": "2026-08-28T16:00:00.000Z"
+      "title": "Two minutes of calm before the day starts (tiktok)",
+      "posted_at": "2026-08-29T16:02:55.039Z"
     },
     "next_reel": {
-      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
-      "scheduled_at": "2026-08-29T13:00:00.000Z"
+      "title": "Two minutes of calm before the day starts",
+      "scheduled_at": "2026-08-30T13:00:00.000Z"
     },
     "followers": {
       "instagram": 40,
-      "tiktok": 56,
+      "tiktok": 58,
       "youtube": 19
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-08-29T08:34:29",
-    "total_views": 5648,
+    "last_run": "2026-08-30T08:33:22",
+    "total_views": 5443,
     "total_watch_hours": 158.9,
     "subscribers": 19,
     "weekly_views": 351,
@@ -62,10 +62,10 @@
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 188,
+    "total_videos": 149,
     "latest_video": {
       "id": "7r7g794jNVw",
-      "title": "Quiet Study Session – Soft Bossa Nova for Reading & Homework",
+      "title": "Quiet Study Session \u2013 Soft Bossa Nova for Reading & Homework",
       "published_at": "2026-08-28T13:00:00Z",
       "views": 0,
       "url": "https://youtube.com/watch?v=7r7g794jNVw",
@@ -73,7 +73,7 @@
     },
     "next_scheduled": {
       "id": "rbSxYGlI4ak",
-      "title": "Late Night Study Music – Cozy Bossa Nova Cafe for Homework & Unwinding",
+      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
       "scheduled_at": "2026-08-31T13:00:00Z",
       "url": "https://youtube.com/watch?v=rbSxYGlI4ak"
     },
@@ -81,8 +81,8 @@
     "public_videos": 127,
     "top_video_id": "DFQZEtVBNHs",
     "public_video_count": 127,
-    "patch_note": "total_videos/top_video/latest_video/public counts patched manually - update_dashboard.py key bug (2026-08-27 run)",
-    "data_note": "2026-08-27 daily refresh. Views/subs/public counts from YouTube Data API v3 via Chrome; watch hours from Analytics API 2026-08-26.",
+    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-08-30 run)",
+    "data_note": "2026-08-30 daily refresh. Views/subs from YouTube Data API v3 via Chrome (149 uploads, 5443 lifetime views).",
     "avg_view_duration_sec": 242,
     "subscribers_gained_lifetime": 18,
     "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
@@ -113,70 +113,70 @@
       "date": "2026-08-31",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Late Night Study Music – Cozy Bossa Nova Cafe for Homework & Unwinding",
+      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
       "id": "rbSxYGlI4ak"
     },
     {
       "date": "2026-09-02",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Morning Study Music – Upbeat Bossa Nova to Start Your School Day",
+      "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
       "id": "Le2w6TIP-wk"
     },
     {
       "date": "2026-09-03",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "4K Rainy Coffee Shop Study Music – Smooth Bossa Nova Jazz for Homework",
+      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
       "id": "-em-PT4KElI"
     },
     {
       "date": "2026-09-04",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Evening Study Music – Calm Bossa Nova Jazz for Late Homework",
+      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
       "id": "-Nz-2RWJJ_8"
     },
     {
       "date": "2026-09-07",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Morning Study Music – Happy Bossa Nova Coffee Shop Jazz for School & Work",
+      "title": "Morning Study Music \u2013 Happy Bossa Nova Coffee Shop Jazz for School & Work",
       "id": "gVTXzKKqDCQ"
     },
     {
       "date": "2026-09-09",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Coffee Shop Study Music – Bossa Nova for Focus & Homework",
+      "title": "Coffee Shop Study Music \u2013 Bossa Nova for Focus & Homework",
       "id": "2j-PllwHlj4"
     },
     {
       "date": "2026-09-10",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Background Music for Sleep – Soft Bossa Nova & Jazz Piano Instrumentals",
+      "title": "Background Music for Sleep \u2013 Soft Bossa Nova & Jazz Piano Instrumentals",
       "id": "tPEwtcvVBVs"
     },
     {
       "date": "2026-09-11",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Study With Me Music – Bossa Nova for Focus & Homework",
+      "title": "Study With Me Music \u2013 Bossa Nova for Focus & Homework",
       "id": "1mlCNNjyVs8"
     },
     {
       "date": "2026-09-14",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Chill Bossa Nova Study Mix – Cozy Café Ambience for Focus & Productivity",
+      "title": "Chill Bossa Nova Study Mix \u2013 Cozy Caf\u00e9 Ambience for Focus & Productivity",
       "id": "LUWzIzpFVF8"
     },
     {
       "date": "2026-09-16",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft Jazz Piano Trio – Relaxing Cafe Music for Study & Focus",
+      "title": "Soft Jazz Piano Trio \u2013 Relaxing Cafe Music for Study & Focus",
       "id": "3Atw7BwZ94c"
     }
   ],
