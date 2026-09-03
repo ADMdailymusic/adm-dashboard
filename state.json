@@ -26,60 +26,63 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 53
+    "videos_scheduled": 52
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-09-02T12:32:58.690865+00:00",
-    "posts_instagram": 105,
-    "posts_tiktok": 105,
+    "last_run": "2026-09-03T12:33:00+00:00",
+    "posts_instagram": 107,
+    "posts_tiktok": 107,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 106,
+    "posts_youtube_shorts": 108,
     "latest_reel": {
-      "title": "Two minutes of calm before the day starts (youtube)",
-      "posted_at": "2026-09-01T16:00:00.000Z"
+      "title": "A minute of calm for your day (youtube)",
+      "posted_at": "2026-09-02T16:00:00.000Z"
     },
-    "next_reel": null,
+    "next_reel": {
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "scheduled_at": "2026-09-03T13:00:00.000Z"
+    },
     "followers": {
-      "instagram": 40,
-      "tiktok": 60,
-      "youtube": 20
+      "instagram": 41,
+      "tiktok": 62,
+      "youtube": 21
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-09-02T08:32:58",
-    "total_views": 5510,
+    "last_run": "2026-09-03T08:32:41",
+    "total_views": 5918,
     "total_watch_hours": 158.9,
-    "subscribers": 20,
+    "subscribers": 21,
     "weekly_views": 351,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 161,
+    "total_videos": 143,
     "latest_video": {
-      "id": "rbSxYGlI4ak",
-      "title": "Late Night Study Music \u2013 Cozy Bossa Nova Cafe for Homework & Unwinding",
-      "published_at": "2026-08-31T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=rbSxYGlI4ak",
-      "thumbnail": "https://i.ytimg.com/vi/rbSxYGlI4ak/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "Le2w6TIP-wk",
       "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
-      "scheduled_at": "2026-09-02T13:00:00Z",
-      "url": "https://youtube.com/watch?v=Le2w6TIP-wk"
+      "published_at": "2026-09-02T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=Le2w6TIP-wk",
+      "thumbnail": "https://i.ytimg.com/vi/Le2w6TIP-wk/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "-em-PT4KElI",
+      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
+      "scheduled_at": "2026-09-03T13:00:00Z",
+      "url": "https://youtube.com/watch?v=-em-PT4KElI"
     },
     "watch_hours_28d": 34.5,
-    "public_videos": 127,
+    "public_videos": 143,
     "top_video_id": "DFQZEtVBNHs",
-    "public_video_count": 127,
-    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-02 run)",
-    "data_note": "2026-09-02 daily refresh. Views/subs from YouTube Data API v3 via Chrome (161 videos incl. 8 not in uploads playlist, 5510 lifetime views).",
+    "public_video_count": 143,
+    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-03 run)",
+    "data_note": "2026-09-03 daily refresh. Views/subs from YouTube Data API v3 via Chrome (143 PUBLIC videos, 5918 lifetime views; scheduled/unlisted excluded from count - 2026-09-02 run counted 161 incl. 18 unpublished).",
     "avg_view_duration_sec": 242,
     "subscribers_gained_lifetime": 18,
     "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
@@ -106,13 +109,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-09-02",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Morning Study Music \u2013 Upbeat Bossa Nova to Start Your School Day",
-      "id": "Le2w6TIP-wk"
-    },
     {
       "date": "2026-09-03",
       "type": "long",
@@ -175,6 +171,13 @@
       "style": "Soft Bossa",
       "title": "Library Cafe Study Music \u2013 Bossa Nova Jazz for Exams & Deep Focus",
       "id": "J2uc9fM_CN8"
+    },
+    {
+      "date": "2026-09-18",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Paris Cafe Jazz Piano \u2013 Calm Study Music for Deep Work",
+      "id": "47xP1MBL3us"
     }
   ],
   "channel_intelligence": {
