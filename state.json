@@ -37,11 +37,11 @@
     "clips_ready": 0,
     "posts_youtube_shorts": 110,
     "latest_reel": {
-      "title": "Pour the coffee, press play ☕ (youtube)",
+      "title": "Pour the coffee, press play \u2615 (youtube)",
       "posted_at": "2026-09-03T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Slow down for a minute ☕ (youtube)",
+      "title": "Slow down for a minute \u2615 (youtube)",
       "scheduled_at": "2026-09-04T13:00:00.000Z"
     },
     "followers": {
@@ -65,7 +65,7 @@
     "total_videos": 146,
     "latest_video": {
       "id": "-em-PT4KElI",
-      "title": "4K Rainy Coffee Shop Study Music – Smooth Bossa Nova Jazz for Homework",
+      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
       "published_at": "2026-09-03T13:00:00Z",
       "views": 0,
       "url": "https://youtube.com/watch?v=-em-PT4KElI",
@@ -73,7 +73,7 @@
     },
     "next_scheduled": {
       "id": "-Nz-2RWJJ_8",
-      "title": "Evening Study Music – Calm Bossa Nova Jazz for Late Homework",
+      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
       "scheduled_at": "2026-09-04T13:00:00Z",
       "url": "https://youtube.com/watch?v=-Nz-2RWJJ_8"
     },
@@ -88,23 +88,31 @@
     "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
   },
   "expenses": {
-    "total": 141.8,
+    "total": 251.18,
     "rows": [
       {
-        "name": "Claude Pro subscription",
-        "amount": 80
+        "name": "Claude Max subscription (5x)",
+        "amount": 108.38
+      },
+      {
+        "name": "Claude Pro subscription (Jun-Aug, ended)",
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 25
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
         "amount": 16.8
+      },
+      {
+        "name": "Zernio (connected accounts)",
+        "amount": 6.0
       }
     ]
   },
@@ -113,63 +121,63 @@
       "date": "2026-09-04",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Evening Study Music – Calm Bossa Nova Jazz for Late Homework",
+      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
       "id": "-Nz-2RWJJ_8"
     },
     {
       "date": "2026-09-07",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Morning Study Music – Happy Bossa Nova Coffee Shop Jazz for School & Work",
+      "title": "Morning Study Music \u2013 Happy Bossa Nova Coffee Shop Jazz for School & Work",
       "id": "gVTXzKKqDCQ"
     },
     {
       "date": "2026-09-09",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Coffee Shop Study Music – Bossa Nova for Focus & Homework",
+      "title": "Coffee Shop Study Music \u2013 Bossa Nova for Focus & Homework",
       "id": "2j-PllwHlj4"
     },
     {
       "date": "2026-09-10",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Background Music for Sleep – Soft Bossa Nova & Jazz Piano Instrumentals",
+      "title": "Background Music for Sleep \u2013 Soft Bossa Nova & Jazz Piano Instrumentals",
       "id": "tPEwtcvVBVs"
     },
     {
       "date": "2026-09-11",
       "type": "short",
       "style": "Soft Bossa",
-      "title": "Study With Me Music – Bossa Nova for Focus & Homework",
+      "title": "Study With Me Music \u2013 Bossa Nova for Focus & Homework",
       "id": "1mlCNNjyVs8"
     },
     {
       "date": "2026-09-14",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Chill Bossa Nova Study Mix – Cozy Café Ambience for Focus & Productivity",
+      "title": "Chill Bossa Nova Study Mix \u2013 Cozy Caf\u00e9 Ambience for Focus & Productivity",
       "id": "LUWzIzpFVF8"
     },
     {
       "date": "2026-09-16",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft Jazz Piano Trio – Relaxing Cafe Music for Study & Focus",
+      "title": "Soft Jazz Piano Trio \u2013 Relaxing Cafe Music for Study & Focus",
       "id": "3Atw7BwZ94c"
     },
     {
       "date": "2026-09-17",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Library Cafe Study Music – Bossa Nova Jazz for Exams & Deep Focus",
+      "title": "Library Cafe Study Music \u2013 Bossa Nova Jazz for Exams & Deep Focus",
       "id": "J2uc9fM_CN8"
     },
     {
       "date": "2026-09-18",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Paris Cafe Jazz Piano – Calm Study Music for Deep Work",
+      "title": "Paris Cafe Jazz Piano \u2013 Calm Study Music for Deep Work",
       "id": "47xP1MBL3us"
     },
     {
