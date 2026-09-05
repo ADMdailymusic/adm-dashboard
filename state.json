@@ -26,63 +26,63 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 51
+    "videos_scheduled": 50
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-09-04T12:33:00+00:00",
-    "posts_instagram": 109,
-    "posts_tiktok": 109,
+    "last_run": "2026-09-05T12:33:00+00:00",
+    "posts_instagram": 111,
+    "posts_tiktok": 111,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 110,
+    "posts_youtube_shorts": 112,
     "latest_reel": {
-      "title": "Pour the coffee, press play \u2615 (youtube)",
-      "posted_at": "2026-09-03T16:00:00.000Z"
+      "title": "A minute of calm for your day (youtube)",
+      "posted_at": "2026-09-04T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Slow down for a minute \u2615 (youtube)",
-      "scheduled_at": "2026-09-04T13:00:00.000Z"
+      "title": "Bossa nova + coffee = perfect morning (youtube)",
+      "scheduled_at": "2026-09-05T13:00:00.000Z"
     },
     "followers": {
-      "instagram": 42,
-      "tiktok": 62,
-      "youtube": 21
+      "instagram": 43,
+      "tiktok": 63,
+      "youtube": 22
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-09-04T08:32:47",
-    "total_views": 5918,
+    "last_run": "2026-09-05T08:34:08",
+    "total_views": 5923,
     "total_watch_hours": 158.9,
-    "subscribers": 21,
+    "subscribers": 22,
     "weekly_views": 351,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": "Bossa nova + coffee = perfect morning",
     "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 146,
+    "total_videos": 149,
     "latest_video": {
-      "id": "-em-PT4KElI",
-      "title": "4K Rainy Coffee Shop Study Music \u2013 Smooth Bossa Nova Jazz for Homework",
-      "published_at": "2026-09-03T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=-em-PT4KElI",
-      "thumbnail": "https://i.ytimg.com/vi/-em-PT4KElI/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "-Nz-2RWJJ_8",
       "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
-      "scheduled_at": "2026-09-04T13:00:00Z",
-      "url": "https://youtube.com/watch?v=-Nz-2RWJJ_8"
+      "published_at": "2026-09-04T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=-Nz-2RWJJ_8",
+      "thumbnail": "https://i.ytimg.com/vi/-Nz-2RWJJ_8/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "gVTXzKKqDCQ",
+      "title": "Morning Study Music \u2013 Happy Bossa Nova Coffee Shop Jazz for School & Work",
+      "scheduled_at": "2026-09-07T13:00:00Z",
+      "url": "https://youtube.com/watch?v=gVTXzKKqDCQ"
     },
     "watch_hours_28d": 34.5,
-    "public_videos": 146,
+    "public_videos": 149,
     "top_video_id": "DFQZEtVBNHs",
-    "public_video_count": 146,
-    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-04 run)",
-    "data_note": "2026-09-04 daily refresh. Views/subs from YouTube Data API v3 via Chrome (146 PUBLIC videos, 5918 lifetime views; scheduled/unlisted excluded from count).",
+    "public_video_count": 149,
+    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-05 run)",
+    "data_note": "2026-09-05 daily refresh. Views/subs from YouTube Data API v3 via Chrome (149 PUBLIC videos, 5923 lifetime views; scheduled/unlisted excluded from count).",
     "avg_view_duration_sec": 242,
     "subscribers_gained_lifetime": 18,
     "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
@@ -95,7 +95,7 @@
         "amount": 108.38
       },
       {
-        "name": "Claude Pro subscription (Jun-Aug, ended)",
+        "name": "Claude Pro subscription",
         "amount": 60.0
       },
       {
@@ -117,13 +117,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-09-04",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Evening Study Music \u2013 Calm Bossa Nova Jazz for Late Homework",
-      "id": "-Nz-2RWJJ_8"
-    },
     {
       "date": "2026-09-07",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Soft Jazz Piano Trio",
       "title": "Soft Jazz Piano Trio - Relaxing French Cafe Music for Study and Focus",
       "id": "TpJjEkOj09g"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "French Cafe Piano Jazz \u2013 Warm Background Music for Reading",
+      "id": "4CN68nprd0Q"
     }
   ],
   "channel_intelligence": {
