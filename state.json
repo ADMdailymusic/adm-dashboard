@@ -26,56 +26,56 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 47
+    "videos_scheduled": 46
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-09-11T12:32:00+00:00",
-    "posts_instagram": 123,
-    "posts_tiktok": 122,
+    "last_run": "2026-09-12T12:36:04+00:00",
+    "posts_instagram": 125,
+    "posts_tiktok": 124,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 124,
+    "posts_youtube_shorts": 126,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-09-10T16:00:00.000Z"
+      "title": "Pour the coffee, press play \u2615 (youtube)",
+      "posted_at": "2026-09-11T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Press play, let the cafe come to you (youtube)",
-      "scheduled_at": "2026-09-11T13:00:00.000Z"
+      "title": "Soft jazz to ease into the day (youtube)",
+      "scheduled_at": "2026-09-12T13:00:00.000Z"
     },
     "followers": {
       "instagram": 43,
-      "tiktok": 65,
+      "tiktok": 66,
       "youtube": 22
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-09-11T08:32:26",
-    "total_views": 6487,
+    "last_run": "2026-09-12T08:36:04",
+    "total_views": 6604,
     "total_watch_hours": 158.9,
     "subscribers": 22,
     "weekly_views": 351,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
-    "top_video_title": "Bossa nova + coffee = perfect morning",
-    "top_video_views": 1035,
+    "top_video_title": null,
+    "top_video_views": 0,
     "last_result": "success",
-    "total_videos": 164,
+    "total_videos": 0,
     "latest_video": {
-      "id": "tPEwtcvVBVs",
-      "title": "Background Music for Sleep \u2013 Soft Bossa Nova & Jazz Piano Instrumentals",
-      "published_at": "2026-09-10T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=tPEwtcvVBVs",
-      "thumbnail": "https://i.ytimg.com/vi/tPEwtcvVBVs/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "1mlCNNjyVs8",
       "title": "Study With Me Music \u2013 Bossa Nova for Focus & Homework",
-      "scheduled_at": "2026-09-11T13:00:00Z",
-      "url": "https://youtube.com/watch?v=1mlCNNjyVs8"
+      "published_at": "2026-09-11T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=1mlCNNjyVs8",
+      "thumbnail": "https://i.ytimg.com/vi/1mlCNNjyVs8/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "LUWzIzpFVF8",
+      "title": "Chill Bossa Nova Study Mix \u2013 Cozy Caf\u00e9 Ambience for Focus & Productivity",
+      "scheduled_at": "2026-09-14T13:00:00Z",
+      "url": "https://youtube.com/watch?v=LUWzIzpFVF8"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 158,
@@ -117,13 +117,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-09-11",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Study With Me Music \u2013 Bossa Nova for Focus & Homework",
-      "id": "1mlCNNjyVs8"
-    },
     {
       "date": "2026-09-14",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Soft Jazz Piano Trio",
       "title": "Cozy French Cafe Jazz Piano - Warm Background Music for Work and Reading",
       "id": "aE-MB_OPKs0"
+    },
+    {
+      "date": "2026-09-30",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Rainy Paris Cafe Jazz \u2013 Peaceful Piano Music for Studying",
+      "id": "ECblZauqXFE"
     }
   ],
   "channel_intelligence": {
