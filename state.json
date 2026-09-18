@@ -60,9 +60,9 @@
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": null,
-    "top_video_views": 0,
+    "top_video_views": 1035,
     "last_result": "success",
-    "total_videos": 0,
+    "total_videos": 182,
     "latest_video": {
       "id": "J2uc9fM_CN8",
       "title": "Library Cafe Study Music \u2013 Bossa Nova Jazz for Exams & Deep Focus",
@@ -78,11 +78,11 @@
       "url": "https://youtube.com/watch?v=47xP1MBL3us"
     },
     "watch_hours_28d": 34.5,
-    "public_videos": 179,
+    "public_videos": 182,
     "top_video_id": "DFQZEtVBNHs",
-    "public_video_count": 179,
+    "public_video_count": 182,
     "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-09 run)",
-    "data_note": "2026-09-17 daily refresh. Views/subs scraped from public channel pages via Chrome (48 longs + 131 shorts = 179 public videos, 6823 lifetime views). Social via Zernio API.",
+    "data_note": "2026-09-18 daily refresh. Views/subs scraped from public channel pages via Chrome (49 longs + 133 shorts = 182 public videos, 6873 lifetime views). Social via Zernio API.",
     "avg_view_duration_sec": 242,
     "subscribers_gained_lifetime": 18,
     "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
