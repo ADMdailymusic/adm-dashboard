@@ -26,33 +26,33 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 39
+    "videos_scheduled": 38
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-09-25T12:47:40.000Z",
-    "posts_instagram": 151,
-    "posts_tiktok": 150,
+    "last_run": "2026-09-26T12:45:03.827Z",
+    "posts_instagram": 5,
+    "posts_tiktok": 7,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 152,
+    "posts_youtube_shorts": 7,
     "latest_reel": {
-      "title": "Two minutes of calm before the day starts (youtube)",
-      "posted_at": "2026-09-25T13:00:00.000Z"
+      "title": "A minute of calm for your day (instagram)",
+      "posted_at": "2026-09-25T16:04:28.398Z"
     },
     "next_reel": {
-      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
-      "scheduled_at": "2026-09-25T16:00:00.000Z"
+      "title": "A minute of calm for your day",
+      "scheduled_at": "2026-09-26T13:00:00.000Z"
     },
     "followers": {
-      "instagram": 42,
-      "tiktok": 70,
-      "youtube": 24
+      "youtube": 24,
+      "instagram": 43,
+      "tiktok": 70
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-09-25T12:47:48",
+    "last_run": "2026-09-26T12:45:23",
     "total_views": 7055,
     "total_watch_hours": 158.9,
     "subscribers": 24,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "qiMOwL8Q6Ic",
-      "title": "Rainy Paris Cafe Jazz - Soft Piano Trio for Study Work and Calm",
-      "published_at": "2026-09-24T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=qiMOwL8Q6Ic",
-      "thumbnail": "https://i.ytimg.com/vi/qiMOwL8Q6Ic/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "P4Sq3A1NeoU",
       "title": "Cozy Piano Trio Jazz \u2013 Soft Cafe Music for Work & Focus",
-      "scheduled_at": "2026-09-25T13:00:00Z",
-      "url": "https://youtube.com/watch?v=P4Sq3A1NeoU"
+      "published_at": "2026-09-25T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=P4Sq3A1NeoU",
+      "thumbnail": "https://i.ytimg.com/vi/P4Sq3A1NeoU/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "aE-MB_OPKs0",
+      "title": "Cozy French Cafe Jazz Piano - Warm Background Music for Work and Reading",
+      "scheduled_at": "2026-09-28T13:00:00Z",
+      "url": "https://youtube.com/watch?v=aE-MB_OPKs0"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -117,13 +117,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-09-25",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Cozy Piano Trio Jazz \u2013 Soft Cafe Music for Work & Focus",
-      "id": "P4Sq3A1NeoU"
-    },
     {
       "date": "2026-09-28",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Soft Jazz Piano Trio",
       "title": "Mellow Jazz Piano \u2013 Cozy Cafe Music for Study & Reading",
       "id": "Mj0giLLtZ94"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
+      "id": "8YZxEkvrZSM"
     }
   ],
   "channel_intelligence": {
