@@ -30,19 +30,19 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-09-29T12:39:48.000Z",
-    "posts_instagram": 7,
+    "last_run": "2026-09-30T12:37:04.000Z",
+    "posts_instagram": 8,
     "posts_tiktok": 9,
     "posts_facebook": 0,
     "clips_ready": 0,
     "posts_youtube_shorts": 9,
     "latest_reel": {
-      "title": "Slow morning, warm coffee, soft bossa nova (youtube)",
-      "posted_at": "2026-09-28T16:00:00.000Z"
+      "title": "Study, work, or just breathe 🍂 (youtube)",
+      "posted_at": "2026-09-29T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Two minutes of calm before the day starts (youtube)",
-      "scheduled_at": "2026-09-29T13:00:00.000Z"
+      "title": "Study, work, or just breathe 🍂 (youtube)",
+      "scheduled_at": "2026-09-30T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
@@ -52,7 +52,7 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-09-29T12:39:48",
+    "last_run": "2026-09-30T12:38:16",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
