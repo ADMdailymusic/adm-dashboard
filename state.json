@@ -30,29 +30,29 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-01T14:05:00.000Z",
-    "posts_instagram": 9,
-    "posts_tiktok": 10,
+    "last_run": "2026-10-02T14:00:00.000Z",
+    "posts_instagram": 8,
+    "posts_tiktok": 9,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 10,
+    "posts_youtube_shorts": 9,
     "latest_reel": {
-      "title": "A minute of calm for your day (youtube)",
-      "posted_at": "2026-10-01T13:00:00.000Z"
+      "title": "Two minutes of calm before the day starts (instagram)",
+      "posted_at": "2026-10-01T16:03:04.214Z"
     },
     "next_reel": {
-      "title": "A minute of calm for your day (youtube)",
-      "scheduled_at": "2026-10-01T16:00:00.000Z"
+      "title": "Pour the coffee, press play ☕ (youtube)",
+      "scheduled_at": "2026-10-02T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
-      "instagram": 43,
+      "instagram": 44,
       "tiktok": 72
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-01T14:01:23",
+    "last_run": "2026-10-02T12:38:57",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
