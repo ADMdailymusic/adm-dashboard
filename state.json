@@ -1,284 +1,284 @@
 {
- "generator": {
-  "status": "idle",
-  "last_run": null,
-  "last_result": null,
-  "tracks_generated": 0,
-  "images_generated": 0
- },
- "curator": {
-  "status": "idle",
-  "last_run": null,
-  "last_review": null,
-  "items_approved": 0,
-  "items_skipped": 0
- },
- "editor": {
-  "status": "idle",
-  "last_run": null,
-  "videos_rendered": 0,
-  "queue_size": 0
- },
- "distributor": {
-  "status": "idle",
-  "last_run": null,
-  "videos_uploaded_youtube": 0,
-  "tracks_sent_distrokid": 0,
-  "videos_archived_drive": 0,
-  "next_scheduled": null,
-  "videos_scheduled": 34
- },
- "social_media": {
-  "status": "done",
-  "last_run": "2026-10-03T14:00:00.000Z",
-  "posts_instagram": 8,
-  "posts_tiktok": 9,
-  "posts_facebook": 0,
-  "clips_ready": 0,
-  "posts_youtube_shorts": 9,
-  "latest_reel": {
-   "title": "Two minutes of calm before the day starts (youtube)",
-   "posted_at": "2026-10-02T16:00:00.000Z"
+  "generator": {
+    "status": "idle",
+    "last_run": null,
+    "last_result": null,
+    "tracks_generated": 0,
+    "images_generated": 0
   },
-  "next_reel": {
-   "title": "Press play, let the cafe come to you (youtube)",
-   "scheduled_at": "2026-10-03T13:00:00.000Z"
+  "curator": {
+    "status": "idle",
+    "last_run": null,
+    "last_review": null,
+    "items_approved": 0,
+    "items_skipped": 0
   },
-  "followers": {
-   "youtube": 24,
-   "instagram": 45,
-   "tiktok": 72
-  }
- },
- "analytics": {
-  "status": "done",
-  "last_run": "2026-10-03T12:38:59",
-  "total_views": 7121,
-  "total_watch_hours": 158.9,
-  "subscribers": 24,
-  "weekly_views": 192,
-  "avg_ctr": 2.3,
-  "revenue_usd": 0,
-  "top_video_title": null,
-  "top_video_views": 0,
-  "last_result": "success",
-  "total_videos": 0,
-  "latest_video": {
-   "id": "X-3Zua95wfk",
-   "title": "Late Night Piano Jazz – Smooth Cafe Music for Relaxing",
-   "published_at": "2026-10-02T13:00:00Z",
-   "views": 0,
-   "url": "https://youtube.com/watch?v=X-3Zua95wfk",
-   "thumbnail": "https://i.ytimg.com/vi/X-3Zua95wfk/mqdefault.jpg"
+  "editor": {
+    "status": "idle",
+    "last_run": null,
+    "videos_rendered": 0,
+    "queue_size": 0
   },
-  "next_scheduled": {
-   "id": "beA4XlhMSBc",
-   "title": "Late Night Bossa Nova Lounge – Smooth Jazz Music for Focus & Relaxation",
-   "scheduled_at": "2026-10-05T13:00:00Z",
-   "url": "https://youtube.com/watch?v=beA4XlhMSBc"
+  "distributor": {
+    "status": "idle",
+    "last_run": null,
+    "videos_uploaded_youtube": 0,
+    "tracks_sent_distrokid": 0,
+    "videos_archived_drive": 0,
+    "next_scheduled": null,
+    "videos_scheduled": 34
   },
-  "watch_hours_28d": 34.5,
-  "public_videos": 185,
-  "top_video_id": "DFQZEtVBNHs",
-  "public_video_count": 185,
-  "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-09 run)",
-  "data_note": "2026-09-19 daily refresh. Views/subs scraped from public channel pages via Chrome (50 longs + 135 shorts = 185 public videos, 6901 lifetime views). Social via Zernio API.",
-  "avg_view_duration_sec": 242,
-  "subscribers_gained_lifetime": 18,
-  "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
- },
- "expenses": {
-  "total": 359.56,
-  "rows": [
-   {
-    "name": "Claude Max subscription (5x)",
-    "amount": 216.76
-   },
-   {
-    "name": "Claude Pro subscription",
-    "amount": 60
-   },
-   {
-    "name": "KIE.ai credits (music + image generation)",
-    "amount": 40
-   },
-   {
-    "name": "Anthropic API credits",
-    "amount": 20
-   },
-   {
-    "name": "Google One 100GB storage (ADM Drive video archive)",
-    "amount": 16.8
-   },
-   {
-    "name": "Zernio (connected accounts)",
-    "amount": 6
-   }
-  ]
- },
- "upcoming_releases": [
-  {
-   "date": "2026-10-02",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Late Night Piano Jazz – Smooth Cafe Music for Relaxing",
-   "id": "X-3Zua95wfk"
+  "social_media": {
+    "status": "done",
+    "last_run": "2026-10-03T14:00:00.000Z",
+    "posts_instagram": 8,
+    "posts_tiktok": 9,
+    "posts_facebook": 0,
+    "clips_ready": 0,
+    "posts_youtube_shorts": 9,
+    "latest_reel": {
+      "title": "Two minutes of calm before the day starts (youtube)",
+      "posted_at": "2026-10-02T16:00:00.000Z"
+    },
+    "next_reel": {
+      "title": "Press play, let the cafe come to you (youtube)",
+      "scheduled_at": "2026-10-03T13:00:00.000Z"
+    },
+    "followers": {
+      "youtube": 24,
+      "instagram": 45,
+      "tiktok": 72
+    }
   },
-  {
-   "date": "2026-10-05",
-   "type": "long",
-   "style": "Soft Bossa",
-   "title": "Late Night Bossa Nova Lounge – Smooth Jazz Music for Focus & Relaxation",
-   "id": "beA4XlhMSBc"
+  "analytics": {
+    "status": "done",
+    "last_run": "2026-10-03T12:38:59",
+    "total_views": 7121,
+    "total_watch_hours": 158.9,
+    "subscribers": 24,
+    "weekly_views": 192,
+    "avg_ctr": 2.3,
+    "revenue_usd": 0,
+    "top_video_title": null,
+    "top_video_views": 0,
+    "last_result": "success",
+    "total_videos": 0,
+    "latest_video": {
+      "id": "X-3Zua95wfk",
+      "title": "Late Night Piano Jazz \u2013 Smooth Cafe Music for Relaxing",
+      "published_at": "2026-10-02T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=X-3Zua95wfk",
+      "thumbnail": "https://i.ytimg.com/vi/X-3Zua95wfk/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "beA4XlhMSBc",
+      "title": "Late Night Bossa Nova Lounge \u2013 Smooth Jazz Music for Focus & Relaxation",
+      "scheduled_at": "2026-10-05T13:00:00Z",
+      "url": "https://youtube.com/watch?v=beA4XlhMSBc"
+    },
+    "watch_hours_28d": 34.5,
+    "public_videos": 185,
+    "top_video_id": "DFQZEtVBNHs",
+    "public_video_count": 185,
+    "patch_note": "total_videos/top_video patched manually - update_dashboard.py key bug (2026-09-09 run)",
+    "data_note": "2026-09-19 daily refresh. Views/subs scraped from public channel pages via Chrome (50 longs + 135 shorts = 185 public videos, 6901 lifetime views). Social via Zernio API.",
+    "avg_view_duration_sec": 242,
+    "subscribers_gained_lifetime": 18,
+    "watch_hours_source": "YouTube Analytics API v2 (token_analytics.json) 2026-08-26"
   },
-  {
-   "date": "2026-10-07",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Warm Cafe Piano Jazz – Gentle Music for Work & Calm",
-   "id": "S1ZPCDQA__k"
-  },
-  {
-   "date": "2026-10-09",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Elegant Piano Trio Jazz – Relaxing Music for Deep Focus",
-   "id": "sxflkBrkhoY"
-  },
-  {
-   "date": "2026-10-12",
-   "type": "long",
-   "style": "Soft Bossa",
-   "title": "Bossa Nova Work Music – Relaxing Instrumentals for Productivity & Focus",
-   "id": "qXjA6ioHXaM"
-  },
-  {
-   "date": "2026-10-14",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Mellow Jazz Piano – Cozy Cafe Music for Study & Reading",
-   "id": "Mj0giLLtZ94"
-  },
-  {
-   "date": "2026-10-16",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Morning Piano Cafe Jazz – Bright Music for Work & Focus",
-   "id": "8YZxEkvrZSM"
-  },
-  {
-   "date": "2026-10-21",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
-   "id": "axTllF3lQTI"
-  },
-  {
-   "date": "2026-10-23",
-   "type": "short",
-   "style": "Soft Jazz Piano Trio",
-   "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
-   "id": "K7IFjvmd4qs"
-  },
-  {
-   "date": "2026-10-26",
-   "type": "long",
-   "style": "Fun Jazz Mix",
-   "title": "Beach Cafe Jazz - Upbeat Tropical Morning Music for Work and Good Vibes",
-   "id": "9k7yOouQdy0"
-  }
- ],
- "channel_intelligence": {
-  "updated": "2026-09-28",
-  "state_of_channel": "98 days in: ~193 videos, 24 subscribers (flat this week), 7,109 lifetime views. This week cooled off the top: 192 views (-15%), 5.3 watch hours (-49%) after last week's 10.4-hour spike. Long-form: 30 views (-19%), 747 impressions (+6%), CTR fell 3.1%->2.0%, AVD fell 19:04->13:46. The Sep 14 breakout ('Chill Bossa Nova... Cozy Autumn Ambience') faded from Suggested exactly as predicted (515->44 impressions), but the pattern held: a brand-new autumn-titled Piano Trio long published Sep 21 ('Soft Jazz Piano Trio - Cozy French Cafe Music for Autumn Mornings') immediately took over as the week's top video (328 impressions, 11 views, 36.7% of the week). A second new autumn Piano Trio long (Sep 24) posted the best watch efficiency of the week: 30:50 average view duration on a 1:31:47 runtime. Suggested videos drove 70% of long-form views and 98.3% of watch hours - more concentrated than ever. The single most important thing: this isn't a Bossa-vs-Piano-Trio story anymore - it's a FRESHNESS story. Every autumn-titled long gets one strong week of Suggested placement right after publish, then fades within 7-10 days. The lever is publish cadence on the winning title formula, not picking a permanent style.",
-  "what_works": [
-   "AUTUMN-TITLED LONGS GET ONE WEEK OF SUGGESTED, THEN FADE - SO KEEP PUBLISHING THEM. Three straight autumn-hook longs (Sep14, Sep17, Sep21) each had their best week the week they published: 515, then normal, then 328 impressions respectively for the newest. The newest long (Sep21) is this week's #1 by views and impressions; the Sep14 one collapsed 515->44 impressions the week after. Confirms last week's finding and adds the timing: the Suggested window is roughly 1 week per video.",
-   "SUGGESTED IS NOW 98.3% OF LONG-FORM WATCH TIME. 626 of 747 impressions, 21 of 30 views, 5.0 of 5.1 watch-hours came from Suggested this week (vs RELATED_VIDEO's 79% of minutes last week) - the channel's entire long-form watch time now depends on one distribution channel.",
-   "SOFT JAZZ PIANO TRIO AND SOFT BOSSA ARE STATISTICALLY EVEN ON LONGS RIGHT NOW. Piano Trio longs (2 videos): 14 views / 425 impressions / 2.7 watch-hrs. Soft Bossa longs (2 videos): 11 views / 112 impressions / 2.3 watch-hrs. Neither style is the deciding factor this week - recency is.",
-   "THE RAINY PARIS CAFE JAZZ LONG (Sep 24) GOT THE BEST WATCH EFFICIENCY EVER LOGGED: 30:50 average view duration on a 91-minute video (33.6% of runtime) - proof the 'Grey Autumn Afternoons' framing pulls a real listening audience, not just a click.",
-   "QUIET LIBRARY CAFE BOSSA NOVA (Sep 17) HAS THE BEST CTR OF THE WEEK AT 5.9%, nearly 3x the channel's 2.0% long-form average, on a modest 68 impressions - a title/thumbnail worth reusing even though its distribution was small."
-  ],
-  "next_moves": [
-   "KEEP THE AUTUMN LONG CADENCE GOING WEEKLY - DO NOT LET IT LAPSE. The pattern is now 3 videos deep: freshness, not style, earns the Suggested week. Every Mon/Thu long needs an autumn-season title in the 'Cozy Autumn <Ambience/Jazz> for <Slow Days/Grey Afternoons/Calm Days>' shape before it goes live, alternating Piano Trio and Bossa is fine since both perform the same.",
-   "THE PIANO TRIO SWAP DID NOT RESCUE SHORTS - INVESTIGATE THE REAL VARIABLE. Social clips were swapped back to Piano Trio/Soft Jazz sourcing per last week's recommendation, but YouTube Shorts views kept falling (205 -> 152, -26%), missing the predicted recovery to 400+. Either the earlier 'Fun Bossa halved Shorts' read was confounded by something else (seasonal drop-off, algorithm change, novelty fatigue on this content type generally), or two data points isn't enough. Do not declare Piano Trio the winner again until a week actually recovers toward 400.",
-   "TIKTOK IS NOW THE BIGGEST SOCIAL LEVER, NOT INSTAGRAM. First week with real per-post view data: TikTok did 2,000 views / 61 likes / 3.25% ER across 13 posts vs Instagram's 507 views / 17 likes / 3.75% ER across 13 posts. TikTok also drove the follower growth (+1 to 70) alongside Instagram (+1 to 43). Shift creative energy and caption testing toward TikTok first.",
-   "RETITLE THE NEXT SOFT BOSSA LONG USING THE QUIET LIBRARY CTR PATTERN. 5.9% CTR beat the Piano Trio long's 1.8% by more than 3x on the same 'Cozy Autumn' formula - test whether 'Library'/'Calm Days' framing out-clicks 'French Cafe'/'Morning' framing on the next few thumbnails.",
-   "PINTEREST: SIXTH STRAIGHT CONFIRMED ZERO. Retire it from the weekly check or replace the current setup - it is not generating any measurable impressions or clicks after 6 weeks."
-  ],
-  "suno_prompts": [
-   "Cozy autumn cafe jazz piano trio, warm acoustic piano leading gentle melodies over soft brushed drums and upright bass, rainy grey-afternoon mood with unhurried tempo, no vocals, instrumental only, one steady relaxed energy level throughout with no dynamic spikes, one continuous 90-minute set for slow afternoons and reading",
-   "Quiet library cafe bossa nova, soft nylon-string guitar and warm Rhodes over brushed percussion and gentle upright bass, calm and studious with light autumn melancholy, no vocals, instrumental only, even dynamics with no crescendos, one continuous 75-minute set for deep focus and studying",
-   "Cozy autumn cafe bossa nova, warm nylon-string guitar and Rhodes trading a gentle melody over brushed drums and unhurried bass, cheerful but unhurried morning warmth, no vocals, instrumental only, one even relaxed energy level from start to finish with no dynamic spikes, one continuous 120-minute set for slow mornings and reading"
-  ],
-  "suno_rules": "Data-backed prompt rules, updated 2026-09-28: (1) ALWAYS 'instrumental / no vocals'. (2) KEEP ENERGY CONSISTENT, no dynamic spikes - Suggested is now 98.3% of long-form watch hours and those sessions end the moment a track jumps. (3) SEASON THE TITLE AND PROMPT TOGETHER - three straight autumn-titled longs each got a distribution week right after publish; write the season into the mood ('cozy autumn cafe', 'rainy grey afternoon', 'quiet library autumn') so audio and title match. (4) NEW - PUBLISH CADENCE BEATS STYLE LOYALTY. Piano Trio and Soft Bossa longs performed statistically even this week (14 views/425 impr vs 11 views/112 impr); the real driver is how recently the video published. Alternate styles freely as long as a new autumn-hook long goes out every Mon/Thu. (5) HIGH-CTR TITLE PATTERN WORTH TESTING - 'Quiet Library...Cozy Autumn Jazz for Calm Days' pulled 5.9% CTR, 3x the channel average; try 'Library'/'Calm Days' framing on more thumbnails. (6) VARY RUNTIME 75-120 MINUTES on longs rather than defaulting to one fixed length; the 91-minute Rainy Paris long logged a 30:50 AVD (33.6% of runtime), the best watch efficiency yet. (7) NAME THE ACTION AND MATCH SEARCH - search volume is thin (4 views this week) so don't over-index on query wording; Suggested placement matters far more right now. (8) STILL WITHDRAWN - caption rules; captions remain noise on 6+ weeks of data.",
-  "deep_analytics": {
-   "ctr": 2,
-   "impressions": 747,
-   "impressions_note": "long-form only, Studio Content>Videos Advanced mode, Sep 21-27 2026; prior week 708 (+6%). All-content Studio Overview: 192 total channel views, 5.3 watch hours.",
-   "watch_hours_7d": 5.3,
-   "watch_hours_lifetime": null,
-   "avg_view_duration_sec": 826,
-   "avg_view_duration_note": "long-form, Studio (13:46; prior 19:04)",
-   "shorts_views_7d": 152,
-   "shorts_engaged_views_7d": 29,
-   "shorts_stayed_to_watch_pct": 21.5,
-   "views_7d": 192,
-   "subscribers_gained_7d": 0,
-   "breakout_long": {
-    "title": "Soft Jazz Piano Trio - Cozy French Cafe Music for Autumn Mornings",
-    "published": "2026-09-21",
-    "impressions": 328,
-    "ctr": 1.8,
-    "views": 11,
-    "avd": "10:09",
-    "views_share_of_week_pct": 36.7
-   },
-   "top_search_queries": [
-    [
-     "paris cafe music",
-     1
+  "expenses": {
+    "total": 359.56,
+    "rows": [
+      {
+        "name": "Claude Max subscription (5x)",
+        "amount": 216.76
+      },
+      {
+        "name": "Claude Pro subscription",
+        "amount": 60.0
+      },
+      {
+        "name": "KIE.ai credits (music + image generation)",
+        "amount": 40.0
+      },
+      {
+        "name": "Anthropic API credits",
+        "amount": 20.0
+      },
+      {
+        "name": "Google One 100GB storage (ADM Drive video archive)",
+        "amount": 16.8
+      },
+      {
+        "name": "Zernio (connected accounts)",
+        "amount": 6.0
+      }
     ]
-   ],
-   "top_search_queries_note": "only 4 search views total this week; too thin to read beyond one tagged query",
-   "top_traffic_sources": [
-    [
-     "Suggested videos",
-     21,
-     626,
-     300
-    ],
-    [
-     "YouTube search",
-     4,
-     49,
-     6
-    ],
-    [
-     "Browse features",
-     5,
-     20,
-     0
-    ]
-   ],
-   "traffic_note": "columns are [source, views, impressions, watch_minutes-approx]. Suggested = 70% of long-form views, 98.3% of long-form watch hours (5.0 of 5.1 hrs)."
-  }
- },
- "social_intelligence": {
-  "updated": "2026-09-28",
-  "state_of_socials": "Followers up everywhere but Shorts still sliding. TikTok 70 (+1), Instagram 43 (+1), YouTube 24 (flat) - total 137, +2 this week. 44 platform-posts went out this week (-6% vs 47 prior). This is the first week with real per-post view data from Zernio: TikTok did 2,000 views on 13 posts (3.25% ER) vs Instagram's 507 views on 13 posts (3.75% ER) - TikTok is the reach engine, Instagram the engagement engine. Clips were swapped back to Piano Trio/Soft Jazz sourcing as recommended last week, but YouTube Shorts views still fell 205 -> 152 (-26%), so the swap did not produce the expected recovery toward 400+. Pinterest: sixth straight confirmed zero, 30-day window 8/29-9/28 shows 'Not enough data' on every metric. The single most important thing: the Fun-Bossa-vs-Piano-Trio explanation for the Shorts decline looks wrong now that the swap-back didn't fix it - something else is driving Shorts down two weeks running, and it needs a different hypothesis before more queue rebuilding.",
-  "whats_out": [
-   "44 platform-posts this week (-6% vs 47 prior), split TikTok 13 / Instagram 13 / YouTube 18. Source switched back to Piano Trio/Soft Jazz tracks per last week's recommendation - confirmed by caption match in post_daily.log ('Press play, let the cafe come to you', 'Soft jazz to ease into the day') and by this week's actual Zernio top-post titles, none of which reference Fun Bossa/brazilian/celebration themes.",
-   "FIRST WEEK WITH PER-POST VIEW DATA. TikTok: 2,000 views, 61 likes, 2 comments, 1 share, 3.25% engagement rate across 13 posts. Instagram: 507 views, 507 impressions, 462 reach, 17 likes, 2 saves, 3.75% engagement rate across 13 posts. YouTube Shorts: 152 views, 1 like, 0.66% engagement rate across 18 posts - by far the weakest platform per-post.",
-   "YOUTUBE SHORTS VIEWS KEPT FALLING DESPITE THE PIANO TRIO SWAP: 450 -> 205 (fun bossa week) -> 152 (piano trio week, this week), -26% week over week. Stayed-to-watch held at 21.5% (vs 19.5% prior), so the swipe-away problem isn't worse, there's just less initial reach. The single-variable Fun-Bossa hypothesis from last week did not hold up.",
-   "Pinterest: sixth straight confirmed zero (30-day window 8/29-9/28, 'Not enough data' on every metric). Nothing is being pinned or nothing is being served.",
-   "Follower growth continued across all three platforms: TikTok 69->70, Instagram 42->43 (recovered its prior-week loss), YouTube 24->24. Total 135->137."
+  },
+  "upcoming_releases": [
+    {
+      "date": "2026-10-05",
+      "type": "long",
+      "style": "Soft Bossa",
+      "title": "Late Night Bossa Nova Lounge \u2013 Smooth Jazz Music for Focus & Relaxation",
+      "id": "beA4XlhMSBc"
+    },
+    {
+      "date": "2026-10-07",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Warm Cafe Piano Jazz \u2013 Gentle Music for Work & Calm",
+      "id": "S1ZPCDQA__k"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
+      "id": "sxflkBrkhoY"
+    },
+    {
+      "date": "2026-10-12",
+      "type": "long",
+      "style": "Soft Bossa",
+      "title": "Bossa Nova Work Music \u2013 Relaxing Instrumentals for Productivity & Focus",
+      "id": "qXjA6ioHXaM"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Mellow Jazz Piano \u2013 Cozy Cafe Music for Study & Reading",
+      "id": "Mj0giLLtZ94"
+    },
+    {
+      "date": "2026-10-16",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
+      "id": "8YZxEkvrZSM"
+    },
+    {
+      "date": "2026-10-21",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
+      "id": "axTllF3lQTI"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
+      "id": "K7IFjvmd4qs"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "Beach Cafe Jazz - Upbeat Tropical Morning Music for Work and Good Vibes",
+      "id": "9k7yOouQdy0"
+    },
+    {
+      "date": "2026-10-28",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Cafe Music ADM Channel - Brazil Bossa Nova Vibes",
+      "id": "t23XT4Y0_rg"
+    }
   ],
-  "suggestions": [
-   "DROP THE FUN-BOSSA-VS-PIANO-TRIO FRAME - IT DIDN'T PREDICT THIS WEEK. Swapping back to Piano Trio/Soft Jazz sourcing was last week's top recommendation and it happened, but Shorts views fell again (205->152). Look at other variables before rebuilding the queue again: clip length, hook/first-2-seconds, thumbnail/cover frame, or a channel-wide algorithmic dip (long-form Suggested traffic also cooled sharply this week, -15% channel views, so some of this may be platform-wide, not clip-source-specific).",
-   "DOUBLE DOWN ON TIKTOK, NOT INSTAGRAM, FOR THE NEXT CAPTION/HOOK TEST. First real per-post data shows TikTok pulling 4x Instagram's views (2,000 vs 507) on the same 13-post cadence. Use TikTok's top posts this week (all Piano Trio/Soft Jazz-sourced: 'The cafe sound you didn't know you needed', 'Slow morning, warm coffee, soft bossa nova...') as the caption template going forward.",
-   "KEEP READING PER-POST DATA WEEKLY NOW THAT IT'S AVAILABLE. This is the first week Zernio's dashboard (Analytics > Platform Breakdown / Top Performing Posts) surfaced real per-post views instead of just followers - use it every week from here to separate platform performance instead of inferring from YouTube Shorts alone.",
-   "CHECK THE SSD CLIP QUEUE DIRECTLY NEXT RUN. The Social Clips Queue folder (/Volumes/Uri SSD /Uri and Marc Suno/Social Clips/Queue) was not a connected folder this session, so days-of-supply is unknown again this week. Zernio's own Queues page shows no native queue either (posts are pushed by API script, not scheduled through Zernio's UI) - connect the SSD folder for next week's run so buffer depth can actually be checked.",
-   "RETIRE PINTEREST FROM THE WEEKLY CHECK. Six confirmed zeros in a row. Either rebuild the pinning flow or stop spending report time on it."
-  ]
- }
+  "channel_intelligence": {
+    "updated": "2026-09-28",
+    "state_of_channel": "98 days in: ~193 videos, 24 subscribers (flat this week), 7,109 lifetime views. This week cooled off the top: 192 views (-15%), 5.3 watch hours (-49%) after last week's 10.4-hour spike. Long-form: 30 views (-19%), 747 impressions (+6%), CTR fell 3.1%->2.0%, AVD fell 19:04->13:46. The Sep 14 breakout ('Chill Bossa Nova... Cozy Autumn Ambience') faded from Suggested exactly as predicted (515->44 impressions), but the pattern held: a brand-new autumn-titled Piano Trio long published Sep 21 ('Soft Jazz Piano Trio - Cozy French Cafe Music for Autumn Mornings') immediately took over as the week's top video (328 impressions, 11 views, 36.7% of the week). A second new autumn Piano Trio long (Sep 24) posted the best watch efficiency of the week: 30:50 average view duration on a 1:31:47 runtime. Suggested videos drove 70% of long-form views and 98.3% of watch hours - more concentrated than ever. The single most important thing: this isn't a Bossa-vs-Piano-Trio story anymore - it's a FRESHNESS story. Every autumn-titled long gets one strong week of Suggested placement right after publish, then fades within 7-10 days. The lever is publish cadence on the winning title formula, not picking a permanent style.",
+    "what_works": [
+      "AUTUMN-TITLED LONGS GET ONE WEEK OF SUGGESTED, THEN FADE - SO KEEP PUBLISHING THEM. Three straight autumn-hook longs (Sep14, Sep17, Sep21) each had their best week the week they published: 515, then normal, then 328 impressions respectively for the newest. The newest long (Sep21) is this week's #1 by views and impressions; the Sep14 one collapsed 515->44 impressions the week after. Confirms last week's finding and adds the timing: the Suggested window is roughly 1 week per video.",
+      "SUGGESTED IS NOW 98.3% OF LONG-FORM WATCH TIME. 626 of 747 impressions, 21 of 30 views, 5.0 of 5.1 watch-hours came from Suggested this week (vs RELATED_VIDEO's 79% of minutes last week) - the channel's entire long-form watch time now depends on one distribution channel.",
+      "SOFT JAZZ PIANO TRIO AND SOFT BOSSA ARE STATISTICALLY EVEN ON LONGS RIGHT NOW. Piano Trio longs (2 videos): 14 views / 425 impressions / 2.7 watch-hrs. Soft Bossa longs (2 videos): 11 views / 112 impressions / 2.3 watch-hrs. Neither style is the deciding factor this week - recency is.",
+      "THE RAINY PARIS CAFE JAZZ LONG (Sep 24) GOT THE BEST WATCH EFFICIENCY EVER LOGGED: 30:50 average view duration on a 91-minute video (33.6% of runtime) - proof the 'Grey Autumn Afternoons' framing pulls a real listening audience, not just a click.",
+      "QUIET LIBRARY CAFE BOSSA NOVA (Sep 17) HAS THE BEST CTR OF THE WEEK AT 5.9%, nearly 3x the channel's 2.0% long-form average, on a modest 68 impressions - a title/thumbnail worth reusing even though its distribution was small."
+    ],
+    "next_moves": [
+      "KEEP THE AUTUMN LONG CADENCE GOING WEEKLY - DO NOT LET IT LAPSE. The pattern is now 3 videos deep: freshness, not style, earns the Suggested week. Every Mon/Thu long needs an autumn-season title in the 'Cozy Autumn <Ambience/Jazz> for <Slow Days/Grey Afternoons/Calm Days>' shape before it goes live, alternating Piano Trio and Bossa is fine since both perform the same.",
+      "THE PIANO TRIO SWAP DID NOT RESCUE SHORTS - INVESTIGATE THE REAL VARIABLE. Social clips were swapped back to Piano Trio/Soft Jazz sourcing per last week's recommendation, but YouTube Shorts views kept falling (205 -> 152, -26%), missing the predicted recovery to 400+. Either the earlier 'Fun Bossa halved Shorts' read was confounded by something else (seasonal drop-off, algorithm change, novelty fatigue on this content type generally), or two data points isn't enough. Do not declare Piano Trio the winner again until a week actually recovers toward 400.",
+      "TIKTOK IS NOW THE BIGGEST SOCIAL LEVER, NOT INSTAGRAM. First week with real per-post view data: TikTok did 2,000 views / 61 likes / 3.25% ER across 13 posts vs Instagram's 507 views / 17 likes / 3.75% ER across 13 posts. TikTok also drove the follower growth (+1 to 70) alongside Instagram (+1 to 43). Shift creative energy and caption testing toward TikTok first.",
+      "RETITLE THE NEXT SOFT BOSSA LONG USING THE QUIET LIBRARY CTR PATTERN. 5.9% CTR beat the Piano Trio long's 1.8% by more than 3x on the same 'Cozy Autumn' formula - test whether 'Library'/'Calm Days' framing out-clicks 'French Cafe'/'Morning' framing on the next few thumbnails.",
+      "PINTEREST: SIXTH STRAIGHT CONFIRMED ZERO. Retire it from the weekly check or replace the current setup - it is not generating any measurable impressions or clicks after 6 weeks."
+    ],
+    "suno_prompts": [
+      "Cozy autumn cafe jazz piano trio, warm acoustic piano leading gentle melodies over soft brushed drums and upright bass, rainy grey-afternoon mood with unhurried tempo, no vocals, instrumental only, one steady relaxed energy level throughout with no dynamic spikes, one continuous 90-minute set for slow afternoons and reading",
+      "Quiet library cafe bossa nova, soft nylon-string guitar and warm Rhodes over brushed percussion and gentle upright bass, calm and studious with light autumn melancholy, no vocals, instrumental only, even dynamics with no crescendos, one continuous 75-minute set for deep focus and studying",
+      "Cozy autumn cafe bossa nova, warm nylon-string guitar and Rhodes trading a gentle melody over brushed drums and unhurried bass, cheerful but unhurried morning warmth, no vocals, instrumental only, one even relaxed energy level from start to finish with no dynamic spikes, one continuous 120-minute set for slow mornings and reading"
+    ],
+    "suno_rules": "Data-backed prompt rules, updated 2026-09-28: (1) ALWAYS 'instrumental / no vocals'. (2) KEEP ENERGY CONSISTENT, no dynamic spikes - Suggested is now 98.3% of long-form watch hours and those sessions end the moment a track jumps. (3) SEASON THE TITLE AND PROMPT TOGETHER - three straight autumn-titled longs each got a distribution week right after publish; write the season into the mood ('cozy autumn cafe', 'rainy grey afternoon', 'quiet library autumn') so audio and title match. (4) NEW - PUBLISH CADENCE BEATS STYLE LOYALTY. Piano Trio and Soft Bossa longs performed statistically even this week (14 views/425 impr vs 11 views/112 impr); the real driver is how recently the video published. Alternate styles freely as long as a new autumn-hook long goes out every Mon/Thu. (5) HIGH-CTR TITLE PATTERN WORTH TESTING - 'Quiet Library...Cozy Autumn Jazz for Calm Days' pulled 5.9% CTR, 3x the channel average; try 'Library'/'Calm Days' framing on more thumbnails. (6) VARY RUNTIME 75-120 MINUTES on longs rather than defaulting to one fixed length; the 91-minute Rainy Paris long logged a 30:50 AVD (33.6% of runtime), the best watch efficiency yet. (7) NAME THE ACTION AND MATCH SEARCH - search volume is thin (4 views this week) so don't over-index on query wording; Suggested placement matters far more right now. (8) STILL WITHDRAWN - caption rules; captions remain noise on 6+ weeks of data.",
+    "deep_analytics": {
+      "ctr": 2.0,
+      "impressions": 747,
+      "impressions_note": "long-form only, Studio Content>Videos Advanced mode, Sep 21-27 2026; prior week 708 (+6%). All-content Studio Overview: 192 total channel views, 5.3 watch hours.",
+      "watch_hours_7d": 5.3,
+      "watch_hours_lifetime": null,
+      "avg_view_duration_sec": 826,
+      "avg_view_duration_note": "long-form, Studio (13:46; prior 19:04)",
+      "shorts_views_7d": 152,
+      "shorts_engaged_views_7d": 29,
+      "shorts_stayed_to_watch_pct": 21.5,
+      "views_7d": 192,
+      "subscribers_gained_7d": 0,
+      "breakout_long": {
+        "title": "Soft Jazz Piano Trio - Cozy French Cafe Music for Autumn Mornings",
+        "published": "2026-09-21",
+        "impressions": 328,
+        "ctr": 1.8,
+        "views": 11,
+        "avd": "10:09",
+        "views_share_of_week_pct": 36.7
+      },
+      "top_search_queries": [
+        [
+          "paris cafe music",
+          1
+        ]
+      ],
+      "top_search_queries_note": "only 4 search views total this week; too thin to read beyond one tagged query",
+      "top_traffic_sources": [
+        [
+          "Suggested videos",
+          21,
+          626,
+          300
+        ],
+        [
+          "YouTube search",
+          4,
+          49,
+          6
+        ],
+        [
+          "Browse features",
+          5,
+          20,
+          0
+        ]
+      ],
+      "traffic_note": "columns are [source, views, impressions, watch_minutes-approx]. Suggested = 70% of long-form views, 98.3% of long-form watch hours (5.0 of 5.1 hrs)."
+    }
+  },
+  "social_intelligence": {
+    "updated": "2026-09-28",
+    "state_of_socials": "Followers up everywhere but Shorts still sliding. TikTok 70 (+1), Instagram 43 (+1), YouTube 24 (flat) - total 137, +2 this week. 44 platform-posts went out this week (-6% vs 47 prior). This is the first week with real per-post view data from Zernio: TikTok did 2,000 views on 13 posts (3.25% ER) vs Instagram's 507 views on 13 posts (3.75% ER) - TikTok is the reach engine, Instagram the engagement engine. Clips were swapped back to Piano Trio/Soft Jazz sourcing as recommended last week, but YouTube Shorts views still fell 205 -> 152 (-26%), so the swap did not produce the expected recovery toward 400+. Pinterest: sixth straight confirmed zero, 30-day window 8/29-9/28 shows 'Not enough data' on every metric. The single most important thing: the Fun-Bossa-vs-Piano-Trio explanation for the Shorts decline looks wrong now that the swap-back didn't fix it - something else is driving Shorts down two weeks running, and it needs a different hypothesis before more queue rebuilding.",
+    "whats_out": [
+      "44 platform-posts this week (-6% vs 47 prior), split TikTok 13 / Instagram 13 / YouTube 18. Source switched back to Piano Trio/Soft Jazz tracks per last week's recommendation - confirmed by caption match in post_daily.log ('Press play, let the cafe come to you', 'Soft jazz to ease into the day') and by this week's actual Zernio top-post titles, none of which reference Fun Bossa/brazilian/celebration themes.",
+      "FIRST WEEK WITH PER-POST VIEW DATA. TikTok: 2,000 views, 61 likes, 2 comments, 1 share, 3.25% engagement rate across 13 posts. Instagram: 507 views, 507 impressions, 462 reach, 17 likes, 2 saves, 3.75% engagement rate across 13 posts. YouTube Shorts: 152 views, 1 like, 0.66% engagement rate across 18 posts - by far the weakest platform per-post.",
+      "YOUTUBE SHORTS VIEWS KEPT FALLING DESPITE THE PIANO TRIO SWAP: 450 -> 205 (fun bossa week) -> 152 (piano trio week, this week), -26% week over week. Stayed-to-watch held at 21.5% (vs 19.5% prior), so the swipe-away problem isn't worse, there's just less initial reach. The single-variable Fun-Bossa hypothesis from last week did not hold up.",
+      "Pinterest: sixth straight confirmed zero (30-day window 8/29-9/28, 'Not enough data' on every metric). Nothing is being pinned or nothing is being served.",
+      "Follower growth continued across all three platforms: TikTok 69->70, Instagram 42->43 (recovered its prior-week loss), YouTube 24->24. Total 135->137."
+    ],
+    "suggestions": [
+      "DROP THE FUN-BOSSA-VS-PIANO-TRIO FRAME - IT DIDN'T PREDICT THIS WEEK. Swapping back to Piano Trio/Soft Jazz sourcing was last week's top recommendation and it happened, but Shorts views fell again (205->152). Look at other variables before rebuilding the queue again: clip length, hook/first-2-seconds, thumbnail/cover frame, or a channel-wide algorithmic dip (long-form Suggested traffic also cooled sharply this week, -15% channel views, so some of this may be platform-wide, not clip-source-specific).",
+      "DOUBLE DOWN ON TIKTOK, NOT INSTAGRAM, FOR THE NEXT CAPTION/HOOK TEST. First real per-post data shows TikTok pulling 4x Instagram's views (2,000 vs 507) on the same 13-post cadence. Use TikTok's top posts this week (all Piano Trio/Soft Jazz-sourced: 'The cafe sound you didn't know you needed', 'Slow morning, warm coffee, soft bossa nova...') as the caption template going forward.",
+      "KEEP READING PER-POST DATA WEEKLY NOW THAT IT'S AVAILABLE. This is the first week Zernio's dashboard (Analytics > Platform Breakdown / Top Performing Posts) surfaced real per-post views instead of just followers - use it every week from here to separate platform performance instead of inferring from YouTube Shorts alone.",
+      "CHECK THE SSD CLIP QUEUE DIRECTLY NEXT RUN. The Social Clips Queue folder (/Volumes/Uri SSD /Uri and Marc Suno/Social Clips/Queue) was not a connected folder this session, so days-of-supply is unknown again this week. Zernio's own Queues page shows no native queue either (posts are pushed by API script, not scheduled through Zernio's UI) - connect the SSD folder for next week's run so buffer depth can actually be checked.",
+      "RETIRE PINTEREST FROM THE WEEKLY CHECK. Six confirmed zeros in a row. Either rebuild the pinning flow or stop spending report time on it."
+    ]
+  }
 }
