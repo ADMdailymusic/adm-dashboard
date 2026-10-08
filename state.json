@@ -26,7 +26,7 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 33
+    "videos_scheduled": 32
   },
   "social_media": {
     "status": "done",
@@ -65,7 +65,7 @@
     "total_videos": 0,
     "latest_video": {
       "id": "S1ZPCDQA__k",
-      "title": "Warm Cafe Piano Jazz – Gentle Music for Work & Calm",
+      "title": "Warm Cafe Piano Jazz \u2013 Gentle Music for Work & Calm",
       "published_at": "2026-10-07T13:00:00Z",
       "views": 0,
       "url": "https://youtube.com/watch?v=S1ZPCDQA__k",
@@ -73,7 +73,7 @@
     },
     "next_scheduled": {
       "id": "sxflkBrkhoY",
-      "title": "Elegant Piano Trio Jazz – Relaxing Music for Deep Focus",
+      "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
       "scheduled_at": "2026-10-09T13:00:00Z",
       "url": "https://youtube.com/watch?v=sxflkBrkhoY"
     },
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
@@ -121,42 +121,42 @@
       "date": "2026-10-09",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Elegant Piano Trio Jazz – Relaxing Music for Deep Focus",
+      "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
       "id": "sxflkBrkhoY"
     },
     {
       "date": "2026-10-12",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Bossa Nova Work Music – Relaxing Instrumentals for Productivity & Focus",
+      "title": "Bossa Nova Work Music \u2013 Relaxing Instrumentals for Productivity & Focus",
       "id": "qXjA6ioHXaM"
     },
     {
       "date": "2026-10-14",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Mellow Jazz Piano – Cozy Cafe Music for Study & Reading",
+      "title": "Mellow Jazz Piano \u2013 Cozy Cafe Music for Study & Reading",
       "id": "Mj0giLLtZ94"
     },
     {
       "date": "2026-10-16",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Morning Piano Cafe Jazz – Bright Music for Work & Focus",
+      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
       "id": "8YZxEkvrZSM"
     },
     {
       "date": "2026-10-21",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
       "id": "axTllF3lQTI"
     },
     {
       "date": "2026-10-23",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
       "id": "K7IFjvmd4qs"
     },
     {
