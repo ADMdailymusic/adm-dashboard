@@ -30,29 +30,29 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-07T12:45:00.000Z",
+    "last_run": "2026-10-08T12:40:00.000Z",
     "posts_instagram": 8,
     "posts_tiktok": 9,
     "posts_facebook": 0,
     "clips_ready": 0,
     "posts_youtube_shorts": 9,
     "latest_reel": {
-      "title": "Smooth guitar, good coffee, good day (instagram)",
-      "posted_at": "2026-10-06T16:02:22.113Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "posted_at": "2026-10-07T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Groovy guitar for your work session (youtube, tiktok, instagram)",
-      "scheduled_at": "2026-10-07T13:00:00.000Z"
+      "title": "Warm hollow-body tone, steady groove (youtube)",
+      "scheduled_at": "2026-10-08T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
-      "instagram": 45,
-      "tiktok": 77
+      "instagram": 46,
+      "tiktok": 76
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-07T12:38:37",
+    "last_run": "2026-10-08T12:38:25",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "beA4XlhMSBc",
-      "title": "Late Night Bossa Nova Lounge \u2013 Smooth Jazz Music for Focus & Relaxation",
-      "published_at": "2026-10-05T13:00:00Z",
+      "id": "S1ZPCDQA__k",
+      "title": "Warm Cafe Piano Jazz – Gentle Music for Work & Calm",
+      "published_at": "2026-10-07T13:00:00Z",
       "views": 0,
-      "url": "https://youtube.com/watch?v=beA4XlhMSBc",
-      "thumbnail": "https://i.ytimg.com/vi/beA4XlhMSBc/mqdefault.jpg"
+      "url": "https://youtube.com/watch?v=S1ZPCDQA__k",
+      "thumbnail": "https://i.ytimg.com/vi/S1ZPCDQA__k/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "S1ZPCDQA__k",
-      "title": "Warm Cafe Piano Jazz \u2013 Gentle Music for Work & Calm",
-      "scheduled_at": "2026-10-07T13:00:00Z",
-      "url": "https://youtube.com/watch?v=S1ZPCDQA__k"
+      "id": "sxflkBrkhoY",
+      "title": "Elegant Piano Trio Jazz – Relaxing Music for Deep Focus",
+      "scheduled_at": "2026-10-09T13:00:00Z",
+      "url": "https://youtube.com/watch?v=sxflkBrkhoY"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,58 +112,51 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
   "upcoming_releases": [
     {
-      "date": "2026-10-07",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Warm Cafe Piano Jazz \u2013 Gentle Music for Work & Calm",
-      "id": "S1ZPCDQA__k"
-    },
-    {
       "date": "2026-10-09",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
+      "title": "Elegant Piano Trio Jazz – Relaxing Music for Deep Focus",
       "id": "sxflkBrkhoY"
     },
     {
       "date": "2026-10-12",
       "type": "long",
       "style": "Soft Bossa",
-      "title": "Bossa Nova Work Music \u2013 Relaxing Instrumentals for Productivity & Focus",
+      "title": "Bossa Nova Work Music – Relaxing Instrumentals for Productivity & Focus",
       "id": "qXjA6ioHXaM"
     },
     {
       "date": "2026-10-14",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Mellow Jazz Piano \u2013 Cozy Cafe Music for Study & Reading",
+      "title": "Mellow Jazz Piano – Cozy Cafe Music for Study & Reading",
       "id": "Mj0giLLtZ94"
     },
     {
       "date": "2026-10-16",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
+      "title": "Morning Piano Cafe Jazz – Bright Music for Work & Focus",
       "id": "8YZxEkvrZSM"
     },
     {
       "date": "2026-10-21",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
       "id": "axTllF3lQTI"
     },
     {
       "date": "2026-10-23",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
       "id": "K7IFjvmd4qs"
     },
     {
@@ -186,6 +179,13 @@
       "style": "Fun Jazz Mix",
       "title": "Tropical Cafe Jazz - Happy Beach Lounge Music for Work Study and Energy",
       "id": "QuTIDRNo_ZY"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Cafe Music ADM Channel - Late Night Bossa Nova Jazz",
+      "id": "-y832pSr4dI"
     }
   ],
   "channel_intelligence": {
