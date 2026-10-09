@@ -30,7 +30,7 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-08T12:40:00.000Z",
+    "last_run": "2026-10-09T12:39:13.000Z",
     "posts_instagram": 8,
     "posts_tiktok": 9,
     "posts_facebook": 0,
@@ -38,21 +38,21 @@
     "posts_youtube_shorts": 9,
     "latest_reel": {
       "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-10-07T16:00:00.000Z"
+      "posted_at": "2026-10-08T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Warm hollow-body tone, steady groove (youtube)",
-      "scheduled_at": "2026-10-08T13:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "scheduled_at": "2026-10-09T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
-      "instagram": 46,
-      "tiktok": 76
+      "instagram": 47,
+      "tiktok": 77
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-08T12:38:25",
+    "last_run": "2026-10-09T12:39:13",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
