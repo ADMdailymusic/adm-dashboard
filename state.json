@@ -26,33 +26,33 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 32
+    "videos_scheduled": 31
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-09T12:39:13.000Z",
+    "last_run": "2026-10-10T12:38:13.000Z",
     "posts_instagram": 8,
     "posts_tiktok": 9,
     "posts_facebook": 0,
     "clips_ready": 0,
     "posts_youtube_shorts": 9,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-10-08T16:00:00.000Z"
+      "title": "Pour the coffee, press play \u2615 (youtube)",
+      "posted_at": "2026-10-09T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "scheduled_at": "2026-10-09T13:00:00.000Z"
+      "title": "Pour the coffee, press play \u2615 (youtube)",
+      "scheduled_at": "2026-10-10T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
-      "instagram": 47,
-      "tiktok": 77
+      "instagram": 49,
+      "tiktok": 78
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-09T12:39:13",
+    "last_run": "2026-10-10T12:38:13",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "S1ZPCDQA__k",
-      "title": "Warm Cafe Piano Jazz \u2013 Gentle Music for Work & Calm",
-      "published_at": "2026-10-07T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=S1ZPCDQA__k",
-      "thumbnail": "https://i.ytimg.com/vi/S1ZPCDQA__k/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "sxflkBrkhoY",
       "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
-      "scheduled_at": "2026-10-09T13:00:00Z",
-      "url": "https://youtube.com/watch?v=sxflkBrkhoY"
+      "published_at": "2026-10-09T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=sxflkBrkhoY",
+      "thumbnail": "https://i.ytimg.com/vi/sxflkBrkhoY/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "qXjA6ioHXaM",
+      "title": "Bossa Nova Work Music \u2013 Relaxing Instrumentals for Productivity & Focus",
+      "scheduled_at": "2026-10-12T13:00:00Z",
+      "url": "https://youtube.com/watch?v=qXjA6ioHXaM"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -117,13 +117,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-09",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Elegant Piano Trio Jazz \u2013 Relaxing Music for Deep Focus",
-      "id": "sxflkBrkhoY"
-    },
     {
       "date": "2026-10-12",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Soft Bossa",
       "title": "Cafe Music ADM Channel - Late Night Bossa Nova Jazz",
       "id": "-y832pSr4dI"
+    },
+    {
+      "date": "2026-11-02",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "Blue Hour Beach Jazz - Smooth Evening Cafe Music for Relaxing and Unwinding",
+      "id": "1P6vLrpYwk4"
     }
   ],
   "channel_intelligence": {
