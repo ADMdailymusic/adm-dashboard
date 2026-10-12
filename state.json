@@ -30,33 +30,33 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-11T12:39:18.378Z",
+    "last_run": "2026-10-12T12:38:08.000Z",
     "posts_instagram": 8,
     "posts_tiktok": 9,
     "posts_facebook": 0,
     "clips_ready": 0,
     "posts_youtube_shorts": 9,
     "latest_reel": {
-      "title": "Pour the coffee, press play \u2615 (youtube)",
-      "posted_at": "2026-10-10T16:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "posted_at": "2026-10-11T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Smooth jazz guitar + coffee = perfect morning (youtube)",
-      "scheduled_at": "2026-10-11T13:00:00.000Z"
+      "title": "Pour the coffee, press play \u2615 (youtube)",
+      "scheduled_at": "2026-10-12T13:00:00.000Z"
     },
     "followers": {
       "youtube": 24,
       "instagram": 50,
-      "tiktok": 77
+      "tiktok": 78
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-11T12:39:22",
+    "last_run": "2026-10-12T12:39:12",
     "total_views": 7121,
     "total_watch_hours": 158.9,
     "subscribers": 24,
-    "weekly_views": 138,
+    "weekly_views": 320,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": null,
@@ -189,136 +189,126 @@
     }
   ],
   "channel_intelligence": {
-    "updated": "2026-10-05",
-    "state_of_channel": "105 days in: 24 subscribers (flat), 138 views this week (-28% vs 192), 3.1 watch hours (-43% vs 5.3). Channel CTR 1.2% on 2,472 impressions. The week's only new long, Thu Oct 1 'Late Night Paris Jazz - Soft Piano Trio for Cold Autumn Nights', led on views (15), impressions (309) and watch time (0.8h); with Rainy Paris (1.0h) and Cozy French (0.5h), three Piano Trio longs produced 2.3 of 3.1 hours. Views come from Shorts feed (38%) and Search (31%), but watch hours come from Suggested (1.1h), External (0.9h) and Browse (0.8h) = 93% of hours from just 33 views. Search jumped to 43 views but all are 1-2 view brand queries ('adm live', 'adm') with 0.1h watch time. Single most important thing: the week dropped because only one long published (no Mon Sep 28 long visible) - the freshness pattern holds, and each missed long slot costs about a week of Suggested distribution.",
+    "updated": "2026-10-12",
+    "state_of_channel": "112 days in: 24 subscribers (flat), 320 views this week (+132% vs 138), 2.8 watch hours (-9% vs 3.1). Views are the best week yet but are 90% Shorts: 289 Shorts views (Shorts feed 159, search 113) vs ~31 long-form. Channel CTR halved to 0.6% on 3,483 impressions (+41%) because 2,740 impressions came from search at 0.4% CTR. Watch time still comes from long-form: Late Night Paris Jazz (Oct 1) delivered 1.6h of 2.8h from 8 views, and Suggested videos gave 62% of hours (1.7h) from 16 views. Single most important thing: Shorts are scaling views but converting zero subscribers (+0, 24 flat) and almost no watch time (23.9% stayed to watch); long-form Suggested placement is the only thing producing hours.",
     "what_works": [
-      "FRESH PIANO TRIO LONG = THE WEEK'S WATCH TIME. Late Night Paris Jazz (Oct 1): 15 views, 309 impressions, 0.8 watch hrs, #1 overall. Three Piano Trio longs produced 25 views / 638 impressions / 2.3 of 3.1 total watch hours (74%).",
-      "AUTUMN NIGHT/AFTERNOON TITLES HOLD VIEWERS. Rainy Paris 'Grey Autumn Afternoons' (Sep 24): 1.0 watch hrs from 6 views, 15:23 AVD. Late Night 'Cold Autumn Nights': 6:30 AVD on a fresh upload.",
-      "SUGGESTED + BROWSE + EXTERNAL = 93% OF WATCH HOURS. 1.1h + 0.8h + 0.9h of 3.1h, from only 33 views; AVD 4:25 / 9:49 / 13:36 vs 0:09 for Search and 0:18 for Shorts feed.",
-      "'TWO MINUTES OF CALM' SHORT (Oct 2) HAD THE BEST SHORT CTR: 3.4% on 118 impressions, 14 views - 3x the channel's 1.2%.",
-      "SOFT JAZZ CLIPS LEAD SOCIAL. 'Soft jazz to ease into the day' was the top Zernio post at 183 views (Sep 28); TikTok did 1.8K views on 14 posts."
+      "GUITAR SHORTS LEAD VIEWS: the 'Groovy guitar for your work session' / 'Smooth jazz guitar...' / 'Warm hollow-body tone' set = 38+25+19 views on the top Shorts (plus 8 on a repost); top Short 38 views (11.9% of channel).",
+      "'SMOOTH JAZZ GUITAR' IS THE SEARCH TERM THAT HOLDS VIEWERS: 8 views but 0.3h = 74.8% of all search watch time (113 search views, 0.4h total).",
+      "PIANO TRIO LONG STILL OWNS WATCH TIME: Late Night Paris Jazz 8 views, 290 impressions, 1.4% CTR, 1.6h = 57% of channel hours.",
+      "SUGGESTED + BROWSE ARE THE QUALITY TRAFFIC: Suggested 1.8% CTR / 1.7h from 16 views, Browse 2.3% CTR; vs Shorts feed 0.5h from 159 views and search 0.4% CTR.",
+      "'SMOOTH GUITAR, GOOD COFFEE, GOOD DAY' / 'SMOOTH JAZZ GUITAR + COFFEE = PERFECT MORNING' RETAIN BEST AMONG SHORTS: 0.2h from 18 views (8.9% of watch) and 0.3h from 12 views (10.8%) - 3-10x the watch share of other 1:01 Shorts."
     ],
     "next_moves": [
-      "NEVER SKIP A MON/THU LONG SLOT. This week one long (Thu) = 138 views; confirm the Mon Oct 5 long is scheduled and a Thu Oct 8 long is queued, both with autumn night/afternoon titles.",
-      "PIANO TRIO FIRST FOR THE NEXT 2 LONGS. 638 vs 18 impressions vs Bossa is mostly recency, but Piano Trio holds the best AVD; run Late-Night/Rainy-Afternoon titles, then rotate Bossa back in to test if a fresh Bossa long can match.",
-      "RECLAIM SEARCH WATCH TIME. 43 search views but 0.1h (AVD 0:09) - they're hitting Shorts. Add 'full 1-hour mix on the channel' pinned comment/end-card on Shorts so brand searchers land on longs.",
-      "REPLICATE 'TWO MINUTES OF CALM' (3.4% CTR) FRAMING ON SHORTS titles/covers; the rest of the shorts sit at 0-0.5% CTR.",
-      "CONNECT THE SSD FOLDER TO THIS ROUTINE so queue depth and thumbnail font tagging can be checked next week; Pinterest check can be dropped (7 zeros)."
+      "TURN SHORTS VIEWS INTO SUBS: 289 Shorts views gave 0 subs. Pin 'Full 1-hour mix on the channel' comment + end-card on the top 5 guitar Shorts (Groovy guitar, Smooth jazz guitar, Warm hollow-body).",
+      "SHIP A GUITAR LONG: 'smooth jazz guitar' wins search watch time and guitar Shorts win views, but no guitar long is in the 10/12-10/30 schedule (Bossa, Piano Trio, Fun Jazz). Render one 75-90 min Smooth Jazz Guitar long for Thu Oct 15.",
+      "CONFIRM THE MON OCT 5 LONG ('Late Night Bossa Nova Lounge') ACTUALLY PUBLISHED: no new long appears in this week's Studio table (only the Oct 1 Late Night Paris long shows long-form data). Verify upload/publish status before Mon Oct 12 goes live.",
+      "FIX LOW-CTR SHORTS SURFACING IN SEARCH: 2,740 search impressions at 0.4% CTR - retitle top Shorts with the 'smooth jazz guitar' / 'cafe sound' queries in the first words.",
+      "KEEP PIANO TRIO LONGS WITH NIGHT/AUTUMN TITLES in rotation behind the guitar long - Late Night Paris still the hours leader."
     ],
     "suno_prompts": [
-      "Late night Paris piano trio jazz, warm acoustic piano leading slow unhurried melodies over soft brushed drums and upright bass, cold autumn night mood, no vocals, instrumental only, one steady relaxed energy level with no dynamic spikes, one continuous 90-minute set for late-night focus and work",
-      "Rainy grey autumn afternoon cafe jazz, soft piano trio with gentle upright bass and brushed snare, cozy and reflective, no vocals, instrumental only, even dynamics from start to finish, one continuous 90-minute set for slow afternoons and reading",
-      "Cozy autumn morning cafe bossa nova, warm nylon-string guitar and Rhodes over brushed percussion and gentle bass, calm and unhurried, no vocals, instrumental only, no crescendos, one continuous 75-minute set for studying and morning relax"
+      "Smooth jazz guitar, warm hollow-body electric guitar with a clean mellow tone leading unhurried melodies over soft brushed drums and upright bass, steady relaxed groove, no vocals, instrumental only, one consistent energy level with no dynamic spikes, one continuous 90-minute set for focus and work",
+      "Groovy mellow guitar jazz for a work session, hollow-body guitar and soft Rhodes over a light head-nodding groove with brushed percussion and warm bass, no vocals, instrumental only, even dynamics from start to finish, cozy autumn cafe mood for studying and getting things done",
+      "Late night Paris piano trio jazz, warm acoustic piano with slow unhurried melodies over brushed drums and upright bass, cold autumn night mood, no vocals, instrumental only, no crescendos, one continuous 90-minute set for late-night focus and relaxing"
     ],
-    "suno_rules": "Data-backed prompt rules, updated 2026-10-05: (1) ALWAYS 'instrumental / no vocals'. (2) KEEP ENERGY CONSISTENT, no dynamic spikes - Suggested is now 98.3% of long-form watch hours and those sessions end the moment a track jumps. (3) SEASON THE TITLE AND PROMPT TOGETHER - three straight autumn-titled longs each got a distribution week right after publish; write the season into the mood ('cozy autumn cafe', 'rainy grey afternoon', 'quiet library autumn') so audio and title match. (4) NEW - PUBLISH CADENCE BEATS STYLE LOYALTY. Piano Trio and Soft Bossa longs performed statistically even this week (14 views/425 impr vs 11 views/112 impr); the real driver is how recently the video published. Alternate styles freely as long as a new autumn-hook long goes out every Mon/Thu. (5) HIGH-CTR TITLE PATTERN WORTH TESTING - 'Quiet Library...Cozy Autumn Jazz for Calm Days' pulled 5.9% CTR, 3x the channel average; try 'Library'/'Calm Days' framing on more thumbnails. (6) VARY RUNTIME 75-120 MINUTES on longs rather than defaulting to one fixed length; the 91-minute Rainy Paris long logged a 30:50 AVD (33.6% of runtime), the best watch efficiency yet. (7) NAME THE ACTION AND MATCH SEARCH - search volume is thin (4 views this week) so don't over-index on query wording; Suggested placement matters far more right now. (8) STILL WITHDRAWN - caption rules; captions remain noise on 6+ weeks of data. (9) NEW 10/05 - NIGHT/AFTERNOON + AUTUMN framing gave the two best watch-time longs (Rainy Paris 1.0h from 6 views; Late Night 0.8h from 15); prompt 'late night' or 'grey afternoon' moods. (10) NEW - one long missed = ~1 week of Suggested lost (138 views vs 192); batch-render ahead.",
+    "suno_rules": "Data-backed prompt rules, updated 2026-10-12: (1) ALWAYS 'instrumental / no vocals'. (2) KEEP ENERGY CONSISTENT, no dynamic spikes - Suggested = 62% of watch hours and those sessions end the moment a track jumps. (3) NEW - NAME THE INSTRUMENT: 'smooth jazz guitar' is the search term with the best retention (74.8% of search watch time from 8 views) and guitar Shorts are the top-view set (38/25/19 views); put 'smooth jazz guitar' / 'hollow-body' literally in the prompt and title. (4) SEASON THE TITLE AND PROMPT TOGETHER (cozy autumn / late night / grey afternoon) - Late Night Paris = 1.6h from 8 views. (5) PUBLISH CADENCE BEATS STYLE LOYALTY - fresh uploads get a distribution week; never skip a Mon/Thu long. (6) VARY RUNTIME 75-120 MINUTES on longs. (7) MORNING/WORK ACTION WORDS ('coffee', 'work session', 'get things done') show up in the top Shorts titles; keep naming the action. (8) STILL WITHDRAWN - caption rules; no evidence. (9) Thumbnail font/style effect is unmeasurable until fonts are tagged per video in adm-upload-state.json.",
     "deep_analytics": {
-      "ctr": 1.2,
-      "impressions": 2472,
-      "impressions_note": "Channel-wide (long+short), Studio Advanced mode Sep 28-Oct 4. Prior-week channel-wide impressions not captured; long-form-only was 747 last week, ~800 this week (approx, summed from per-video rows).",
-      "watch_hours_7d": 3.1,
+      "ctr": 0.6,
+      "impressions": 3483,
+      "impressions_note": "Channel-wide, Studio Advanced mode Oct 5-11 (prior week 2,472, +41%). CTR fell 1.2%->0.6% as impressions shifted to search-surfaced Shorts (2,740 impr at 0.4%).",
+      "watch_hours_7d": 2.8,
       "watch_hours_lifetime": null,
-      "avg_view_duration_sec": 191,
-      "avg_view_duration_note": "3:11 channel-wide blended (longs ~6-15 min, shorts 0:01-0:30)",
-      "shorts_views_7d": 115,
-      "shorts_engaged_views_7d": null,
-      "shorts_stayed_to_watch_pct": null,
-      "views_7d": 138,
+      "avg_view_duration_sec": 31,
+      "avg_view_duration_note": "approx 2.8h*3600/320 views; channel blended, shorts ~0:10-0:35",
+      "shorts_views_7d": 289,
+      "shorts_engaged_views_7d": 63,
+      "shorts_stayed_to_watch_pct": 23.9,
+      "views_7d": 320,
       "subscribers_gained_7d": 0,
       "breakout_long": {
-        "title": "Late Night Paris Jazz - Soft Piano Trio for Cold Autumn Nights",
-        "published": "2026-10-01",
-        "impressions": 309,
-        "ctr": 1.6,
-        "views": 15,
-        "avd": "6:30",
-        "views_share_of_week_pct": 10.9,
-        "watch_hours": 0.8
+        "title": "Late Night Paris Jazz - Soft Piano Trio for Cold Autumn Nights (Oct 1)",
+        "views": 8,
+        "impressions": 290,
+        "ctr_pct": 1.4,
+        "watch_hours": 1.6,
+        "note": "57% of its views-share of watch time; 1.6h of 2.8h total from 8 views"
       },
       "top_search_queries": [
-        [
-          "adm live",
-          2
-        ],
-        [
-          "cafe sound",
-          1
-        ],
-        [
-          "bosa nova",
-          1
-        ],
-        [
-          "adm",
-          1
-        ],
-        [
-          "let the music play",
-          1
-        ],
-        [
-          "adm music",
-          1
-        ],
-        [
-          "cafe bossa nova",
-          1
-        ],
-        [
-          "bossa nova 2026",
-          1
-        ]
+        {
+          "q": "cafe sound",
+          "views": 12
+        },
+        {
+          "q": "smooth jazz guitar",
+          "views": 8,
+          "watch_hours": 0.3
+        },
+        {
+          "q": "jazz guitar",
+          "views": 2
+        },
+        {
+          "q": "#cafesound",
+          "views": 2
+        }
       ],
-      "top_search_queries_note": "43 search views across 13+ queries, all 1-2 views; mostly brand-ish (adm, adm live, adm music) from Shorts impressions (1,413 search impressions at 1.1% CTR, 0:09 AVD). Search drives views but almost no watch time (0.1 hrs).",
+      "top_search_queries_note": "113 search views total; 'smooth jazz guitar' = 74.8% of search watch time (0.3h of 0.4h) from 8 views.",
       "top_traffic_sources": [
-        [
-          "Shorts feed",
-          53,
-          null,
-          null
-        ],
-        [
-          "YouTube search",
-          43,
-          1413,
-          "0.1h"
-        ],
-        [
-          "Suggested videos",
-          17,
-          784,
-          "1.1h"
-        ],
-        [
-          "Browse features",
-          12,
-          101,
-          "0.8h"
-        ],
-        [
-          "External",
-          4,
-          null,
-          "0.9h"
-        ]
+        {
+          "source": "Shorts feed",
+          "views": 159,
+          "pct_views": 49.7,
+          "watch_hours": 0.5
+        },
+        {
+          "source": "YouTube search",
+          "views": 113,
+          "pct_views": 35.3,
+          "watch_hours": 0.4,
+          "impressions": 2740,
+          "ctr_pct": 0.4
+        },
+        {
+          "source": "Suggested videos",
+          "views": 16,
+          "pct_views": 5.0,
+          "watch_hours": 1.7,
+          "pct_watch": 62.2,
+          "impressions": 553,
+          "ctr_pct": 1.8
+        },
+        {
+          "source": "Browse features",
+          "views": 15,
+          "pct_views": 4.7,
+          "watch_hours": 0.1,
+          "impressions": 87,
+          "ctr_pct": 2.3
+        },
+        {
+          "source": "External",
+          "views": 7,
+          "watch_hours": 0.0
+        }
       ],
-      "traffic_note": "Views: Shorts feed 38%, Search 31%, Suggested 12%, Browse 9%. Watch time is the opposite: Suggested 1.1h (36%), Browse 0.8h (27%), External 0.9h (30%) = 93% of hours from 25 views. Suggested AVD 4:25, Browse 9:49, External 13:36."
+      "traffic_note": "Suggested = 5% of views but 62% of watch hours (1.7h). Shorts feed + search = 85% of views, 33% of watch hours.",
+      "ssd_clip_queue": "222 mp4 in Social Clips/Queue (stocked)"
     }
   },
   "social_intelligence": {
-    "updated": "2026-10-05",
-    "state_of_socials": "Followers 142 total (+5 vs 137), YouTube 24; per-platform TikTok/Instagram split unavailable (Zernio shows total only). 48 platform-posts out this week (+9% vs 44): TikTok 14, Instagram 14, YouTube Shorts 20. TikTok 1.8K views / 50 likes / 2.88% ER (vs 2.0K prior, -10%); Instagram 248 views, 227 reach, 2.42% ER (vs 507, -51%); YouTube Shorts 115 views (vs 152, -24%), 0.87% ER. Pinterest: 7th straight zero. Clip queue depth unavailable - SSD not mounted in this run. Most important: Instagram reach halved while TikTok held, so reach is concentrating on TikTok; follower gains (+5) are still the best weekly total.",
+    "updated": "2026-10-12",
+    "state_of_socials": "Followers 152 total (+10 vs 142): TikTok 78, Instagram 50, YouTube 24. 26 platform-posts published Oct 7-11 per Zernio (YouTube 9, TikTok 9, Instagram 8; Oct 5-6 not in the 50-post window, so the weekly total is undercounted vs last week's 48). Per-post view/engagement data unavailable from the Zernio posts endpoint this run. Clip queue is stocked: 222 mp4 in Social Clips/Queue, and Zernio already has posts scheduled through at least Oct 15. YouTube Shorts drove 289 channel views (Shorts feed 159, 49.7%) but 0 subscribers. Most important: TikTok is the follower engine (+1 to 78, 51% of all followers) and cadence/supply is healthy; the leak is the funnel from Shorts/clips to subscribers on YouTube.",
     "whats_out": [
-      "48 posts this week (+9%): TikTok 14 / Instagram 14 / YouTube 20, all video, all captioned 'Full 1-hour mixes on YouTube - link in bio'.",
-      "TikTok 1.8K views (-10%), 50 likes, 3 comments; Instagram 248 views (-51%) / reach 227; YouTube 115 views (-24%). Link clicks 0 across the board - no measurable funnel to YouTube.",
-      "Top posts: 'Soft jazz to ease into the day' Sep 28 (183 views, 6.56% ER) and 'Bossa nova + coffee = perfect morning' Sep 30 (164 views).",
-      "Pinterest: Not enough data on every metric (30d 9/4-10/4) - 7th zero."
+      "26 posts published Oct 7-11: YouTube Shorts 9, TikTok 9, Instagram 8, all 1:01 clips with the 'Full 1-hour mixes' caption.",
+      "Queue depth 222 clips on the SSD; Zernio scheduled posts already out to Oct 15 (YouTube/TikTok/Instagram) - no supply gap.",
+      "Top YouTube Shorts this week: 'Groovy guitar for your work session' 38 views, 'The cafe sound you didn't know you needed' 35/26 views, 'Smooth jazz guitar to get things done' 25.",
+      "Pinterest: not pulled this run (config leaves it on its own automation; previous 7 weeks were zeros)."
     ],
     "suggestions": [
-      "PUT THE LONG-FORM LINK WHERE CLICKS CAN HAPPEN: Zernio logs 0 clicks and YouTube's External source gave only 4 views - test a direct URL in TikTok bio plus a pinned comment on the best clip.",
-      "DOUBLE DOWN ON 'SOFT JAZZ TO EASE INTO THE DAY' caption/clip (top post, 183 views) and the 'Bossa nova + coffee' hook; reuse the same hook in 3 clips next week.",
-      "TikTok first: 1.8K views vs Instagram 248 - Instagram's reach drop (-51%) needs a cadence check (Zernio says Instagram optimal is 1-2/wk at 7.5% ER vs 14/wk now at 2.4%); test 5/wk on Instagram.",
-      "Post at Sun 10pm / Mon 3pm / Wed 10pm per Zernio best-times for 2 weeks and compare views.",
-      "Connect the SSD Social Clips/Queue folder to this routine so supply days can be reported; skip Pinterest in the weekly check."
+      "FIX THE FUNNEL: 289 YouTube Shorts views -> 0 subs and 23.9% stayed-to-watch. Pin a comment with the full-mix link and add an end-screen line on the guitar Shorts first.",
+      "DOUBLE DOWN ON GUITAR CLIPS: Groovy guitar / Smooth jazz guitar / Warm hollow-body are the top 3 Shorts; shift clip order in the queue toward the guitar set for the next 2 weeks.",
+      "RETITLE SEARCH-SURFACED SHORTS: YouTube search gave 113 views and 2,740 impressions at 0.4% CTR; lead titles with 'smooth jazz guitar' / 'cafe sound'.",
+      "GET PER-POST VIEW DATA: add Zernio analytics (views/ER per post) to this pull so platform winners can be separated; TikTok at 78 followers is the one to watch.",
+      "KEEP THE QUEUE STOCKED: 222 clips at 4-5/day is ~7 weeks of supply - no action needed beyond monitoring."
     ]
   }
 }
