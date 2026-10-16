@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
@@ -270,7 +270,7 @@
         {
           "source": "Suggested videos",
           "views": 16,
-          "pct_views": 5,
+          "pct_views": 5.0,
           "watch_hours": 1.7,
           "pct_watch": 62.2,
           "impressions": 553,
@@ -287,7 +287,7 @@
         {
           "source": "External",
           "views": 7,
-          "watch_hours": 0
+          "watch_hours": 0.0
         }
       ],
       "traffic_note": "Suggested = 5% of views but 62% of watch hours (1.7h). Shorts feed + search = 85% of views, 33% of watch hours.",
@@ -306,7 +306,7 @@
     "suggestions": [
       "FIX THE FUNNEL: 289 YouTube Shorts views -> 0 subs and 23.9% stayed-to-watch. Pin a comment with the full-mix link and add an end-screen line on the guitar Shorts first.",
       "DOUBLE DOWN ON GUITAR CLIPS: Groovy guitar / Smooth jazz guitar / Warm hollow-body are the top 3 Shorts; shift clip order in the queue toward the guitar set for the next 2 weeks.",
-      "RETITLE SEARCH-SURFACED SHORTS: YouTube search gave 113 views and 2,740 impressions at 0.4% CTR; lead titles with 'smooth jazz guitar' / 'cafe sound' queries.",
+      "RETITLE SEARCH-SURFACED SHORTS: YouTube search gave 113 views and 2,740 impressions at 0.4% CTR; lead titles with 'smooth jazz guitar' / 'cafe sound'.",
       "GET PER-POST VIEW DATA: add Zernio analytics (views/ER per post) to this pull so platform winners can be separated; TikTok at 78 followers is the one to watch.",
       "KEEP THE QUEUE STOCKED: 222 clips at 4-5/day is ~7 weeks of supply - no action needed beyond monitoring."
     ]
