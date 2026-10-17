@@ -26,36 +26,36 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 29
+    "videos_scheduled": 28
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-16T12:42:13.000Z",
-    "posts_instagram": 192,
-    "posts_tiktok": 192,
+    "last_run": "2026-10-17T12:38:40.000Z",
+    "posts_instagram": 194,
+    "posts_tiktok": 194,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 194,
+    "posts_youtube_shorts": 196,
     "latest_reel": {
       "title": "Groovy guitar for your work session (youtube)",
-      "posted_at": "2026-10-15T16:00:00.000Z"
+      "posted_at": "2026-10-16T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "scheduled_at": "2026-10-16T13:00:00.000Z"
+      "title": "Groovy guitar for your work session (youtube)",
+      "scheduled_at": "2026-10-17T13:00:00.000Z"
     },
     "followers": {
-      "youtube": 25,
+      "youtube": 26,
       "instagram": 50,
-      "tiktok": 80
+      "tiktok": 79
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-16T12:42:13",
-    "total_views": 8296,
+    "last_run": "2026-10-17T12:38:40",
+    "total_views": 8307,
     "total_watch_hours": 158.9,
-    "subscribers": 25,
+    "subscribers": 26,
     "weekly_views": 320,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "Mj0giLLtZ94",
-      "title": "Mellow Jazz Piano \u2013 Cozy Cafe Music for Study & Reading",
-      "published_at": "2026-10-14T13:00:00Z",
-      "views": 12,
-      "url": "https://youtube.com/watch?v=Mj0giLLtZ94",
-      "thumbnail": "https://i.ytimg.com/vi/Mj0giLLtZ94/mqdefault.jpg"
+      "id": "8YZxEkvrZSM",
+      "title": "Morning Piano Cafe Jazz – Bright Music for Work & Focus",
+      "published_at": "2026-10-16T13:00:00Z",
+      "views": 8,
+      "url": "https://youtube.com/watch?v=8YZxEkvrZSM",
+      "thumbnail": "https://i.ytimg.com/vi/8YZxEkvrZSM/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "8YZxEkvrZSM",
-      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
-      "scheduled_at": "2026-10-16T13:00:00Z",
-      "url": "https://youtube.com/watch?v=8YZxEkvrZSM"
+      "id": "axTllF3lQTI",
+      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
+      "scheduled_at": "2026-10-21T13:00:00Z",
+      "url": "https://youtube.com/watch?v=axTllF3lQTI"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,30 +112,23 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
   "upcoming_releases": [
     {
-      "date": "2026-10-16",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
-      "id": "8YZxEkvrZSM"
-    },
-    {
       "date": "2026-10-21",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
       "id": "axTllF3lQTI"
     },
     {
       "date": "2026-10-23",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
       "id": "K7IFjvmd4qs"
     },
     {
@@ -186,6 +179,13 @@
       "style": "Fun Jazz Mix",
       "title": "Sunny Beach Coffee Shop Jazz - Cheerful Background Music for Happy Mornings",
       "id": "vxeHxdh2vLI"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "short",
+      "style": "Soft Jazz Piano Trio",
+      "title": "Nighttime Paris Piano Jazz – Smooth Music for Deep Work",
+      "id": "715k5PA3ytg"
     }
   ],
   "channel_intelligence": {
@@ -270,7 +270,7 @@
         {
           "source": "Suggested videos",
           "views": 16,
-          "pct_views": 5.0,
+          "pct_views": 5,
           "watch_hours": 1.7,
           "pct_watch": 62.2,
           "impressions": 553,
@@ -287,7 +287,7 @@
         {
           "source": "External",
           "views": 7,
-          "watch_hours": 0.0
+          "watch_hours": 0
         }
       ],
       "traffic_note": "Suggested = 5% of views but 62% of watch hours (1.7h). Shorts feed + search = 85% of views, 33% of watch hours.",
