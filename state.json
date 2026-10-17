@@ -65,7 +65,7 @@
     "total_videos": 0,
     "latest_video": {
       "id": "8YZxEkvrZSM",
-      "title": "Morning Piano Cafe Jazz – Bright Music for Work & Focus",
+      "title": "Morning Piano Cafe Jazz \u2013 Bright Music for Work & Focus",
       "published_at": "2026-10-16T13:00:00Z",
       "views": 8,
       "url": "https://youtube.com/watch?v=8YZxEkvrZSM",
@@ -73,7 +73,7 @@
     },
     "next_scheduled": {
       "id": "axTllF3lQTI",
-      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
       "scheduled_at": "2026-10-21T13:00:00Z",
       "url": "https://youtube.com/watch?v=axTllF3lQTI"
     },
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
@@ -121,14 +121,14 @@
       "date": "2026-10-21",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
       "id": "axTllF3lQTI"
     },
     {
       "date": "2026-10-23",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
       "id": "K7IFjvmd4qs"
     },
     {
@@ -184,7 +184,7 @@
       "date": "2026-11-11",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Nighttime Paris Piano Jazz – Smooth Music for Deep Work",
+      "title": "Nighttime Paris Piano Jazz \u2013 Smooth Music for Deep Work",
       "id": "715k5PA3ytg"
     }
   ],
@@ -270,7 +270,7 @@
         {
           "source": "Suggested videos",
           "views": 16,
-          "pct_views": 5,
+          "pct_views": 5.0,
           "watch_hours": 1.7,
           "pct_watch": 62.2,
           "impressions": 553,
@@ -287,7 +287,7 @@
         {
           "source": "External",
           "views": 7,
-          "watch_hours": 0
+          "watch_hours": 0.0
         }
       ],
       "traffic_note": "Suggested = 5% of views but 62% of watch hours (1.7h). Shorts feed + search = 85% of views, 33% of watch hours.",
