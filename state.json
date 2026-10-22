@@ -65,7 +65,7 @@
     "total_videos": 0,
     "latest_video": {
       "id": "axTllF3lQTI",
-      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
+      "title": "Quiet Piano Trio Jazz – Calm Background Music for Studying",
       "published_at": "2026-10-21T13:00:00Z",
       "views": 0,
       "url": "https://youtube.com/watch?v=axTllF3lQTI",
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
@@ -128,7 +128,7 @@
       "date": "2026-10-23",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
       "id": "K7IFjvmd4qs"
     },
     {
