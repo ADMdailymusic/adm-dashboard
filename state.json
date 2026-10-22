@@ -26,34 +26,34 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 35
+    "videos_scheduled": 34
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-21T12:42:18.000Z",
-    "posts_instagram": 202,
-    "posts_tiktok": 202,
+    "last_run": "2026-10-22T12:44:04.000Z",
+    "posts_instagram": 204,
+    "posts_tiktok": 204,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 204,
+    "posts_youtube_shorts": 206,
     "latest_reel": {
       "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-10-20T16:00:00.000Z"
+      "posted_at": "2026-10-21T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Acoustic groove for your work session (youtube)",
-      "scheduled_at": "2026-10-21T13:00:00.000Z"
+      "title": "Acoustic jazz guitar + coffee = perfect morning (youtube)",
+      "scheduled_at": "2026-10-22T13:00:00.000Z"
     },
     "followers": {
       "youtube": 27,
-      "instagram": 50,
-      "tiktok": 83
+      "instagram": 51,
+      "tiktok": 86
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-21T12:42:18",
-    "total_views": 8316,
+    "last_run": "2026-10-22T12:44:04",
+    "total_views": 8468,
     "total_watch_hours": 158.9,
     "subscribers": 27,
     "weekly_views": null,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "_Kl9qquVHAw",
-      "title": "Rainy Paris Cafe Piano Jazz - Soft Piano Trio for Study and Focus",
-      "published_at": "2026-10-19T13:00:00Z",
-      "views": 16,
-      "url": "https://youtube.com/watch?v=_Kl9qquVHAw",
-      "thumbnail": "https://i.ytimg.com/vi/_Kl9qquVHAw/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "axTllF3lQTI",
       "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
-      "scheduled_at": "2026-10-21T13:00:00Z",
-      "url": "https://youtube.com/watch?v=axTllF3lQTI"
+      "published_at": "2026-10-21T13:00:00Z",
+      "views": 0,
+      "url": "https://youtube.com/watch?v=axTllF3lQTI",
+      "thumbnail": "https://i.ytimg.com/vi/axTllF3lQTI/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "X-fax2-S070",
+      "title": "Quiet Night City Jazz Piano - Calm Piano Trio for Late Night Work",
+      "scheduled_at": "2026-10-22T13:00:00Z",
+      "url": "https://youtube.com/watch?v=X-fax2-S070"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -117,13 +117,6 @@
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-21",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Quiet Piano Trio Jazz \u2013 Calm Background Music for Studying",
-      "id": "axTllF3lQTI"
-    },
     {
       "date": "2026-10-22",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Fun Jazz Mix",
       "title": "Blue Hour Beach Jazz - Smooth Evening Cafe Music for Relaxing and Unwinding",
       "id": "1P6vLrpYwk4"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "short",
+      "style": "Soft Bossa",
+      "title": "Cafe Music ADM Channel - Sleepy Bossa Nova Nights",
+      "id": "P6kmhNU078k"
     }
   ],
   "channel_intelligence": {
