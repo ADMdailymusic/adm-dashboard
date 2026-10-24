@@ -26,36 +26,36 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 33
+    "videos_scheduled": 32
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-23T12:41:18.000Z",
-    "posts_instagram": 204,
-    "posts_tiktok": 205,
+    "last_run": "2026-10-24T12:00:00.000Z",
+    "posts_instagram": 208,
+    "posts_tiktok": 208,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 207,
+    "posts_youtube_shorts": 210,
     "latest_reel": {
-      "title": "Acoustic groove for your work session (youtube)",
-      "posted_at": "2026-10-22T16:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "posted_at": "2026-10-23T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Acoustic groove for your work session (youtube)",
-      "scheduled_at": "2026-10-23T13:00:00.000Z"
+      "title": "Pour the coffee, press play ☕ (youtube)",
+      "scheduled_at": "2026-10-24T13:00:00.000Z"
     },
     "followers": {
-      "youtube": 27,
+      "youtube": 28,
       "instagram": 51,
-      "tiktok": 85
+      "tiktok": 86
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-23T12:42:00",
-    "total_views": 8468,
+    "last_run": "2026-10-24T12:42:45",
+    "total_views": 8477,
     "total_watch_hours": 158.9,
-    "subscribers": 27,
+    "subscribers": 28,
     "weekly_views": null,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "X-fax2-S070",
-      "title": "Quiet Night City Jazz Piano - Calm Piano Trio for Late Night Work",
-      "published_at": "2026-10-22T13:00:00Z",
-      "views": 0,
-      "url": "https://youtube.com/watch?v=X-fax2-S070",
-      "thumbnail": "https://i.ytimg.com/vi/X-fax2-S070/mqdefault.jpg"
+      "id": "K7IFjvmd4qs",
+      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
+      "published_at": "2026-10-23T13:00:00Z",
+      "views": 1,
+      "url": "https://youtube.com/watch?v=K7IFjvmd4qs",
+      "thumbnail": "https://i.ytimg.com/vi/K7IFjvmd4qs/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "K7IFjvmd4qs",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
-      "scheduled_at": "2026-10-23T13:00:00Z",
-      "url": "https://youtube.com/watch?v=K7IFjvmd4qs"
+      "id": "u9EJlICSF5w",
+      "title": "Morning Coffee Piano Jazz - Warm Piano Trio for Focus and Reading",
+      "scheduled_at": "2026-10-24T13:00:00Z",
+      "url": "https://youtube.com/watch?v=u9EJlICSF5w"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,18 +112,11 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-23",
-      "type": "short",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
-      "id": "K7IFjvmd4qs"
-    },
     {
       "date": "2026-10-24",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Fun Jazz Mix",
       "title": "Sunny Beach Coffee Shop Jazz - Cheerful Background Music for Happy Mornings",
       "id": "vxeHxdh2vLI"
+    },
+    {
+      "date": "2026-11-07",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "Golden Hour Cafe Jazz - Happy Bossa Music for Focus and Productivity",
+      "id": "ABHxCNvvDow"
     }
   ],
   "channel_intelligence": {
