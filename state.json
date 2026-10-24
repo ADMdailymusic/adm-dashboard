@@ -41,7 +41,7 @@
       "posted_at": "2026-10-23T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Pour the coffee, press play ☕ (youtube)",
+      "title": "Pour the coffee, press play \u2615 (youtube)",
       "scheduled_at": "2026-10-24T13:00:00.000Z"
     },
     "followers": {
@@ -65,7 +65,7 @@
     "total_videos": 0,
     "latest_video": {
       "id": "K7IFjvmd4qs",
-      "title": "Soft French Piano Jazz – Soothing Cafe Music for Relax",
+      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
       "published_at": "2026-10-23T13:00:00Z",
       "views": 1,
       "url": "https://youtube.com/watch?v=K7IFjvmd4qs",
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
