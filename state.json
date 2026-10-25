@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,18 +112,11 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-24",
-      "type": "long",
-      "style": "Soft Jazz Piano Trio",
-      "title": "Morning Coffee Piano Jazz - Warm Piano Trio for Focus and Reading",
-      "id": "u9EJlICSF5w"
-    },
     {
       "date": "2026-10-26",
       "type": "long",
@@ -186,6 +179,13 @@
       "style": "Fun Jazz Mix",
       "title": "Golden Hour Cafe Jazz - Happy Bossa Music for Focus and Productivity",
       "id": "ABHxCNvvDow"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "Garden Cafe Bossa Jazz - Fresh Upbeat Music for Study and Concentration",
+      "id": "DUZYavsWAvU"
     }
   ],
   "channel_intelligence": {
