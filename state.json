@@ -26,36 +26,36 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 32
+    "videos_scheduled": 31
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-24T12:00:00.000Z",
-    "posts_instagram": 208,
-    "posts_tiktok": 208,
+    "last_run": "2026-10-25T12:00:00.000Z",
+    "posts_instagram": 210,
+    "posts_tiktok": 210,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 210,
+    "posts_youtube_shorts": 212,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-10-23T16:00:00.000Z"
+      "title": "Headphones on, focus up (youtube)",
+      "posted_at": "2026-10-24T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Pour the coffee, press play \u2615 (youtube)",
-      "scheduled_at": "2026-10-24T13:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "scheduled_at": "2026-10-25T13:00:00.000Z"
     },
     "followers": {
-      "youtube": 28,
+      "youtube": 32,
       "instagram": 51,
       "tiktok": 86
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-24T12:42:45",
-    "total_views": 8477,
+    "last_run": "2026-10-25T12:41:56",
+    "total_views": 8523,
     "total_watch_hours": 158.9,
-    "subscribers": 28,
+    "subscribers": 32,
     "weekly_views": null,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "K7IFjvmd4qs",
-      "title": "Soft French Piano Jazz \u2013 Soothing Cafe Music for Relax",
-      "published_at": "2026-10-23T13:00:00Z",
-      "views": 1,
-      "url": "https://youtube.com/watch?v=K7IFjvmd4qs",
-      "thumbnail": "https://i.ytimg.com/vi/K7IFjvmd4qs/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "u9EJlICSF5w",
       "title": "Morning Coffee Piano Jazz - Warm Piano Trio for Focus and Reading",
-      "scheduled_at": "2026-10-24T13:00:00Z",
-      "url": "https://youtube.com/watch?v=u9EJlICSF5w"
+      "published_at": "2026-10-24T13:00:00Z",
+      "views": 45,
+      "url": "https://youtube.com/watch?v=u9EJlICSF5w",
+      "thumbnail": "https://i.ytimg.com/vi/u9EJlICSF5w/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "9k7yOouQdy0",
+      "title": "Beach Cafe Jazz - Upbeat Tropical Morning Music for Work and Good Vibes",
+      "scheduled_at": "2026-10-26T13:00:00Z",
+      "url": "https://youtube.com/watch?v=9k7yOouQdy0"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,7 +112,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
