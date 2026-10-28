@@ -30,29 +30,29 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-27T12:58:00.000Z",
-    "posts_instagram": 214,
-    "posts_tiktok": 214,
+    "last_run": "2026-10-28T12:50:00.000Z",
+    "posts_instagram": 216,
+    "posts_tiktok": 216,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 217,
+    "posts_youtube_shorts": 218,
     "latest_reel": {
-      "title": "Pour the coffee, press play \u2615 (youtube)",
-      "posted_at": "2026-10-27T13:00:00.000Z"
+      "title": "The cafe sound you didn't know you needed (youtube)",
+      "posted_at": "2026-10-27T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Pour the coffee, press play \u2615 (tiktok)",
-      "scheduled_at": "2026-10-27T13:00:00.000Z"
+      "title": "Acoustic jazz guitar + coffee = perfect morning (youtube)",
+      "scheduled_at": "2026-10-28T13:00:00.000Z"
     },
     "followers": {
       "youtube": 32,
       "instagram": 53,
-      "tiktok": 86
+      "tiktok": 88
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-27T12:57:58",
+    "last_run": "2026-10-28T12:46:11",
     "total_views": 8523,
     "total_watch_hours": 158.9,
     "subscribers": 32,
