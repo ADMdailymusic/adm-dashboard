@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,18 +112,11 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-28",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Cafe Music ADM Channel - Brazil Bossa Nova Vibes",
-      "id": "t23XT4Y0_rg"
-    },
     {
       "date": "2026-10-29",
       "type": "long",
@@ -184,8 +177,15 @@
       "date": "2026-11-11",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Nighttime Paris Piano Jazz – Smooth Music for Deep Work",
+      "title": "Nighttime Paris Piano Jazz \u2013 Smooth Music for Deep Work",
       "id": "715k5PA3ytg"
+    },
+    {
+      "date": "2026-11-12",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "Coastal Cafe Jazz - Breezy Bossa Background Music for Work and Reading",
+      "id": "dJR-keA-jww"
     }
   ],
   "channel_intelligence": {
