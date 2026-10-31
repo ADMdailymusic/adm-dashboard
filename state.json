@@ -26,36 +26,36 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 28
+    "videos_scheduled": 27
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-10-30T12:57:23.000Z",
-    "posts_instagram": 220,
-    "posts_tiktok": 220,
+    "last_run": "2026-10-31T12:50:00.000Z",
+    "posts_instagram": 222,
+    "posts_tiktok": 222,
     "posts_facebook": 0,
     "clips_ready": 0,
-    "posts_youtube_shorts": 223,
+    "posts_youtube_shorts": 224,
     "latest_reel": {
-      "title": "The cafe sound you didn't know you needed (youtube)",
-      "posted_at": "2026-10-30T13:00:00.000Z"
+      "title": "Pour the coffee, press play ☕ (youtube)",
+      "posted_at": "2026-10-30T16:00:00.000Z"
     },
     "next_reel": {
-      "title": "Fingerstyle groove for a good day (tiktok)",
-      "scheduled_at": "2026-10-30T13:00:00.000Z"
+      "title": "Pour the coffee, press play ☕ (youtube)",
+      "scheduled_at": "2026-10-31T13:00:00.000Z"
     },
     "followers": {
-      "youtube": 35,
+      "youtube": 37,
       "instagram": 54,
-      "tiktok": 90
+      "tiktok": 91
     }
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-10-30T12:57:23",
-    "total_views": 8639,
+    "last_run": "2026-10-31T12:44:39",
+    "total_views": 10303,
     "total_watch_hours": 158.9,
-    "subscribers": 35,
+    "subscribers": 37,
     "weekly_views": null,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
@@ -64,18 +64,18 @@
     "last_result": "success",
     "total_videos": 0,
     "latest_video": {
-      "id": "QuTIDRNo_ZY",
-      "title": "Tropical Cafe Jazz - Happy Beach Lounge Music for Work Study and Energy",
-      "published_at": "2026-10-29T13:00:00Z",
-      "views": 7,
-      "url": "https://youtube.com/watch?v=QuTIDRNo_ZY",
-      "thumbnail": "https://i.ytimg.com/vi/QuTIDRNo_ZY/mqdefault.jpg"
-    },
-    "next_scheduled": {
       "id": "-y832pSr4dI",
       "title": "Cafe Music ADM Channel - Late Night Bossa Nova Jazz",
-      "scheduled_at": "2026-10-30T13:00:00Z",
-      "url": "https://youtube.com/watch?v=-y832pSr4dI"
+      "published_at": "2026-10-30T13:00:00Z",
+      "views": 4,
+      "url": "https://youtube.com/watch?v=-y832pSr4dI",
+      "thumbnail": "https://i.ytimg.com/vi/-y832pSr4dI/mqdefault.jpg"
+    },
+    "next_scheduled": {
+      "id": "XwvpGLWx9eo",
+      "title": "Sunny Loft Cafe Jazz - Upbeat Bossa Morning Music for Work and Study",
+      "scheduled_at": "2026-10-31T13:00:00Z",
+      "url": "https://youtube.com/watch?v=XwvpGLWx9eo"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -96,15 +96,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60.0
+        "amount": 60
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40.0
+        "amount": 40
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20.0
+        "amount": 20
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -112,18 +112,11 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6.0
+        "amount": 6
       }
     ]
   },
   "upcoming_releases": [
-    {
-      "date": "2026-10-30",
-      "type": "short",
-      "style": "Soft Bossa",
-      "title": "Cafe Music ADM Channel - Late Night Bossa Nova Jazz",
-      "id": "-y832pSr4dI"
-    },
     {
       "date": "2026-10-31",
       "type": "long",
@@ -170,7 +163,7 @@
       "date": "2026-11-11",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Nighttime Paris Piano Jazz \u2013 Smooth Music for Deep Work",
+      "title": "Nighttime Paris Piano Jazz – Smooth Music for Deep Work",
       "id": "715k5PA3ytg"
     },
     {
@@ -184,8 +177,15 @@
       "date": "2026-11-13",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Gentle Piano Trio Jazz \u2013 Peaceful Cafe Music for Focus",
+      "title": "Gentle Piano Trio Jazz – Peaceful Cafe Music for Focus",
       "id": "hZ2Mc_ca-TM"
+    },
+    {
+      "date": "2026-11-14",
+      "type": "long",
+      "style": "Fun Jazz Mix",
+      "title": "European Cafe Bossa Jazz - Warm Morning Music for Deep Focus",
+      "id": "z7XdUtfp51c"
     }
   ],
   "channel_intelligence": {
