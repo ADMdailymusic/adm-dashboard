@@ -93,15 +93,15 @@
       },
       {
         "name": "Claude Pro subscription",
-        "amount": 60
+        "amount": 60.0
       },
       {
         "name": "KIE.ai credits (music + image generation)",
-        "amount": 40
+        "amount": 40.0
       },
       {
         "name": "Anthropic API credits",
-        "amount": 20
+        "amount": 20.0
       },
       {
         "name": "Google One 100GB storage (ADM Drive video archive)",
@@ -109,7 +109,7 @@
       },
       {
         "name": "Zernio (connected accounts)",
-        "amount": 6
+        "amount": 6.0
       }
     ]
   },
@@ -125,7 +125,7 @@
       "date": "2026-11-11",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Nighttime Paris Piano Jazz – Smooth Music for Deep Work",
+      "title": "Nighttime Paris Piano Jazz \u2013 Smooth Music for Deep Work",
       "id": "715k5PA3ytg"
     },
     {
@@ -139,7 +139,7 @@
       "date": "2026-11-13",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Gentle Piano Trio Jazz – Peaceful Cafe Music for Focus",
+      "title": "Gentle Piano Trio Jazz \u2013 Peaceful Cafe Music for Focus",
       "id": "hZ2Mc_ca-TM"
     },
     {
@@ -153,35 +153,35 @@
       "date": "2026-11-18",
       "type": "short",
       "style": "Soft Jazz Piano Trio",
-      "title": "Rainy Day Piano Jazz – Relaxing Cafe Music for Calm & Study",
+      "title": "Rainy Day Piano Jazz \u2013 Relaxing Cafe Music for Calm & Study",
       "id": "ztECKZSt3So"
     },
     {
       "date": "2026-11-25",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Beach Cafe Jazz – Tropical Study Music for Work & Focus",
+      "title": "Beach Cafe Jazz \u2013 Tropical Study Music for Work & Focus",
       "id": "wyF1a2Thvg8"
     },
     {
       "date": "2026-11-27",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Tropical Beach Jazz – Relaxing Cafe Music for Studying",
+      "title": "Tropical Beach Jazz \u2013 Relaxing Cafe Music for Studying",
       "id": "7qOoTNF_CZ0"
     },
     {
       "date": "2026-12-02",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Sunny Beach Cafe Jazz – Upbeat Music for Work & Focus",
+      "title": "Sunny Beach Cafe Jazz \u2013 Upbeat Music for Work & Focus",
       "id": "KDwDs7arsJA"
     },
     {
       "date": "2026-12-04",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Ocean Breeze Jazz – Calm Beach Cafe Music for Concentration",
+      "title": "Ocean Breeze Jazz \u2013 Calm Beach Cafe Music for Concentration",
       "id": "dSG0S91MTIo"
     }
   ],
