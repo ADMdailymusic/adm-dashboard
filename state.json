@@ -30,7 +30,7 @@
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-11-22T13:43:20Z",
+    "last_run": "2026-11-23T13:43:08Z",
     "posts_instagram": 224,
     "posts_tiktok": 224,
     "posts_facebook": 0,
@@ -49,11 +49,11 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-11-22T13:43:20",
-    "total_views": 10994,
+    "last_run": "2026-11-23T13:43:08",
+    "total_views": 11004,
     "total_watch_hours": 158.9,
     "subscribers": 41,
-    "weekly_views": null,
+    "weekly_views": 106,
     "avg_ctr": 2.3,
     "revenue_usd": 0,
     "top_video_title": null,
@@ -186,45 +186,153 @@
     }
   ],
   "channel_intelligence": {
-    "updated": "2026-11-16",
-    "state_of_channel": "Lifetime views 10,904 / 40 subs (+2 WoW) on a full 303-video count; +601 views since the last full count Oct 31 but only +76 in the last 3 days (~25/day). Momentum is fading because both engines stalled: Zernio reel Shorts (220 videos, avg 42 views, 85% of all views) delivered +1,899 views Oct 29-Nov 15 but only +21 Nov 12-15 since posting stopped Oct 31, and the long queue is EMPTY - the Nov 14 long was the last scheduled one, so today's Monday slot has nothing. Fun Jazz Mix is the winning long style (avg 41.9 vs Soft Bossa 25.1; Nov 9 'Garden Cafe Bossa Jazz' hit 86 in 6 days, #2 on the channel). Single most important thing: refill both queues this week - schedule longs and restock reel clips. CTR/watch time still unavailable (analytics auth + Studio access).",
+    "updated": "2026-11-23",
+    "state_of_channel": "First real Studio read in months: last 7 days = 106 views, 11.7 watch hrs, +1 sub (41 total), 1,740 impressions at 1.6% CTR (longs 2.3%, AVD 11:13). The 28-day window was 1.6K views / 85.5 hrs, so the channel is running at roughly a quarter of its October pace. Cause is supply, not content: zero longs published Nov 16-22 (none scheduled since Nov 14), the only release was a Piano Trio short (0 views), and reel Shorts have been dark since Oct 31 - Shorts did 12 views this week vs ~1.0K over 28 days. Suggested videos drive 43% of views and 87% of watch time, so longs are the only thing compounding. Single most important thing: get longs back on the calendar this week - the 19 unlisted Acoustic/Smooth Guitar longs are ready and waiting for approval.",
     "what_works": [
-      "ZERNIO REEL SHORTS are the engine: 220 videos avg 42.3 views (9,310 total) vs pipeline Shorts avg 8.9 - 4.8x.",
-      "FUN JAZZ MIX longs: avg 41.9 views (9) vs Soft Bossa 25.1 (20) and Piano Trio 23.7 (7); Nov 9 'Garden Cafe Bossa Jazz' 86 views in 6 days.",
-      "UPBEAT/HAPPY/COFFEE titles on longs: 'upbeat' avg 49.2 (4), 'happy' 40.2 (5), 'coffee' 35.5 (8) vs 'night' 9.0 (4), 'rain' 17.8 (5).",
-      "FRI/MON LONGS beat THU: Fri avg 44.2 (5), Mon 30.8 (21) vs Thu 19.5 (12).",
-      "WED SHORTS beat FRI: avg 10.9 (21) vs 6.8 (20)."
+      "FUN JAZZ MIX longs: avg 48.0 views (9) vs Soft Bossa 16.5 (13), Piano Trio 23.9 (7), Real Guitar 15.7 (3). 'Garden Cafe Bossa Jazz' is the #1 video this week: 25 views, 5.0 watch hrs, 4.3% CTR.",
+      "SUGGESTED TRAFFIC is the engine: 46 of 106 views and 10.2 of 11.7 watch hrs (87%) this week. Longs that hold viewers (AVD 11-22 min) get recommended.",
+      "'UPBEAT/FRESH' framing beats 'WARM MORNING': Garden Cafe ('Fresh Upbeat') 4.3% CTR on 327 impr vs European Cafe ('Warm Morning') 0.7% on 437 impr - same style, 6x CTR gap. Lifetime: 'upbeat' longs avg 49.2 vs 'night' 9.0.",
+      "REEL SHORTS when posting: 220 reels avg 42 views; 28-day Shorts 1.0K views collapsed to 12 in 7 days once posting stopped Oct 31.",
+      "SAT/MON LONGS beat THU: Sat avg 37.5 (4), Mon 32.2 (21) vs Thu 17.1 (10)."
     ],
     "next_moves": [
-      "SCHEDULE LONGS NOW: 0 longs scheduled after Nov 14 - today's slot is empty. Upload the nightly Fun Jazz Mix renders, or schedule 2 of the 19 unlisted Acoustic/Smooth Guitar longs as a test.",
-      "RESTOCK REEL CLIPS: queue exhausted since Oct 31; reel Shorts gained +21 views in 3 days vs ~+1,900 the prior 2 weeks. Cut new clips from Fun Jazz Mix / Fun Bossa longs.",
-      "BIAS NEXT BATCH TO FUN JAZZ MIX with upbeat/happy/coffee/morning titles; drop 'night' and 'rain' title framing on longs.",
-      "STOP Piano Trio pipeline Shorts: Nov 11 + Nov 13 drew 1 and 0 views; Piano Trio Shorts avg 4.4 (14). Swap the Nov 18 slot for a reel-style clip or Fun Bossa short (avg 14.5).",
-      "FIX MEASUREMENT: sign Chrome into the ADM account for Studio and run reauth_analytics.py - CTR/watch time still blind."
+      "APPROVE + SCHEDULE LONGS TODAY: 0 future longs on the calendar. Approve 4-6 of the 19 unlisted Acoustic/Smooth Guitar longs into Mon/Thu slots (acoustic reels were the top Shorts at 169 and 127 views - test whether that carries to longs).",
+      "RESTART REELS: Queue has 222 files but 0 unposted; cut a fresh batch from Garden Cafe / Blue Hour / Sunny Beach longs. Shorts views fell ~98% without them.",
+      "KILL OR FIX THE LIVE STREAM: two 'ADM Daily Music Live Stream' entries pulled 28 views at 0:03-0:22 AVD and 343 impressions - they eat impressions with near-zero retention. Retitle like a long ('Fun Cafe Jazz Radio 24/7 - Upbeat Bossa for Work') or end it.",
+      "TITLE FORMULA: '<Place> Cafe Bossa Jazz - Fresh/Upbeat/Happy Music for <Study/Work>'. Avoid 'Warm', 'Night', 'Rain' leads on longs.",
+      "STOP Piano Trio pipeline Shorts: Nov 11/13/18 drew 6, 0, 0 views; Piano Trio shorts avg 4.4 (15)."
     ],
     "suno_prompts": [
-      "Upbeat beach cafe bossa jazz, bright nylon guitar, warm Rhodes and light shaker percussion, happy sunny morning groove, no vocals, instrumental only, steady medium tempo with no dynamic spikes, one continuous 90-minute set for morning work and focus",
-      "Happy garden cafe jazz, cheerful flute and nylon guitar over soft bossa groove with upright bass, fresh bright mood, no vocals, instrumental only, consistent energy throughout, one continuous 90-minute set for study and concentration",
-      "Morning coffee shop bossa nova, smooth electric piano and gentle nylon guitar, light brushed drums, warm upbeat positive vibe, no vocals, instrumental only, even dynamics, one continuous 2-hour set for work and productivity"
+      "Fresh upbeat garden cafe bossa jazz, bright nylon guitar, cheerful flute, warm Rhodes, upright bass and light shaker, sunny positive mood, no vocals, instrumental only, steady medium tempo with consistent energy, one continuous 90-minute set for study and concentration",
+      "Happy beach coffee shop jazz, breezy acoustic fingerstyle guitar and soft vibraphone over a light bossa groove, warm sunny afternoon vibe, no vocals, instrumental only, even dynamics, no sudden changes, one continuous 2-hour set for work and productivity",
+      "Upbeat morning cafe bossa nova, smooth electric piano and nylon guitar, brushed drums, bright cheerful coffee-shop energy, no vocals, instrumental only, consistent groove throughout, one continuous 90-minute set for focus and getting things done"
     ],
-    "suno_rules": "Data-backed prompt rules, updated 2026-11-16: (1) ALWAYS 'instrumental / no vocals'. (2) KEEP ENERGY CONSISTENT, no dynamic spikes. (3) FUN/UPBEAT beats SOFT on longs: Fun Jazz Mix avg 41.9 / Fun Bossa 45.3 vs Soft Bossa 25.1 / Piano Trio 23.7. (4) BRIGHT MOOD WORDS: 'upbeat' 49.2, 'happy' 40.2, 'coffee' 35.5, 'morning' 33.0 vs 'night' 9.0, 'rain' 17.8 - avoid night/rain framing. (5) SETTING + ACTION: '<Beach/Garden/Coffee> Cafe' + work/focus/study. (6) NAME THE INSTRUMENT (nylon guitar, Rhodes, piano trio). (7) VARY RUNTIME 75-120 min on longs. (8) Thumbnail font effect unmeasurable (untagged). (9) Evidence = view counts only; no CTR/watch time.",
-    "deep_analytics": null
+    "suno_rules": "Data-backed rules, updated 2026-11-23: (1) ALWAYS 'instrumental / no vocals'. (2) CONSISTENT ENERGY, no dynamic spikes - suggested traffic (87% of watch time) rewards retention; best longs hold 11-22 min AVD. (3) FUN/UPBEAT beats SOFT: Fun Jazz Mix avg 48.0 / Fun Bossa 45.3 vs Soft Bossa 16.5 / Piano Trio 23.9. (4) BRIGHT WORDS: 'fresh/upbeat' long got 4.3% CTR vs 'warm morning' 0.7% (same style); 'upbeat' avg 49.2 vs 'night' 9.0, 'rain' 17.8. (5) SETTING + ACTION: '<Garden/Beach/Coffee> Cafe' + study/work/focus. (6) NAME THE INSTRUMENT - acoustic fingerstyle guitar reels are top Shorts (169, 127). (7) 90-120 min runtimes. (8) Thumbnail font still untagged - effect unmeasured.",
+    "deep_analytics": {
+      "period": "2026-11-16 to 2026-11-22",
+      "source": "YouTube Studio advanced mode via Chrome (API blocked: no egress to googleapis)",
+      "views_7d": 106,
+      "watch_hours": 11.7,
+      "subscribers_net": 1,
+      "impressions": 1740,
+      "ctr": 1.6,
+      "longs": {
+        "views": 66,
+        "impressions": 870,
+        "ctr": 2.3,
+        "avg_view_duration": "11:13"
+      },
+      "shorts": {
+        "views": 12,
+        "engaged_views": 3,
+        "views_28d": 1000
+      },
+      "avg_view_duration": "9:14",
+      "per_video_top": [
+        {
+          "title": "Garden Cafe Bossa Jazz - Fresh Upbeat Music for Study and Concentration",
+          "views": 25,
+          "watch_hours": 5.0,
+          "avd": "12:32",
+          "impressions": 327,
+          "ctr": 4.3
+        },
+        {
+          "title": "ADM Daily Music Live Stream (88h)",
+          "views": 15,
+          "avd": "0:03",
+          "impressions": 166,
+          "ctr": 1.2
+        },
+        {
+          "title": "Back to School Study Music - Cozy Bossa Nova (short)",
+          "views": 15,
+          "avd": "1:25"
+        },
+        {
+          "title": "ADM Daily Music Live Stream (23h)",
+          "views": 12,
+          "avd": "0:22",
+          "impressions": 177,
+          "ctr": 2.3
+        },
+        {
+          "title": "European Cafe Bossa Jazz - Warm Morning Music for Deep Focus",
+          "views": 10,
+          "watch_hours": 3.3,
+          "avd": "21:46",
+          "impressions": 437,
+          "ctr": 0.7
+        },
+        {
+          "title": "Blue Hour Beach Jazz - Smooth Evening Cafe Music",
+          "views": 5,
+          "watch_hours": 1.0,
+          "avd": "11:25",
+          "impressions": 25,
+          "ctr": 4.0
+        }
+      ],
+      "top_search_queries": [
+        {
+          "query": "adm live",
+          "views": 1
+        }
+      ],
+      "top_traffic_sources": [
+        {
+          "source": "Suggested videos",
+          "views": 46,
+          "pct": 43.4,
+          "watch_hours": 10.2
+        },
+        {
+          "source": "Browse features",
+          "views": 20,
+          "pct": 18.9
+        },
+        {
+          "source": "External",
+          "views": 18,
+          "pct": 17.0
+        },
+        {
+          "source": "YouTube search",
+          "views": 13,
+          "pct": 12.3
+        },
+        {
+          "source": "Direct or unknown",
+          "views": 9,
+          "pct": 8.5
+        }
+      ],
+      "context_28d": {
+        "views": 1600,
+        "watch_hours": 85.5,
+        "subs": 9,
+        "long_impressions": 15800,
+        "long_ctr": 1.7,
+        "monthly_audience": 707,
+        "new_viewers_pct": 97
+      }
+    }
   },
   "social_intelligence": {
-    "updated": "2026-11-16",
-    "state_of_socials": "Followers 189 (+2 vs 187): TikTok 95 (+0), Instagram 54 (+0), YouTube 40 (+2). Zero posts for a 2nd straight week - totals frozen at YT Shorts 226 / TikTok 224 / IG 224, last reel Oct 31. Queue folder has 224 mp4 but all are posted; post_weekly logs 'No unposted clips left' every run, and two Nov 15 runs also failed on zernio.com DNS. Impact is visible: reel Shorts went from ~+1,900 views (Oct 29-Nov 12) to +21 views Nov 12-15. Pinterest analytics shows 'not enough data' for the last 30 days. Single most important thing: render a new clip batch today.",
+    "updated": "2026-11-23",
+    "state_of_socials": "Followers 190 (+1): TikTok 95 (+0), Instagram 54 (+0), YouTube 41 (+1). Third straight week with ZERO posts - totals frozen at YT Shorts 226 / TikTok 224 / IG 224, last reel Oct 31 (23 days dark). Queue folder holds 222 files but Zernio reports 0 clips ready - all posted. Damage is now measured: YouTube Shorts did 12 views Nov 16-22 vs ~1.0K over 28 days. Pinterest still 'not enough data' for Oct 21-Nov 20, though YouTube logged 18 External views this week. Single most important thing: render and queue a new clip batch - nothing else on socials matters until posting resumes.",
     "whats_out": [
-      "Zernio: nothing since Oct 31 16:00 UTC ('Fingerstyle groove for a good day'); 16 days dark on all 3 platforms.",
-      "Schedule window Nov 15-19: 10 slots (09:00/12:00 ET), 0 booked.",
-      "Queue: 224 clips on disk, 0 unposted.",
-      "Pinterest: logged in, but 'not enough data' Oct 15-Nov 14 - no measurable clicks to YouTube."
+      "Zernio: nothing since Oct 31 ('Fingerstyle groove for a good day'); 0 posts this week on TikTok, IG, YT Shorts.",
+      "Queue: 222 files on disk, 0 unposted; no next reel scheduled.",
+      "Funnel: Shorts traffic was 71% Shorts feed / 25% YouTube search (28d) - reels were bringing search discovery too, now gone.",
+      "Pinterest: signed in, 'not enough data' for last 30 days - no measurable clicks."
     ],
     "suggestions": [
-      "RENDER CLIPS TODAY (make_reels_batch.py) from Fun Jazz Mix + Fun Bossa longs - the strongest long styles - and resume 2/day.",
-      "CLONE TOP REELS: WGC4q5adr_U (233), aAJ0m-sv9C0 (169), 7LIx22zO_F8 (136), qkwQV0RKqfo (127) - reuse their hook and visual style.",
-      "ADD A LOW-QUEUE ALERT (<14 unposted) so the next stall surfaces before slots empty.",
-      "TIKTOK stays lead platform (95 followers) - once posting resumes, compare per-platform views before shifting effort.",
-      "CHECK PINTEREST posting automation: 30 days with no reportable data suggests pins are not going out."
+      "RENDER 30+ NEW CLIPS from the top longs (Garden Cafe, Blue Hour Beach, Sunny Beach) and resume 2/day across TikTok/IG/YT.",
+      "CLONE THE ACOUSTIC HOOK: top Shorts last 28d are 'Acoustic groove for your work session' (169) and 'Fingerstyle groove for a good day' (127) - lead the new batch with acoustic/fingerstyle clips and 'for your work session' captions.",
+      "ADD A LOW-QUEUE ALERT (<14 unposted) so a 3-week stall can't happen silently again.",
+      "AUDIT PINTEREST AUTOMATION: 30+ days without reportable data means pins likely aren't publishing.",
+      "Keep TikTok as lead (95 followers); compare per-platform views 2 weeks after posting resumes."
     ]
   }
 }
