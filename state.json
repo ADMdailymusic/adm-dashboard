@@ -26,11 +26,11 @@
     "tracks_sent_distrokid": 0,
     "videos_archived_drive": 0,
     "next_scheduled": null,
-    "videos_scheduled": 15
+    "videos_scheduled": 34
   },
   "social_media": {
     "status": "done",
-    "last_run": "2026-11-26T13:44:29Z",
+    "last_run": "2026-11-27T13:43:51Z",
     "posts_instagram": 224,
     "posts_tiktok": 224,
     "posts_facebook": 0,
@@ -49,8 +49,8 @@
   },
   "analytics": {
     "status": "done",
-    "last_run": "2026-11-26T13:44:29",
-    "total_views": 11010,
+    "last_run": "2026-11-27T13:43:51",
+    "total_views": 11014,
     "total_watch_hours": 158.9,
     "subscribers": 41,
     "weekly_views": 106,
@@ -64,15 +64,15 @@
       "id": "wyF1a2Thvg8",
       "title": "Beach Cafe Jazz \u2013 Tropical Study Music for Work & Focus",
       "published_at": "2026-11-25T13:00:00Z",
-      "views": 0,
+      "views": 1,
       "url": "https://youtube.com/watch?v=wyF1a2Thvg8",
       "thumbnail": "https://i.ytimg.com/vi/wyF1a2Thvg8/mqdefault.jpg"
     },
     "next_scheduled": {
-      "id": "7qOoTNF_CZ0",
-      "title": "Tropical Beach Jazz \u2013 Relaxing Cafe Music for Studying",
-      "scheduled_at": "2026-11-27T14:00:00Z",
-      "url": "https://youtube.com/watch?v=7qOoTNF_CZ0"
+      "id": "P-9T2m6KBdw",
+      "title": "Acoustic Jazz Guitar Cafe - Upbeat Guitar Music for Work and Focus",
+      "scheduled_at": "2027-01-04T14:00:00Z",
+      "url": "https://youtube.com/watch?v=P-9T2m6KBdw"
     },
     "watch_hours_28d": 34.5,
     "public_videos": 185,
@@ -115,74 +115,74 @@
   },
   "upcoming_releases": [
     {
-      "date": "2026-11-27",
+      "date": "2027-01-04",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Acoustic Jazz Guitar Cafe - Upbeat Guitar Music for Work and Focus",
+      "id": "P-9T2m6KBdw"
+    },
+    {
+      "date": "2027-01-06",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Tropical Beach Jazz \u2013 Relaxing Cafe Music for Studying",
+      "title": "Tropical Beach Cafe Jazz \u2013 Upbeat Music for Study & Focus",
       "id": "7qOoTNF_CZ0"
     },
     {
-      "date": "2026-12-02",
+      "date": "2027-01-07",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Morning Coffee Acoustic Jazz Guitar - Upbeat Groove for Your Work Session",
+      "id": "h5rpah8Ft6w"
+    },
+    {
+      "date": "2027-01-08",
       "type": "short",
       "style": "Fun Jazz Mix",
       "title": "Sunny Beach Cafe Jazz \u2013 Upbeat Music for Work & Focus",
       "id": "KDwDs7arsJA"
     },
     {
-      "date": "2026-12-04",
+      "date": "2027-01-09",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Feel Good Acoustic Jazz Guitar - Happy Cafe Music for Deep Work",
+      "id": "GfL6V1cpbWA"
+    },
+    {
+      "date": "2027-01-11",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Bright Morning Acoustic Jazz Guitar - Happy Coffee Shop Music for Work",
+      "id": "lKAAvmORCS4"
+    },
+    {
+      "date": "2027-01-13",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Ocean Breeze Jazz \u2013 Calm Beach Cafe Music for Concentration",
+      "title": "Ocean Breeze Cafe Jazz \u2013 Fresh Music for Work & Concentration",
       "id": "dSG0S91MTIo"
     },
     {
-      "date": "2026-12-09",
+      "date": "2027-01-14",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Sunday Cafe Acoustic Jazz Guitar - Fresh Groove for a Good Day",
+      "id": "KVwDJMRZwAU"
+    },
+    {
+      "date": "2027-01-15",
       "type": "short",
       "style": "Fun Jazz Mix",
-      "title": "Morning Beach Cafe Jazz \u2013 Bright Music for Work & Study",
+      "title": "Morning Beach Cafe Jazz \u2013 Bright Happy Music for Work & Study",
       "id": "uQrN4ckiVxc"
     },
     {
-      "date": "2026-12-11",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Summer Beach Lounge Jazz \u2013 Chill Music for Relaxing & Focus",
-      "id": "oZFh6yliNLQ"
-    },
-    {
-      "date": "2026-12-16",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Seaside Cafe Jazz \u2013 Smooth Background Music for Deep Work",
-      "id": "p8scPUIU7kU"
-    },
-    {
-      "date": "2026-12-18",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Palm Beach Jazz \u2013 Happy Cafe Music for Study & Energy",
-      "id": "Wjhf596z9vQ"
-    },
-    {
-      "date": "2026-12-23",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Coastal Cafe Jazz \u2013 Relaxing Tropical Music for Focus",
-      "id": "_qBa9_Ja6pE"
-    },
-    {
-      "date": "2026-12-25",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Island Beach Jazz \u2013 Positive Cafe Music for Work & Study",
-      "id": "5hUCMVpkrEQ"
-    },
-    {
-      "date": "2026-12-30",
-      "type": "short",
-      "style": "Fun Jazz Mix",
-      "title": "Sunset Beach Jazz \u2013 Warm Evening Cafe Music for Unwinding",
-      "id": "jIAsHXHthgA"
+      "date": "2027-01-16",
+      "type": "long",
+      "style": "Acoustic Guitar Jazz",
+      "title": "Coffee Shop Acoustic Jazz Guitar - Fresh Upbeat Music for Work and Study",
+      "id": "JIjgpGDUhmQ"
     }
   ],
   "channel_intelligence": {
